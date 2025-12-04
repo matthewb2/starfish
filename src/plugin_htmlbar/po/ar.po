@@ -1,0 +1,2288 @@
+# Arabic translations for bluefish package.
+# Copyright (C) 2014 The Bluefish Development Team.
+# This file is distributed under the same license as the bluefish package.
+# Automatically generated, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: bluefish 2.2.5\n"
+"Report-Msgid-Bugs-To: bluefish-dev@lists.ems.ru\n"
+"POT-Creation-Date: 2025-10-30 11:19+0100\n"
+"PO-Revision-Date: 2025-02-16 01:50+0300\n"
+"Last-Translator: Amar <al_janabi7@yahoo.com>\n"
+"Language-Team: none\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Generator: Poedit 2.4.3\n"
+
+#: src/plugin_htmlbar/html2.c:633
+msgid "Cascading Style Sheet Builder"
+msgstr "باني لوح الطراز المتداخل"
+
+#: src/plugin_htmlbar/html2.c:653
+msgid "_Selector(s):"
+msgstr "الم_نتقي(ات):"
+
+#: src/plugin_htmlbar/html2.c:679
+msgid "_Property:"
+msgstr "ال_خاصية:"
+
+#: src/plugin_htmlbar/html2.c:683 src/plugin_htmlbar/html_form.c:375
+#: src/plugin_htmlbar/html_form.c:541 src/plugin_htmlbar/html_form.c:636
+msgid "_Value:"
+msgstr "ال_قيمة:"
+
+#: src/plugin_htmlbar/html2.c:703
+msgid "Selector(s)"
+msgstr "المنتقي(ات)"
+
+#: src/plugin_htmlbar/html2.c:707
+msgid "Property"
+msgstr "الخاصية"
+
+#: src/plugin_htmlbar/html2.c:710
+msgid "Value"
+msgstr "القيمة"
+
+#: src/plugin_htmlbar/html2.c:738
+msgid " _Add "
+msgstr " أ_ضِف "
+
+#: src/plugin_htmlbar/html2.c:742
+msgid " _Update "
+msgstr " حَدِّ_ث "
+
+#: src/plugin_htmlbar/html2.c:746
+msgid " _Delete "
+msgstr " ا_حذف "
+
+#: src/plugin_htmlbar/html2.c:1008 src/plugin_htmlbar/html2.c:1045
+msgid "_Style..."
+msgstr "ال_طراز..."
+
+#: src/plugin_htmlbar/html2.c:1135
+msgid "Bluefish: Select color"
+msgstr "بلوفِش: حدد لونًا"
+
+#: src/plugin_htmlbar/htmlbar.c:45
+msgid "Edit color"
+msgstr "حرر اللون"
+
+#: src/plugin_htmlbar/htmlbar.c:53
+msgid "Edit tag"
+msgstr "حرر الوسم"
+
+#: src/plugin_htmlbar/htmlbar.c:87
+msgid "Htmlbar"
+msgstr "شريط Html"
+
+#: src/plugin_htmlbar/htmlbar.c:258 src/plugin_htmlbar/prefs.c:67
+msgid "HTML Features"
+msgstr "ميزات HTML"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:955
+msgid "T_ags"
+msgstr "ال_وسوم"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:956
+msgid "_Headings"
+msgstr "ال_عناوين"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:957
+msgid "H_1"
+msgstr "ع_1"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:957
+msgid "Insert H1 tag"
+msgstr "أدرج وسم ع_1 H1"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:959
+msgid "H_2"
+msgstr "ع_2"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:959
+msgid "Insert H2 tag"
+msgstr "أدرج وسم ع_2 H2"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:961
+msgid "H_3"
+msgstr "ع_3"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:961
+msgid "Insert H3 tag"
+msgstr "أدرج وسم ع_3 H3"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:963
+msgid "H_4"
+msgstr "ع_4"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:963
+msgid "Insert H4 tag"
+msgstr "أدرج وسم ع_4 H4"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:965
+msgid "H_5"
+msgstr "ع_5"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:965
+msgid "Insert H5 tag"
+msgstr "أدرج وسم ع_5 H5"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:967
+msgid "H_6"
+msgstr "ع_6"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:967
+msgid "Insert H6 tag"
+msgstr "أدرج وسم ع_6 H6"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:969
+msgid "_Entities"
+msgstr "ال_كيانات"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:970
+msgid "_Non-breaking space"
+msgstr "فراغ _غير مقسّم"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:971
+msgid "_Broken bar ¦"
+msgstr "خط عمودي منك_سر ¦"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:972
+msgid "Soft _hyphen -"
+msgstr "وا_صلة لينة -"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:973
+msgid "_Format by Context"
+msgstr "_نسّق حسب السياق"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:974
+msgid "_Strong"
+msgstr "_قوي"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:974
+msgid "Strong"
+msgstr "قوي"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:976
+msgid "_Emphasis"
+msgstr "ت_شديد"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:976
+msgid "Emphasis"
+msgstr "تشديد"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:978
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1050
+msgid "_Definition"
+msgstr "ت_عريف"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:978
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1050
+msgid "Definition"
+msgstr "تعريف"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:980
+msgid "_Code"
+msgstr "ت_رميز"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:980
+msgid "Code"
+msgstr "ترميز"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:981
+msgid "Sa_mple"
+msgstr "نمو_ذج"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:981
+msgid "Sample"
+msgstr "نموذج"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:982
+msgid "_Keyboard"
+msgstr "_لوحة المفاتيح"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:982
+msgid "Keyboard"
+msgstr "لوحة المفاتيح"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:984
+msgid "_Variable"
+msgstr "مت_غير"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:984
+msgid "Variable"
+msgstr "متغير"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:986
+msgid "Ci_tation"
+msgstr "ا_قتباس"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:986
+msgid "Citation"
+msgstr "اقتباس"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:988
+msgid "_Abbreviation"
+msgstr "ا_ختصار"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:988
+msgid "Abbreviation"
+msgstr "اختصار"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:990
+msgid "Ac_ronym"
+msgstr "_بوادئ"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:990
+msgid "Acronym"
+msgstr "بوادئ"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:992
+msgid "_Insert"
+msgstr "إ_دراج"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:992
+msgid "Insert"
+msgstr "إدراج"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:993
+msgid "De_lete"
+msgstr "_حذف"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:993
+msgid "Delete"
+msgstr "حذف"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:994
+msgid "Format by L_ayout"
+msgstr "نسّق حسب الم_خطط"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:995
+msgid "_Bold"
+msgstr "_عريض"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:995
+msgid "Bold"
+msgstr "عريض"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:997
+msgid "_Italic"
+msgstr "_مائل"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:997
+msgid "Italic"
+msgstr "مائل"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:999
+msgid "_Underline"
+msgstr "_سطِّر"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:999
+msgid "Underline"
+msgstr "تحته خط"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1001
+msgid "_Strikeout"
+msgstr "_شطب"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1001
+msgid "Strikeout"
+msgstr "شطب"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1003
+msgid "Sm_all"
+msgstr "_صغير"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1003
+msgid "Small"
+msgstr "صغير"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1004
+msgid "Bi_g"
+msgstr "_كبير"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1004
+msgid "Big"
+msgstr "كبير"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1005
+msgid "Format _General"
+msgstr "تنسيق _عمومي"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1006
+msgid "_Paragraph"
+msgstr "ف_قرة"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1006 src/plugin_htmlbar/html.c:879
+msgid "Paragraph"
+msgstr "فقرة"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1008
+msgid "_Break"
+msgstr "ا_قسم"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1008
+msgid "Break"
+msgstr "اقسم"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1010
+msgid "Break clear _all"
+msgstr "اقسم مفرغًا ال_كل"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1010
+msgid "Break and clear"
+msgstr "اقسم وفرّغ"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1012
+msgid "_Non-Breaking Space"
+msgstr "فراغ _غير مقسّم"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1012
+msgid "Non-breaking space"
+msgstr "فراغ غير مقسّم"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1014
+msgid "Font Si_ze +1"
+msgstr "ح_جم الخط +1"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1014
+msgid "Font Size +1"
+msgstr "حجم الخط +1"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1016
+msgid "Font _Size -1"
+msgstr "حج_م الخط -1"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1016
+msgid "Font Size -1"
+msgstr "حجم الخط -1"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1018
+msgid "Preformatted _Text"
+msgstr "نص مهيأ م_سبقًا"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1018
+msgid "Preformatted Text"
+msgstr "نص مهيأ مسبقًا"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1020
+msgid "Su_bscript"
+msgstr "نص _سفلي"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1020
+msgid "Subscript"
+msgstr "نص سفلي"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1022
+msgid "Su_perscript"
+msgstr "نص م_رتفع"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1022
+msgid "Superscript"
+msgstr "نص مرتفع"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1024
+msgid "_Center"
+msgstr "_وسّط"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1024
+msgid "Center"
+msgstr "وسط"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1026
+msgid "Align _right"
+msgstr "حاذِ ي_مينًا"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1026
+msgid "Right Justify"
+msgstr "اضبط يمينًا"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1028
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1029
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1111
+msgid "_Table"
+msgstr "ج_دول"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1029
+#: src/plugin_htmlbar/html_table.c:101
+msgid "Table"
+msgstr "جدول"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1031
+msgid "Table _Row"
+msgstr "_صف جدول"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1031
+#: src/plugin_htmlbar/html_table.c:242
+msgid "Table Row"
+msgstr "صف جدول"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1033
+msgid "Table _Header"
+msgstr "ت_رويسة جدول"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1033
+#: src/plugin_htmlbar/html_table.c:363
+msgid "Table Header"
+msgstr "ترويسة جدول"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1035
+msgid "Table _Data"
+msgstr "_بيانات جدول"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1035
+#: src/plugin_htmlbar/html_table.c:361
+msgid "Table Data"
+msgstr "بيانات جدول"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1037
+msgid "Table _Caption"
+msgstr "نص تو_ضيحي للجدول"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1037
+msgid "Table Caption"
+msgstr "نص توضيحي للجدول"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1039
+msgid "_List"
+msgstr "لا_ئحة"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1040
+msgid "Unordered _List"
+msgstr "لائحة _غير مرتّبة"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1040
+msgid "Unordered List"
+msgstr "لائحة غير مرتّبة"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1042
+msgid "_Ordered List"
+msgstr "لائحة مر_تبة"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1042
+msgid "Ordered List"
+msgstr "لائحة مرتبة"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1044
+msgid "List Ite_m"
+msgstr "عن_صر لائحة"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1044
+msgid "List Item"
+msgstr "عنصر لائحة"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1046
+msgid "De_finition List"
+msgstr "لائحة ت_عريف"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1046
+msgid "Definition List"
+msgstr "لائحة تعريف"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1048
+msgid "Definition _Term"
+msgstr "مص_طلح تعريف"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1048
+msgid "Definition Term"
+msgstr "مصطلح تعريف"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1052
+msgid "Men_u"
+msgstr "_قائمة"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1052
+msgid "Menu"
+msgstr "قائمة"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1053
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1054
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1142
+msgid "F_orm"
+msgstr "اس_تمارة"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1054
+#: src/plugin_htmlbar/html_form.c:156
+msgid "Form"
+msgstr "استمارة"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1055
+msgid "_Fieldset"
+msgstr "طقم حقو_ل"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1056
+msgid "_Legend"
+msgstr "مفتاح الرموز"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1057
+msgid "L_abel"
+msgstr "وا_صفة"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1058
+msgid "_Input"
+msgstr "إ_دخال"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1059
+msgid "_Button"
+msgstr "_زِر"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1060
+msgid "_Select"
+msgstr "ت_حديد"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1061
+msgid "_Datalist"
+msgstr "لائحة _بيانات"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1062
+msgid "Opt_group"
+msgstr "م_جموعة خيار"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1063
+msgid "Optio_n"
+msgstr "خيا_ر"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1064
+msgid "_Textarea"
+msgstr "منطقة ن_ص"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1065
+msgid "_Keygen"
+msgstr "مولِّد مف_تاح"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1066
+msgid "O_utput"
+msgstr "إخ_راج"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1067
+msgid "_Progress"
+msgstr "ال_تقدم"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1068
+msgid "_Meter"
+msgstr "ال_عداد"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1069
+msgid "_Misc"
+msgstr "م_نوّع"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1070
+msgid "Insert Generator _META-Tag"
+msgstr "أدرج الوسم الأع_لى META-Tag للمولّد"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1072
+msgid "_Span"
+msgstr "ا_تساع Span"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1073
+msgid "_Div"
+msgstr "_قِسم Div"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1074
+msgid "_Link"
+msgstr "_رابط"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1075
+msgid "S_cript"
+msgstr "إ_خطاط Script"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1076
+msgid "_Anchor"
+msgstr "م_غرز Anchor"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1077
+msgid "_Image"
+msgstr "_صورة"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1078
+msgid "_Comment"
+msgstr "ت_عليق"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1078
+msgid "HTML Comment"
+msgstr "تعليق HTML"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1080
+msgid "Dial_ogs"
+msgstr "_حوارات"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1081
+msgid "_General"
+msgstr "_عام"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1082
+msgid "_Quickstart..."
+msgstr "بدء _سريع..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1082
+msgid "Quickstart..."
+msgstr "بدء سريع..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1084
+msgid "_Link Header..."
+msgstr "ترويسة ال_رابط..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1084
+msgid "Link Header..."
+msgstr "ترويسة الرابط..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1086
+msgid "_Body..."
+msgstr "_المتن..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1086
+msgid "Body..."
+msgstr "المتن..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1088
+msgid "_Script..."
+msgstr "م_خطوطة..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1088
+msgid "Script..."
+msgstr "مخطوطة..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1090
+msgid "_Anchor..."
+msgstr "م_غرز..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1090
+msgid "Anchor / Hyperlink..."
+msgstr "م_غرز \\ رابط تشعبي..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1092
+msgid "_E-mail..."
+msgstr "_بريد الكتروني..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1092
+msgid "E-mail..."
+msgstr "بريد الكتروني..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1094
+msgid "_Rule..."
+msgstr "م_سطرة..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1094
+msgid "Horizontal Rule..."
+msgstr "مسطرة أفقية..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1096
+msgid "_Font..."
+msgstr "خ_ط..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1096
+msgid "Font..."
+msgstr "خط..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1098
+msgid "Basef_ont..."
+msgstr "خط أ_ساس..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1098
+msgid "Base font..."
+msgstr "خط أساس..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1100
+msgid "Quick_list..."
+msgstr "_قائمة سريعة..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1100
+msgid "Quick List..."
+msgstr "قائمة سريعة..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1102
+msgid "_Meta..."
+msgstr "عُ_ليا..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1103
+msgid "Embe_d..."
+msgstr "_ضمّن..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1104
+msgid "Select _Color..."
+msgstr "إختر لو_ناً..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1105
+msgid "Insert _Time..."
+msgstr "أدرج الو_قت..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1106
+msgid "Insert _Image..."
+msgstr "أدرج _صورة..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1106
+msgid "Insert image..."
+msgstr "أدرج صورة..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1108
+msgid "Insert T_humbnail..."
+msgstr "أدرج م_صغرة..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1109
+msgid "Insert thumbnail..."
+msgstr "أدرج مصغرة..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1112
+msgid "Table _Wizard..."
+msgstr "م_عالج الجداول..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1112
+msgid "Table Wizard..."
+msgstr "معالج الجداول..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1114
+msgid "_Table..."
+msgstr "_جدول..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1114
+msgid "Table..."
+msgstr "جدول..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1116
+msgid "Table _Row..."
+msgstr "_صف جدول..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1116
+msgid "Table Row..."
+msgstr "صف جدول..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1118
+msgid "Table _Head..."
+msgstr "_رأس جدول..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1118
+msgid "Table Head..."
+msgstr "رأس جدول..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1120
+msgid "Table _Data..."
+msgstr "_بيانات جدول..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1120
+msgid "Table Data..."
+msgstr "بيانات جدول..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1122
+msgid "_CSS"
+msgstr "_طُرُز CSS"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1123
+msgid "_Create Style..."
+msgstr "أنشئ _طرازاً..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1124
+msgid "Create stylesheet..."
+msgstr "أنشئ لوح طُرُز..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1126
+msgid "S_pan..."
+msgstr "فضا_ء Span..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1126
+msgid "Span..."
+msgstr "فضاء Span..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1127
+msgid "_Div..."
+msgstr "_قِسم Div..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1127
+msgid "Div..."
+msgstr "قِسم Div..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1129
+msgid "_Style"
+msgstr "_طراز"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1129
+#: src/plugin_htmlbar/html_form.c:565
+msgid "Style"
+msgstr "نمط"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1131
+msgid "C_olumns..."
+msgstr "أع_مدة..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1131
+msgid "Columns..."
+msgstr "أعمدة..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1133
+msgid "_Link to Stylesheet..."
+msgstr "ا_ربط إلى لوح طُرُز..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1134
+msgid "Link to Stylesheet..."
+msgstr "اربط إلى لوح طُرُز..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1136
+msgid "_Frame"
+msgstr "إط_ار"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1137
+msgid "Frame _Wizard..."
+msgstr "م_عالج الأُطُر..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1137
+msgid "Frame Wizard..."
+msgstr "معالج الأُطُر..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1139
+msgid "Frame_set..."
+msgstr "طقم إ_طارات..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1139
+msgid "Frameset..."
+msgstr "طقم إطارات..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1141
+msgid "_Frame..."
+msgstr "إط_ار..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1141
+msgid "Frame..."
+msgstr "إطار..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1143
+msgid "F_orm..."
+msgstr "اس_تمارة..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1143
+msgid "Form..."
+msgstr "استمارة..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1144
+msgid "_Input..."
+msgstr "إ_دخال..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1145
+msgid "Input B_uttons..."
+msgstr "أ_زرار إدخال..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1145
+msgid "Input Button..."
+msgstr "أزرار إدخال..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1147
+msgid "Input T_ext..."
+msgstr "_نص إدخال..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1147
+msgid "Input Text..."
+msgstr "نص إدخال..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1149
+msgid "Text_area..."
+msgstr "منطقة ن_ص..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1149
+msgid "Textarea..."
+msgstr "منطقة نص..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1151
+msgid "_Select..."
+msgstr "انت_قِ..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1151
+msgid "Select..."
+msgstr "حدد..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1153
+msgid "O_ption..."
+msgstr "_خيار..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1153
+msgid "Option..."
+msgstr "خيار..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1155
+msgid "Option _Group..."
+msgstr "م_جموعة خيار..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1155
+msgid "Option group..."
+msgstr "مجموعة خيار..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1157
+msgid "_Button..."
+msgstr "ز_ر..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1157
+msgid "Button..."
+msgstr "زر..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1159
+msgid "_Edit tag under cursor..."
+msgstr "_حرر الوسم تحت المؤشر..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1161
+msgid "_Multi Thumbnail..."
+msgstr "مصغرات متعدد_ة..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1161
+msgid "Multi thumbnail..."
+msgstr "مصغرات متعددة..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1163 src/plugin_htmlbar/html.c:1791
+msgid "Frame"
+msgstr "إطار"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1164 src/plugin_htmlbar/html.c:1702
+msgid "Frameset"
+msgstr "مجموعة اطارات"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1166
+msgid "Noframes"
+msgstr "لا إطارات"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1168
+msgid "Target"
+msgstr "الوِجهة"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1170
+msgid "Input Hidden..."
+msgstr "أدرِج ’مخفي‘..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1171
+msgid "Input Radio button..."
+msgstr "أدرِج زر راديو..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1172
+msgid "Input Radio Button..."
+msgstr "أدرِج زر راديو..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1173
+msgid "Input Check box..."
+msgstr "أدرِج مربع تأشير..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1174
+msgid "Input Check Box..."
+msgstr "أدرِج مربع تأشير..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1175
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1189
+msgid "HTML_5"
+msgstr "اتش تي أم أل _5"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1176
+msgid "_Article"
+msgstr "مقا_لة"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1176
+msgid "Article"
+msgstr "مقالة"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1177
+msgid "As_ide"
+msgstr "ملاح_ظة جانبية"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1177
+msgid "Aside"
+msgstr "ملاحظة جانبية"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1178
+msgid "Fig_caption"
+msgstr "عنوان توض_يحي لشكل"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1178
+msgid "Figcaption"
+msgstr "عنوان توضيحي لشكل"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1179
+msgid "Fig_ure"
+msgstr "_شكل"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1179
+msgid "Figure"
+msgstr "شكل"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1180
+msgid "_Footer"
+msgstr "ت_ذييل"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1180
+msgid "Footer"
+msgstr "تذييل"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1181
+msgid "_Header"
+msgstr "_ترويس"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1181
+msgid "Header"
+msgstr "ترويس"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1182
+msgid "H_group"
+msgstr "مجمو_عة H"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1182
+msgid "Hgroup"
+msgstr "مجموعة H"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1183
+msgid "_Mark"
+msgstr "_علامة"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1183
+msgid "Mark"
+msgstr "علامة"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1184
+msgid "_Nav"
+msgstr "تن_قّل"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1184
+msgid "Nav"
+msgstr "تنقّل"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1185
+msgid "R_p"
+msgstr "_ق‌ر"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1185
+msgid "Ruby parenthesis"
+msgstr "أقواس روبي"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1186
+msgid "R_t"
+msgstr "_ن‌ر"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1186
+msgid "Ruby text"
+msgstr "نص روبي"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1187
+msgid "_Ruby"
+msgstr "_روبي"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1187
+msgid "Ruby"
+msgstr "روبي"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1188
+msgid "_Section"
+msgstr "مقط_ع"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1188
+msgid "Section"
+msgstr "مقطع"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1190
+msgid "Au_dio..."
+msgstr "_صوت..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1190
+msgid "Audio..."
+msgstr "صوت..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1191
+msgid "_Video..."
+msgstr "_فيديو..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1191
+msgid "Video..."
+msgstr "فيديو..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1192
+msgid "_Canvas..."
+msgstr "_رقعة رسم..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1192
+msgid "Canvas..."
+msgstr "رقعة رسم..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1193
+msgid "_Time..."
+msgstr "_وقت..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1193
+msgid "Time..."
+msgstr "وقت..."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1194
+msgid "Insert _Color"
+msgstr "أدرج _لونًا"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1194
+msgid "Insert Color"
+msgstr "أدرج لونًا"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1204
+msgid "_HTML Toolbar"
+msgstr "شريط أ_دوات HTML"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1339
+msgid "Add to Quickbar"
+msgstr "أضف الى الشريط السريع"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1339
+msgid "Remove from Quickbar"
+msgstr "أزل من الشريط السريع"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1381
+msgid "Right click any html toolbar button to add it to the Quickbar."
+msgstr "انقر يميناً على أي زر شريط أدوات html لتضيفه إلى الشريط السريع."
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1472
+msgid "Quickbar"
+msgstr "الشريط السريع"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1475
+msgid "Standard"
+msgstr "معياري"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1489
+msgid "HTML 5"
+msgstr "HTML 5"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1492
+msgid "Formatting"
+msgstr "تنسيق"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1495
+msgid "Tables"
+msgstr "جداول"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1498
+msgid "List"
+msgstr "قائمة"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1501
+msgid "CSS"
+msgstr "طُرُز CSS"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1504
+msgid "Forms"
+msgstr "استمارات"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1507
+msgid "Fonts"
+msgstr "خطوط"
+
+#: src/plugin_htmlbar/htmlbar_uimanager.c:1510
+msgid "Frames"
+msgstr "أُطر"
+
+#: src/plugin_htmlbar/html.c:403
+msgid "Insert Time"
+msgstr "أدرج الوقت"
+
+#: src/plugin_htmlbar/html.c:411
+#, c-format
+msgid "  _Time (%i:%i:%i)"
+msgstr "  ال_وقت (%i:%i:%i)"
+
+#: src/plugin_htmlbar/html.c:416
+msgid "  Day of the _week (Sunday)"
+msgstr "  يوم من الأسبوع (الأحد)"
+
+#: src/plugin_htmlbar/html.c:419
+msgid "  Day of the _week (Monday)"
+msgstr "  يوم من الأسبوع (الأثنين)"
+
+#: src/plugin_htmlbar/html.c:422
+msgid "  Day of the _week (Tuesday)"
+msgstr "  يوم من الأسبوع (الثلاثاء)"
+
+#: src/plugin_htmlbar/html.c:425
+msgid "  Day of the _week (Wednesday)"
+msgstr "  يوم من الأسبوع (الأربعاء)"
+
+#: src/plugin_htmlbar/html.c:428
+msgid "  Day of the _week (Thursday)"
+msgstr "  يوم من الأسبوع (الخميس)"
+
+#: src/plugin_htmlbar/html.c:431
+msgid "  Day of the _week (Friday)"
+msgstr "  يوم من الأسبوع (الجمعة)"
+
+#: src/plugin_htmlbar/html.c:434
+msgid "  Day of the _week (Saturday)"
+msgstr "  يوم من الأسبوع (السبت)"
+
+#: src/plugin_htmlbar/html.c:437
+msgid "You appear to have a non existent day!\n"
+msgstr "يبدو أنّ لديك يوم لا وجود له!\n"
+
+#: src/plugin_htmlbar/html.c:446
+#, c-format
+msgid "  _Date (%i/%i/%i)"
+msgstr "  _تأريخ (%i/%i/%i)"
+
+#: src/plugin_htmlbar/html.c:449
+#, c-format
+msgid "  _Unix Time (%i)"
+msgstr "  _وقت يونكس (%i)"
+
+#: src/plugin_htmlbar/html.c:454
+#, c-format
+msgid "  Unix Date _String (%s)"
+msgstr "  م_قطع تأريخ يونكس (%s)"
+
+#: src/plugin_htmlbar/html.c:462
+msgid "  ISO-8601 Ti_me "
+msgstr "  وقت آيزو-8601 "
+
+#: src/plugin_htmlbar/html.c:657
+msgid "Quick Anchor"
+msgstr "مغرز سريع"
+
+#: src/plugin_htmlbar/html.c:663 src/plugin_htmlbar/html_form.c:520
+msgid "Attributes"
+msgstr "الصفات"
+
+#: src/plugin_htmlbar/html.c:684 src/plugin_htmlbar/html.c:2698
+msgid "_HREF:"
+msgstr "_رابط HREF:"
+
+#: src/plugin_htmlbar/html.c:690 src/plugin_htmlbar/html_form.c:200
+msgid "_Target:"
+msgstr "ال_هدف:"
+
+#: src/plugin_htmlbar/html.c:694 src/plugin_htmlbar/html.c:934
+#: src/plugin_htmlbar/html.c:1325 src/plugin_htmlbar/html.c:1803
+#: src/plugin_htmlbar/html_form.c:251 src/plugin_htmlbar/html_form.c:315
+#: src/plugin_htmlbar/html_form.c:538 src/plugin_htmlbar/html_form.c:633
+#: src/plugin_htmlbar/image.c:533
+msgid "_Name:"
+msgstr "الا_سم:"
+
+#: src/plugin_htmlbar/html.c:697 src/plugin_htmlbar/quickstart.c:558
+msgid "Titl_e:"
+msgstr "ال_عنوان:"
+
+#: src/plugin_htmlbar/html.c:702 src/plugin_htmlbar/html.c:1199
+#: src/plugin_htmlbar/html.c:1342 src/plugin_htmlbar/html.c:2346
+msgid "_Language:"
+msgstr "الل_غة:"
+
+#: src/plugin_htmlbar/html.c:705 src/plugin_htmlbar/html.c:940
+#: src/plugin_htmlbar/html.c:1106 src/plugin_htmlbar/html.c:1202
+#: src/plugin_htmlbar/html.c:1348 src/plugin_htmlbar/html.c:1732
+#: src/plugin_htmlbar/html.c:1841 src/plugin_htmlbar/html.c:1940
+#: src/plugin_htmlbar/html.c:2009 src/plugin_htmlbar/html.c:2133
+#: src/plugin_htmlbar/html.c:2198 src/plugin_htmlbar/html.c:2282
+#: src/plugin_htmlbar/html.c:2369 src/plugin_htmlbar/html_form.c:204
+#: src/plugin_htmlbar/html_form.c:267 src/plugin_htmlbar/html_form.c:328
+#: src/plugin_htmlbar/html_form.c:645 src/plugin_htmlbar/html_table.c:136
+#: src/plugin_htmlbar/html_table.c:283 src/plugin_htmlbar/html_table.c:419
+#: src/plugin_htmlbar/image.c:539 src/plugin_htmlbar/image_dialog.c:428
+msgid "Custo_m:"
+msgstr "م_خصص:"
+
+#: src/plugin_htmlbar/html.c:707 src/plugin_htmlbar/html.c:1206
+#: src/plugin_htmlbar/html_form.c:569
+msgid "Events"
+msgstr "الأحداث"
+
+#: src/plugin_htmlbar/html.c:710
+msgid "OnClic_k:"
+msgstr "عندالض_غط:"
+
+#: src/plugin_htmlbar/html.c:713
+msgid "OnD_blClick:"
+msgstr "عندالضغط‌الم_زدوج:"
+
+#: src/plugin_htmlbar/html.c:716
+msgid "OnMouseO_ver:"
+msgstr "عندال_تمريربالفأرة:"
+
+#: src/plugin_htmlbar/html.c:719
+msgid "OnMouse_Down:"
+msgstr "عندأ_سفل‌الفأرة:"
+
+#: src/plugin_htmlbar/html.c:722
+msgid "OnMouse_Move:"
+msgstr "عند_حركةالفأرة:"
+
+#: src/plugin_htmlbar/html.c:725
+msgid "OnMouseOu_t:"
+msgstr "عند_مغادرةالفأرة:"
+
+#: src/plugin_htmlbar/html.c:728
+msgid "OnMouse_Up:"
+msgstr "عندأ_على‌الفأرة:"
+
+#: src/plugin_htmlbar/html.c:731
+msgid "OnKeyDo_wn:"
+msgstr "عندأ_سفل‌ل‌المفاتيح:"
+
+#: src/plugin_htmlbar/html.c:734
+msgid "OnKey_Press:"
+msgstr "عند_ضغط‌‌ل‌المفاتيح:"
+
+#: src/plugin_htmlbar/html.c:737
+msgid "OnKe_yUp:"
+msgstr "عندأع_لى‌‌ل‌المفاتيح:"
+
+#: src/plugin_htmlbar/html.c:882
+msgid "Div"
+msgstr "قسم Div"
+
+#: src/plugin_htmlbar/html.c:885
+msgid "Span"
+msgstr "فضاء Span"
+
+#: src/plugin_htmlbar/html.c:888
+msgid "Heading 1"
+msgstr "ترويس 1"
+
+#: src/plugin_htmlbar/html.c:891
+msgid "Heading 2"
+msgstr "ترويس 2"
+
+#: src/plugin_htmlbar/html.c:894
+msgid "Heading 3"
+msgstr "ترويس 3"
+
+#: src/plugin_htmlbar/html.c:897
+msgid "Heading 4"
+msgstr "ترويس 4"
+
+#: src/plugin_htmlbar/html.c:900
+msgid "Heading 5"
+msgstr "ترويس 5"
+
+#: src/plugin_htmlbar/html.c:903
+msgid "Heading 6"
+msgstr "ترويس 6"
+
+#: src/plugin_htmlbar/html.c:920
+msgid "Ali_gn:"
+msgstr "محا_ذاة:"
+
+#: src/plugin_htmlbar/html.c:924 src/plugin_htmlbar/html.c:1193
+#: src/plugin_htmlbar/html.c:1932 src/plugin_htmlbar/html.c:1991
+#: src/plugin_htmlbar/html.c:2118 src/plugin_htmlbar/html.c:2274
+#: src/plugin_htmlbar/html_diag.c:494 src/plugin_htmlbar/html_table.c:127
+#: src/plugin_htmlbar/html_table.c:268 src/plugin_htmlbar/html_table.c:392
+#: src/plugin_htmlbar/image_dialog.c:408
+msgid "Cl_ass:"
+msgstr "ف_ئة:"
+
+#: src/plugin_htmlbar/html.c:928 src/plugin_htmlbar/html.c:1186
+#: src/plugin_htmlbar/html_diag.c:508 src/plugin_htmlbar/html_table.c:131
+#: src/plugin_htmlbar/html_table.c:278 src/plugin_htmlbar/html_table.c:414
+msgid "St_yle:"
+msgstr "_طراز:"
+
+#: src/plugin_htmlbar/html.c:937 src/plugin_htmlbar/html.c:1196
+#: src/plugin_htmlbar/html_diag.c:502
+msgid "_ID:"
+msgstr "مع_رِّف:"
+
+#: src/plugin_htmlbar/html.c:1069
+msgid "Horizontal Rule"
+msgstr "مسطرة أفقية"
+
+#: src/plugin_htmlbar/html.c:1080 src/plugin_htmlbar/image.c:556
+#: src/plugin_htmlbar/image_dialog.c:451
+msgid "_Align:"
+msgstr "محاذا_ة:"
+
+#: src/plugin_htmlbar/html.c:1087 src/plugin_htmlbar/html.c:2005
+#: src/plugin_htmlbar/html.c:2109 src/plugin_htmlbar/html.c:2266
+#: src/plugin_htmlbar/image_dialog.c:376
+msgid "_Height:"
+msgstr "الا_رتفاع:"
+
+#. gtk_spin_button_set_numeric (GTK_SPIN_BUTTON (spin2), 1);
+#: src/plugin_htmlbar/html.c:1093 src/plugin_htmlbar/html.c:2000
+#: src/plugin_htmlbar/html.c:2104 src/plugin_htmlbar/html.c:2262
+#: src/plugin_htmlbar/image.c:518 src/plugin_htmlbar/image_dialog.c:365
+msgid "_Width:"
+msgstr "ال_عرض:"
+
+#: src/plugin_htmlbar/html.c:1096
+msgid "Is _percent"
+msgstr "هو _بالمئة"
+
+#: src/plugin_htmlbar/html.c:1101
+msgid "No _shading"
+msgstr "بلا ت_ظليل"
+
+#: src/plugin_htmlbar/html.c:1171
+msgid "Body"
+msgstr "المتن"
+
+#: src/plugin_htmlbar/html.c:1179
+msgid "Options"
+msgstr "الخيارات"
+
+#: src/plugin_htmlbar/html.c:1212
+msgid "On _Load:"
+msgstr "عند ال_تحميل:"
+
+#: src/plugin_htmlbar/html.c:1216
+msgid "On _Unload:"
+msgstr "عند إزا_لة التحميل:"
+
+#: src/plugin_htmlbar/html.c:1222
+msgid "Depreciated options"
+msgstr "خيارات متروكة"
+
+#: src/plugin_htmlbar/html.c:1231
+msgid "Background _Image:"
+msgstr "صورة ال_خلفية:"
+
+#: src/plugin_htmlbar/html.c:1237
+msgid "Back_ground Color:"
+msgstr "_لون الخلفية:"
+
+#: src/plugin_htmlbar/html.c:1243
+msgid "_Text Color:"
+msgstr "لون ال_نص:"
+
+#: src/plugin_htmlbar/html.c:1249
+msgid "_Link Color:"
+msgstr "لون الرا_بط:"
+
+#: src/plugin_htmlbar/html.c:1255
+msgid "_Visited Link Color:"
+msgstr "لون الرابط الم_زار:"
+
+#: src/plugin_htmlbar/html.c:1261
+msgid "_Active Link Color:"
+msgstr "لون الرابط الن_شط:"
+
+#: src/plugin_htmlbar/html.c:1317
+msgid "Meta"
+msgstr "Meta"
+
+#: src/plugin_htmlbar/html.c:1334
+msgid "_HTTP-EQUIV:"
+msgstr "مكا_فئ HTTP-EQUIV:"
+
+#: src/plugin_htmlbar/html.c:1339
+msgid "Con_tent:"
+msgstr "الم_حتوى:"
+
+#: src/plugin_htmlbar/html.c:1345
+msgid "_Scheme:"
+msgstr "المخ_طط:"
+
+#: src/plugin_htmlbar/html.c:1429
+msgid "Font"
+msgstr "الخطّ"
+
+#: src/plugin_htmlbar/html.c:1432
+msgid "Base Font"
+msgstr "الخط الأساس"
+
+#: src/plugin_htmlbar/html.c:1447
+msgid "Size"
+msgstr "الحجم"
+
+#: src/plugin_htmlbar/html.c:1456
+msgid "Color"
+msgstr "اللون"
+
+#: src/plugin_htmlbar/html.c:1461
+msgid "Face"
+msgstr "ضرب الخط"
+
+#: src/plugin_htmlbar/html.c:1465
+msgid "Custom"
+msgstr "لون مخصّص"
+
+#: src/plugin_htmlbar/html.c:1555
+msgid "E-mail"
+msgstr "الب_ريد الإلكتروني"
+
+#: src/plugin_htmlbar/html.c:1563
+msgid "_Mail to:"
+msgstr "أر_سل إلى:"
+
+#: src/plugin_htmlbar/html.c:1566
+msgid "_Copy to:"
+msgstr "انس_خ إلى:"
+
+#: src/plugin_htmlbar/html.c:1569
+msgid "Blin_d copy to:"
+msgstr "نسخة _معمّاة إلى:"
+
+#: src/plugin_htmlbar/html.c:1572
+msgid "with _Subject:"
+msgstr "مع المو_ضوع:"
+
+#: src/plugin_htmlbar/html.c:1575
+msgid "with _Body:"
+msgstr "مع _المتن:"
+
+#: src/plugin_htmlbar/html.c:1621
+msgid "Quick List"
+msgstr "قائمة سريعة"
+
+#: src/plugin_htmlbar/html.c:1626 src/plugin_htmlbar/wizards.c:81
+msgid "Number of _rows:"
+msgstr "عدد ال_صفوف:"
+
+#: src/plugin_htmlbar/html.c:1629
+msgid "Or_dered"
+msgstr "م_رتّبة"
+
+#: src/plugin_htmlbar/html.c:1630
+msgid "_Unordered"
+msgstr "_غير مرتّبة"
+
+#: src/plugin_htmlbar/html.c:1632 src/plugin_htmlbar/image_dialog.c:422
+msgid "Style:"
+msgstr "النمط:"
+
+#: src/plugin_htmlbar/html.c:1708 src/plugin_htmlbar/html_form.c:259
+msgid "Co_ls:"
+msgstr "أ_عمدة:"
+
+#: src/plugin_htmlbar/html.c:1711 src/plugin_htmlbar/html_form.c:255
+msgid "_Rows:"
+msgstr "ص_فوف:"
+
+#: src/plugin_htmlbar/html.c:1715
+msgid "_Add &lt;frame&gt; elements"
+msgstr "أ_ضف عناصر &lt;frame&gt; ا"
+
+#: src/plugin_htmlbar/html.c:1799 src/plugin_htmlbar/html.c:1902
+#: src/plugin_htmlbar/html.c:2072 src/plugin_htmlbar/html.c:2255
+#: src/plugin_htmlbar/html.c:2342 src/plugin_htmlbar/image_dialog.c:326
+msgid "_Source:"
+msgstr "الم_صدر:"
+
+#: src/plugin_htmlbar/html.c:1807
+msgid "Margin _Width:"
+msgstr "عُ_رض الهامش:"
+
+#: src/plugin_htmlbar/html.c:1811
+msgid "Margin _Height:"
+msgstr "_ارتفاع الهامش:"
+
+#: src/plugin_htmlbar/html.c:1820
+msgid "Scrollin_g:"
+msgstr "ال_لف:"
+
+#: src/plugin_htmlbar/html.c:1824
+msgid "_Frameborder:"
+msgstr "حدّ الإ_طار:"
+
+#: src/plugin_htmlbar/html.c:1829
+msgid "No _Resize:"
+msgstr "_بلا تحجيم:"
+
+#. Dialog construction and settings
+#: src/plugin_htmlbar/html.c:1895
+msgid "Audio"
+msgstr "الصوتيات"
+
+#: src/plugin_htmlbar/html.c:1906 src/plugin_htmlbar/html.c:2084
+msgid "_Autoplay:"
+msgstr "تشغيل _تلقائي:"
+
+#: src/plugin_htmlbar/html.c:1910 src/plugin_htmlbar/html.c:2089
+msgid "C_ontrols:"
+msgstr "التح_كمات:"
+
+#: src/plugin_htmlbar/html.c:1914 src/plugin_htmlbar/html.c:2094
+msgid "_Loop:"
+msgstr "ال_تكرار:"
+
+#: src/plugin_htmlbar/html.c:1918 src/plugin_htmlbar/html.c:2099
+msgid "M_ute:"
+msgstr "كت_م:"
+
+#: src/plugin_htmlbar/html.c:1923 src/plugin_htmlbar/html.c:2123
+msgid "_Preload:"
+msgstr "تحميل م_سبق:"
+
+#: src/plugin_htmlbar/html.c:1928 src/plugin_htmlbar/html.c:1987
+#: src/plugin_htmlbar/html.c:2114 src/plugin_htmlbar/html.c:2270
+#: src/plugin_htmlbar/html_table.c:124
+msgid "_Id:"
+msgstr "الم_عرِّف:"
+
+#: src/plugin_htmlbar/html.c:1935 src/plugin_htmlbar/html.c:1994
+#: src/plugin_htmlbar/html.c:2128 src/plugin_htmlbar/html.c:2277
+msgid "_Style:"
+msgstr "ال_طراز:"
+
+#. Dialog construction
+#: src/plugin_htmlbar/html.c:1982
+msgid "Canvas"
+msgstr "الرقعة"
+
+#: src/plugin_htmlbar/html.c:2064
+msgid "Video"
+msgstr "الفيديو"
+
+#: src/plugin_htmlbar/html.c:2079
+msgid "_Poster:"
+msgstr "ملص_ق:"
+
+#. Dialog construction
+#: src/plugin_htmlbar/html.c:2178
+msgid "Time"
+msgstr "الوقت"
+
+#. Datetime help
+#: src/plugin_htmlbar/html.c:2183
+msgid ""
+"Datetime format (ex. YYYY-MM-DDThh:mm:ssTZD) :\n"
+"\n"
+"YYYY - year (e.g. 2009)\n"
+"MM - month (e.g. 01 for January)\n"
+"DD - day of the month (e.g. 08)\n"
+"T - a required separator\n"
+"hh - hour (e.g. 22 for 10.00pm)\n"
+"mm - minutes (e.g. 55)\n"
+"ss - seconds (e.g. 03)\n"
+"TZD - Time Zone Designator (Z denotes Zulu, also known as Greenwich Mean "
+"Time)\n"
+msgstr ""
+"نسَق التاريخ والوقت (مثلا YYYY-MM-DDThh:mm:ssTZD):\n"
+"\n"
+"YYYY - السنة (مثلا 2009)\n"
+"MM - الشهر (مثلا 01 لشهر كانون الثاني)\n"
+"DD - يوم الشهر (مثلا 08)\n"
+"T - فاصل ضروري\n"
+"hh - الساعة (مثلا 22 للساعة 10:00م)\n"
+"mm - الدقائق (مثلا 55)\n"
+"ss - الثواني (مثلا 03)\n"
+"TZD - محدد المنطقة الزمنية (Z تشير إلى Zulu، وتُعرف أيضًا باسم وقت غرينتش "
+"المتوسط)\n"
+
+#: src/plugin_htmlbar/html.c:2193
+msgid "_Datetime:"
+msgstr "تاري_خ‌وقت:"
+
+#: src/plugin_htmlbar/html.c:2248
+msgid "Embed"
+msgstr "تضمين"
+
+#: src/plugin_htmlbar/html.c:2259
+msgid "_MIME Type:"
+msgstr "_نوع الملف MIME:"
+
+#: src/plugin_htmlbar/html.c:2324
+msgid "Script"
+msgstr "المخطوطة"
+
+#: src/plugin_htmlbar/html.c:2348
+msgid "(HTML4 only)"
+msgstr "(فقط HTML4)"
+
+#: src/plugin_htmlbar/html.c:2351
+msgid "MIME _Type:"
+msgstr "ن_وع الملف MIME:"
+
+#: src/plugin_htmlbar/html.c:2355
+msgid "_Charset:"
+msgstr "_طقم المحارف:"
+
+#: src/plugin_htmlbar/html.c:2357 src/plugin_htmlbar/html.c:2366
+msgid "(HTML5)"
+msgstr "(HTML5)"
+
+#: src/plugin_htmlbar/html.c:2360
+msgid "_Async:"
+msgstr "غير مت_زامن:"
+
+#: src/plugin_htmlbar/html.c:2364
+msgid "_Defer:"
+msgstr "إرجا_ء:"
+
+#.
+#. todo check buttons:
+#. column-span: all (default none)
+#. column-fill: auto (default balance)
+#.
+#: src/plugin_htmlbar/html.c:2536
+msgid "CSS3 multi-column layout"
+msgstr "مخطط طراز CCS3 متعدد الأعمدة"
+
+#: src/plugin_htmlbar/html.c:2543
+msgid "Auto (default) or number of columns"
+msgstr "تلقائي (مبدئي) أو عدد الأعمدة"
+
+#: src/plugin_htmlbar/html.c:2552
+msgid "Auto (default) or width"
+msgstr "تلقائي(مبدئي) أو العُرض"
+
+#: src/plugin_htmlbar/html.c:2564
+msgid "Normal (default) or width of the gap between columns"
+msgstr "اعتيادي (مبدئي) أو عُرض الفجوة بين الأعمدة"
+
+#: src/plugin_htmlbar/html.c:2582
+msgid "None (default) or style"
+msgstr "بلا (مبدئي) أو طراز"
+
+#: src/plugin_htmlbar/html.c:2588
+msgid "Medium (default) or width"
+msgstr "متوسط (مبدئي) أو العُرض"
+
+#: src/plugin_htmlbar/html.c:2601
+msgid "Use vendor-prefixed CSS property:"
+msgstr "استخدم خاصية طراز CSS مبدوءة بالبائع:"
+
+#: src/plugin_htmlbar/html.c:2609
+msgid "styles_heet"
+msgstr "لوح _طراز"
+
+#: src/plugin_htmlbar/html.c:2610
+msgid "Add selector(s) to create a new rule"
+msgstr "أضِف منتقيًا (منتقيات) لإنشاء قاعدة جديدة"
+
+#: src/plugin_htmlbar/html.c:2612
+msgid "style a_ttribute"
+msgstr "_خصلة الطراز"
+
+#: src/plugin_htmlbar/html.c:2613
+msgid "Add a style attribute in tag"
+msgstr "أضف خصلة طراز في الوسم"
+
+#: src/plugin_htmlbar/html.c:2615
+msgid "style _values"
+msgstr "_قيَم الطراز"
+
+#: src/plugin_htmlbar/html.c:2616
+msgid "Add values in a style attribute"
+msgstr "أضف قيمًا في خصلة طراز"
+
+#: src/plugin_htmlbar/html.c:2626
+msgid "Selecto_rs:"
+msgstr "المن_تقيات:"
+
+#: src/plugin_htmlbar/html.c:2627
+msgid "Leave empty to insert declarations into an existing rule."
+msgstr "اتركه فارغًا لتدرج تصريحات declarations في قاعدة موجودة."
+
+#: src/plugin_htmlbar/html.c:2687
+msgid "Link"
+msgstr "وصلة"
+
+#: src/plugin_htmlbar/html.c:2704
+msgid "HREF_LANG:"
+msgstr "ل_غة HREFLANG:"
+
+#: src/plugin_htmlbar/html.c:2707
+msgid "T_itle:"
+msgstr "ال_عنوان:"
+
+#: src/plugin_htmlbar/html.c:2728 src/plugin_htmlbar/html_form.c:532
+#: src/plugin_htmlbar/html_form.c:641
+msgid "_Type:"
+msgstr "ال_نوع:"
+
+#: src/plugin_htmlbar/html.c:2750
+msgid "_Forward Relation:"
+msgstr "علاقة للأ_مام:"
+
+#: src/plugin_htmlbar/html.c:2754
+msgid "_Reverse Relation:"
+msgstr "علاقة مع_كوسة:"
+
+#: src/plugin_htmlbar/html.c:2766
+msgid "Media:"
+msgstr "الوسائط:"
+
+#: src/plugin_htmlbar/html.c:2770
+msgid "L_ang:"
+msgstr "الل_غة:"
+
+#: src/plugin_htmlbar/html.c:2773
+msgid "_Custom:"
+msgstr "مخ_صص:"
+
+#: src/plugin_htmlbar/html_form.c:174
+msgid "_Action:"
+msgstr "الإ_جراء:"
+
+#: src/plugin_htmlbar/html_form.c:184
+msgid "Metho_d:"
+msgstr "ال_طريقة:"
+
+#: src/plugin_htmlbar/html_form.c:193
+msgid "_Enctype:"
+msgstr "نوع ت_شفير:"
+
+#: src/plugin_htmlbar/html_form.c:245
+msgid "Text area"
+msgstr "منطقة نص"
+
+#: src/plugin_htmlbar/html_form.c:309
+msgid "Select"
+msgstr "حدّد"
+
+#: src/plugin_htmlbar/html_form.c:319 src/plugin_htmlbar/html_form.c:549
+msgid "Si_ze:"
+msgstr "ال_حجم:"
+
+#: src/plugin_htmlbar/html_form.c:323
+msgid "Multiple _Selections:"
+msgstr "تح_ديدات متعددة:"
+
+#: src/plugin_htmlbar/html_form.c:369
+msgid "Option"
+msgstr "الخيار"
+
+#: src/plugin_htmlbar/html_form.c:378 src/plugin_htmlbar/html_form.c:424
+msgid "_Label:"
+msgstr "ال_واصفة:"
+
+#: src/plugin_htmlbar/html_form.c:382
+msgid "_Selected:"
+msgstr "الم_حدَّد:"
+
+#: src/plugin_htmlbar/html_form.c:419
+msgid "Option group"
+msgstr "مجموعة الخيارات"
+
+#: src/plugin_htmlbar/html_form.c:515
+msgid "Input"
+msgstr "الإدخال"
+
+#: src/plugin_htmlbar/html_form.c:544
+msgid "_Checked:"
+msgstr "مؤشَّر:"
+
+#: src/plugin_htmlbar/html_form.c:553
+msgid "Max _Length:"
+msgstr "ال_طول الأقصى:"
+
+#: src/plugin_htmlbar/html_form.c:557
+msgid "_Accept:"
+msgstr "اق_بل:"
+
+#: src/plugin_htmlbar/html_form.c:560
+msgid "C_ustom:"
+msgstr "مخ_صص:"
+
+#: src/plugin_htmlbar/html_form.c:572
+msgid "On_Focus:"
+msgstr "عند‌الا_ستحواذ:"
+
+#: src/plugin_htmlbar/html_form.c:575
+msgid "On_Blur:"
+msgstr "عند‌التموي_ه:"
+
+#: src/plugin_htmlbar/html_form.c:578
+msgid "On_Select:"
+msgstr "عندالتحد_يد:"
+
+#: src/plugin_htmlbar/html_form.c:581
+msgid "On_Change:"
+msgstr "عند‌الت_غيير:"
+
+#: src/plugin_htmlbar/html_form.c:627
+msgid "Button"
+msgstr "زر"
+
+#: src/plugin_htmlbar/html_table.c:108
+msgid "<span color=\"#006000\">Cell _Padding:</span>"
+msgstr "<span color=\"#006000\">ح_شو الخلية:</span>"
+
+#: src/plugin_htmlbar/html_table.c:117
+msgid "<span color=\"#006000\">C_ell Spacing:</span>"
+msgstr "<span color=\"#006000\">حشو ال_خلية:</span>"
+
+#: src/plugin_htmlbar/html_table.c:144 src/plugin_htmlbar/html_table.c:253
+#: src/plugin_htmlbar/html_table.c:377
+msgid "<span color=\"#006000\">_Align:</span>"
+msgstr "<span color=\"#006000\">محا_ذاة:</span>"
+
+#: src/plugin_htmlbar/html_table.c:149 src/plugin_htmlbar/html_table.c:273
+#: src/plugin_htmlbar/html_table.c:449
+msgid "<span color=\"red\">_bgcolor:</span>"
+msgstr "<span color=\"red\">لون‌ال_خلفية:</span>"
+
+#: src/plugin_htmlbar/html_table.c:155
+msgid "<span color=\"#006000\">_Width:</span>"
+msgstr "<span color=\"#006000\">العُر_ض:</span>"
+
+#: src/plugin_htmlbar/html_table.c:162
+msgid "<span color=\"#006000\">Bo_rder:</span>"
+msgstr "<span color=\"#006000\">ال_حد:</span>"
+
+#: src/plugin_htmlbar/html_table.c:168
+msgid "<span color=\"#A36A00\">_Border:</span>"
+msgstr "<span color=\"#A36A00\">الح_د:</span>"
+
+#: src/plugin_htmlbar/html_table.c:183
+msgid "<span color=\"#006000\">_Frame:</span>"
+msgstr "<span color=\"#006000\">الإ_طار:</span>"
+
+#: src/plugin_htmlbar/html_table.c:194
+msgid "<span color=\"#006000\">R_ules:</span>"
+msgstr "<span color=\"#006000\">ال_قواعد:</span>"
+
+#: src/plugin_htmlbar/html_table.c:264 src/plugin_htmlbar/html_table.c:388
+msgid "<span color=\"#006000\">_Valign:</span>"
+msgstr "<span color=\"#006000\">محاذاة عمو_دية:</span>"
+
+#: src/plugin_htmlbar/html_table.c:396
+msgid "<span color=\"#A36A00\">_Headers:</span>"
+msgstr "<span color=\"#A36A00\">ال_ترويسات:</span>"
+
+#: src/plugin_htmlbar/html_table.c:397
+msgid "Set of space-separated IDs of th elements."
+msgstr "مجموعة من معرِّفات العناصر، مفصولة بمسافات."
+
+#: src/plugin_htmlbar/html_table.c:408
+msgid "<span color=\"#A36A00\">_Scope:</span>"
+msgstr "<span color=\"#A36A00\">المد_ى:</span>"
+
+#: src/plugin_htmlbar/html_table.c:410
+msgid "the header cell applies to cells in the same:"
+msgstr "ترويسة الخلية تنطبق على الخلايا في نفس:"
+
+#: src/plugin_htmlbar/html_table.c:422
+msgid "Co_l Span:"
+msgstr "فضاء ال_عمود:"
+
+#: src/plugin_htmlbar/html_table.c:426
+msgid "_Row Span:"
+msgstr "فضاء ال_صف:"
+
+#: src/plugin_htmlbar/html_table.c:431
+msgid "<span color=\"red\">No _Wrap:</span>"
+msgstr "<span color=\"red\">بلا _طي:</span>"
+
+#: src/plugin_htmlbar/html_table.c:437
+msgid "<span color=\"red\">_Width:</span>"
+msgstr "<span color=\"red\">العُر_ض:</span>"
+
+#: src/plugin_htmlbar/html_table.c:444
+msgid "<span color=\"red\">_Height:</span>"
+msgstr "<span color=\"red\">الا_رتفاع:</span>"
+
+#. TODO: use error info in gerror
+#: src/plugin_htmlbar/image.c:335
+msgid "Loading image failed..."
+msgstr "فشل تحميل الصورة..."
+
+#: src/plugin_htmlbar/image.c:418
+#, c-format
+msgid "Loading file %s..."
+msgstr "يُحمّل الملف %s…"
+
+#: src/plugin_htmlbar/image.c:483
+msgid "Insert thumbnail"
+msgstr "أدرج مصغرة"
+
+#: src/plugin_htmlbar/image.c:487 src/plugin_htmlbar/image_dialog.c:344
+msgid "Preview"
+msgstr "معاينة"
+
+#: src/plugin_htmlbar/image.c:510
+msgid "_Image location:"
+msgstr "مو_ضع الصورة:"
+
+#: src/plugin_htmlbar/image.c:525
+msgid "Hei_ght:"
+msgstr "الارتفا_ع:"
+
+#: src/plugin_htmlbar/image.c:530 src/plugin_htmlbar/image_dialog.c:417
+msgid "_Usemap:"
+msgstr "استخدم خا_رطة:"
+
+#: src/plugin_htmlbar/image.c:536
+msgid "Alternate _text:"
+msgstr "نص بديل:"
+
+#: src/plugin_htmlbar/image.c:542 src/plugin_htmlbar/image_dialog.c:460
+msgid "_Hspace:"
+msgstr "فضاء ا_فقي:"
+
+#: src/plugin_htmlbar/image.c:546 src/plugin_htmlbar/image_dialog.c:464
+msgid "_Vspace:"
+msgstr "فضاء _عمودي:"
+
+#: src/plugin_htmlbar/image.c:560
+msgid "Borde_r:"
+msgstr "ال_حد:"
+
+#: src/plugin_htmlbar/image.c:979
+msgid "Select files for thumbnail creation"
+msgstr "حدد الملفات لإنشاء المصغرات"
+
+#: src/plugin_htmlbar/image.c:1021
+msgid "Scaling (%)"
+msgstr "التحجيم (%)"
+
+#: src/plugin_htmlbar/image.c:1025 src/plugin_htmlbar/image.c:1033
+msgid "Width"
+msgstr "العُرض"
+
+#: src/plugin_htmlbar/image.c:1029 src/plugin_htmlbar/image.c:1075
+msgid "Height"
+msgstr "الارتفاع"
+
+#: src/plugin_htmlbar/image.c:1058
+msgid "Multi thumbnail"
+msgstr "مصغرات متعددة"
+
+#: src/plugin_htmlbar/image.c:1064
+msgid "By scaling"
+msgstr "بالتحجيم"
+
+#: src/plugin_htmlbar/image.c:1067
+msgid "By width, keep aspect ratio"
+msgstr "بالعُرض، أبقِ على نسبة الأبعاد"
+
+#: src/plugin_htmlbar/image.c:1070
+msgid "By height, keep aspect ratio"
+msgstr "بالارتفاع، أبقِ على نسبة الأبعاد"
+
+#: src/plugin_htmlbar/image.c:1073
+msgid "By width and height, ignore aspect ratio"
+msgstr "بالعُرض والارتفاع، تجاهل نسبة الأبعاد"
+
+#: src/plugin_htmlbar/image.c:1099
+msgid ""
+"%r: original filename  %t: thumbnail filename\n"
+"%w: original width  %h: original height\n"
+"%x: thumbnail width  %y: thumbnail height\n"
+"%b: original size (bytes)"
+msgstr ""
+"%r: اسم الملف الأصلي  %t: اسم ملف المصغرة\n"
+"%w: العُرض الأصلي  %h: الارتفاع الأصلي\n"
+"%x: عُرض المصغرة  %y: ارتقاع المصغرة\n"
+"%b: الحجم الأصلي (بايت)"
+
+#: src/plugin_htmlbar/image_dialog.c:385
+msgid "Keep aspect ratio"
+msgstr "أبقِ نسبة الأبعاد"
+
+#: src/plugin_htmlbar/image_dialog.c:388
+msgid "_Reset Dimensions"
+msgstr "_صفّر القياسات"
+
+#: src/plugin_htmlbar/image_dialog.c:398
+msgid "Alternate te_xt:"
+msgstr "_نص بديل:"
+
+#: src/plugin_htmlbar/image_dialog.c:403
+msgid "_Long description:"
+msgstr "وصف م_طول:"
+
+#: src/plugin_htmlbar/image_dialog.c:412
+msgid "I_D:"
+msgstr "معرَّ_ف:"
+
+#: src/plugin_htmlbar/image_dialog.c:440
+msgid "_Use Transitional options"
+msgstr "است_خدم خيارات انتقالية"
+
+#: src/plugin_htmlbar/image_dialog.c:456
+msgid "_Border:"
+msgstr "الح_دّ:"
+
+#: src/plugin_htmlbar/image_dialog.c:779
+#, c-format
+msgid ""
+"\n"
+"%s"
+msgstr ""
+"\n"
+"%s"
+
+#: src/plugin_htmlbar/image_dialog.c:784
+#, c-format
+msgid ""
+"\n"
+"%d x %d pixels"
+msgstr ""
+"\n"
+"%d x %d بكسل"
+
+#: src/plugin_htmlbar/image_dialog.c:882
+msgid ""
+"\n"
+"\n"
+"\t<b>Loading preview...</b>\t\n"
+"\n"
+msgstr ""
+"\n"
+"\n"
+"\t<b>يحمّل المعاينة...</b>\t\n"
+"\n"
+
+#: src/plugin_htmlbar/image_dialog.c:984
+msgid "Select Image"
+msgstr "حدد صورة"
+
+#: src/plugin_htmlbar/image_dialog.c:991
+msgid "All images"
+msgstr "كل الصور"
+
+#: src/plugin_htmlbar/image_dialog.c:1209
+#: src/plugin_htmlbar/image_dialog.c:1320
+msgid "Insert Image"
+msgstr "أدرج صورة"
+
+#: src/plugin_htmlbar/quickstart.c:519
+msgid "<b>E_xternal Style Sheet</b>"
+msgstr "<b>لوح طُرُز _خارجي</b>"
+
+#: src/plugin_htmlbar/quickstart.c:530
+msgid "Ty_pe:"
+msgstr "الن_وع:"
+
+#: src/plugin_htmlbar/quickstart.c:548
+msgid "HRE_F:"
+msgstr "وس_م HREF:"
+
+#: src/plugin_htmlbar/quickstart.c:553
+msgid "_Media:"
+msgstr "_وسائط:"
+
+#. TODO: add an option to place content in the style area
+#. * Possibly from a code snippet library
+#.
+#: src/plugin_htmlbar/quickstart.c:565
+msgid "<b>Style Area</b>"
+msgstr "<b>منطقة طراز</b>"
+
+#: src/plugin_htmlbar/quickstart.c:569
+msgid "Cre_ate empty style area"
+msgstr "أنش_ئ منطقة طراز فارغة"
+
+#: src/plugin_htmlbar/quickstart.c:588
+msgid "<b>Attributes</b>"
+msgstr "<b>السمات</b>"
+
+#: src/plugin_htmlbar/quickstart.c:603
+msgid "_Src:"
+msgstr "مص_در Src:"
+
+#. TODO: add an option to place content in the script area
+#: src/plugin_htmlbar/quickstart.c:610
+msgid "<b>Script Area</b>"
+msgstr "<b>منطقة مخطوطة</b>"
+
+#: src/plugin_htmlbar/quickstart.c:614
+msgid "Cre_ate empty script area"
+msgstr "أنش_ئ منطقة مخطوطة فارغة"
+
+#: src/plugin_htmlbar/quickstart.c:641
+msgid "Quick Start"
+msgstr "البدأ السريع"
+
+#: src/plugin_htmlbar/quickstart.c:658
+msgid "_DTD:"
+msgstr "_نوع DTD:"
+
+#: src/plugin_htmlbar/quickstart.c:662 src/plugin_htmlbar/wizards.c:201
+msgid "_Title:"
+msgstr "الع_نوان:"
+
+#: src/plugin_htmlbar/quickstart.c:685
+msgid "_Head:"
+msgstr "ال_رأس:"
+
+#: src/plugin_htmlbar/quickstart.c:702
+msgid "Open in _new document."
+msgstr "افتح في مستند _جديد."
+
+#: src/plugin_htmlbar/wizards.c:73
+msgid "Table Wizard"
+msgstr "معالج الجداول"
+
+#: src/plugin_htmlbar/wizards.c:85
+msgid "Number of colu_mns:"
+msgstr "عدد الإ_عمدة:"
+
+#: src/plugin_htmlbar/wizards.c:89
+msgid "Table rows on one _line:"
+msgstr "صفوف الجدول في _سطر واحد:"
+
+#: src/plugin_htmlbar/wizards.c:94
+msgid "_Indent table code:"
+msgstr "أ_زح شفرة الجدول:"
+
+#: src/plugin_htmlbar/wizards.c:190
+msgid "Frame Wizard"
+msgstr "معالج الأُطُر"
+
+#: src/plugin_htmlbar/wizards.c:204
+msgid "Use _DTD:"
+msgstr "اس_تعمل DTD:"
+
+#: src/plugin_htmlbar/wizards.c:207
+msgid "Orientation:"
+msgstr "الاتجاه:"
+
+#: src/plugin_htmlbar/wizards.c:210
+msgid "_Horizontal"
+msgstr "أ_فقي"
+
+#: src/plugin_htmlbar/wizards.c:211
+msgid "_Vertical"
+msgstr "_رأ_سي"
+
+#: src/plugin_htmlbar/wizards.c:216
+msgid "Number of _Frames:"
+msgstr "ع_دد الإطارات:"
+
+#: src/plugin_htmlbar/wizards.c:219
+msgid "Frame's"
+msgstr "الإطار"
+
+#: src/plugin_htmlbar/wizards.c:231
+msgid "Name:"
+msgstr "الإسم:"
+
+#: src/plugin_htmlbar/wizards.c:233
+msgid "Source:"
+msgstr "المصدر:"
+
+#: src/plugin_htmlbar/wizards.c:237
+msgid "Size:"
+msgstr "الحجم:"
+
+#: src/plugin_htmlbar/prefs.c:70
+msgid "<b>HTML Toolbar</b>"
+msgstr "<b>شريط أدوات HTML</b>"
+
+#: src/plugin_htmlbar/prefs.c:73
+msgid "Show toolbar in sidepanel"
+msgstr "أظهر شريط الأدوات في اللوحة الجانبية"
+
+#: src/plugin_htmlbar/prefs.c:74
+msgid "Keep HTML dialogs always on top"
+msgstr "أبقِ حوارات HTML دائمًا في القمة"
+
+#: src/plugin_htmlbar/prefs.c:79
+msgid "<b>HTML options</b>"
+msgstr "<b>خيارات HTML</b>"
+
+#: src/plugin_htmlbar/prefs.c:82
+msgid "Use lo_wercase HTML tags"
+msgstr "استخدم وسوم HTML بحروف _صغيرة"
+
+#: src/plugin_htmlbar/prefs.c:84
+msgid "Use de_precated tags (e.g. <font> and <nobr>)"
+msgstr "استخدم وسومًا مهملة (مثلا <font> و <nobr>)"
+
+#: src/plugin_htmlbar/prefs.c:88
+msgid "_Format according to accessibility guidelines (e.g. <strong> for <b>)"
+msgstr "ن_سّق وفقًا لإرشادات سهولة الوصول (مثلا <strong> لـ <b>)"
+
+#: src/plugin_htmlbar/prefs.c:91
+msgid "<b>Auto Update Tag Options</b>"
+msgstr "<b>تلقائيا حدّث خيارات الوسم</b>"
+
+#: src/plugin_htmlbar/prefs.c:95
+msgid "Automatically update a_uthor meta tag"
+msgstr "تلقائيا حدّث الوسم الفوقي لل_مؤلف"
+
+#: src/plugin_htmlbar/prefs.c:98
+msgid "Automatically update _date meta tag"
+msgstr "تلقائيا حدّث الوسم الفوقي لل_تاريخ"
+
+#: src/plugin_htmlbar/prefs.c:101
+msgid "Automatically update _generator meta tag"
+msgstr "تلقائيا حدّث الوسم الفوقي لل_مولِّد"

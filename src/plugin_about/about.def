@@ -1,0 +1,6 @@
+LIBRARY about.dll
+IMPORTS
+	bluefish.exe.message_dialog_new
+	bluefish.exe.make_config_list_item
+	bluefish.exe.lingua_locale_is_uptodate
+	bluefish.exe.lingua_cleanup

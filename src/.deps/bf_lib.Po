@@ -1,0 +1,1991 @@
+bf_lib.o: bf_lib.c config.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtk.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gdk/gdk.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gdk/gdkconfig.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/galloca.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/gtypes.h \
+ D:/msys64_250221/mingw64/lib/glib-2.0/include/glibconfig.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/gmacros.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
+ D:/msys64_250221/mingw64/include/stddef.h \
+ D:/msys64_250221/mingw64/include/crtdefs.h \
+ D:/msys64_250221/mingw64/include/corecrt.h \
+ D:/msys64_250221/mingw64/include/_mingw.h \
+ D:/msys64_250221/mingw64/include/_mingw_mac.h \
+ D:/msys64_250221/mingw64/include/_mingw_secapi.h \
+ D:/msys64_250221/mingw64/include/vadefs.h \
+ D:/msys64_250221/mingw64/include/sdks/_mingw_ddk.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
+ D:/msys64_250221/mingw64/include/limits.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/float.h \
+ D:/msys64_250221/mingw64/include/float.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/gversionmacros.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/glib-visibility.h \
+ D:/msys64_250221/mingw64/include/time.h \
+ D:/msys64_250221/mingw64/include/sys/timeb.h \
+ D:/msys64_250221/mingw64/include/sec_api/sys/timeb_s.h \
+ D:/msys64_250221/mingw64/include/_timeval.h \
+ D:/msys64_250221/mingw64/include/pthread_time.h \
+ D:/msys64_250221/mingw64/include/pthread_compat.h \
+ D:/msys64_250221/mingw64/include/string.h \
+ D:/msys64_250221/mingw64/include/sec_api/string_s.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/garray.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/gasyncqueue.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/gthread.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/gatomic.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/glib-typeof.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/gerror.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
+ D:/msys64_250221/mingw64/include/stdarg.h \
+ D:/msys64_250221/mingw64/include/_mingw_stdarg.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/gquark.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/gutils.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/gbacktrace.h \
+ D:/msys64_250221/mingw64/include/signal.h \
+ D:/msys64_250221/mingw64/include/pthread_signal.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/gbase64.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/gbitlock.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/gbookmarkfile.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/gdatetime.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/gtimezone.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/gbytes.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/gcharset.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/gchecksum.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/gconvert.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/gdataset.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/gdate.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/gdir.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/genviron.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/gfileutils.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/ggettext.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/ghash.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/glist.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/gmem.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/gnode.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/ghmac.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/gchecksum.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/ghook.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/ghostutils.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/giochannel.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/gmain.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/gpoll.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/gslist.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/gstring.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/gunicode.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/gstrfuncs.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/gkeyfile.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/gmappedfile.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/gmarkup.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/gmessages.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/gvariant.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/gvarianttype.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/goption.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/gpathbuf.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/gpattern.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/gprimes.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/gqsort.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/gqueue.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/grand.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/grcbox.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/grefcount.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/grefstring.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/gmem.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/gmacros.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/gregex.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/gscanner.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/gsequence.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/gshell.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/gslice.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/gspawn.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/gstringchunk.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/gstrvbuilder.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/gtestutils.h \
+ D:/msys64_250221/mingw64/include/errno.h \
+ D:/msys64_250221/mingw64/include/stdlib.h \
+ D:/msys64_250221/mingw64/include/corecrt_wstdlib.h \
+ D:/msys64_250221/mingw64/include/sec_api/stdlib_s.h \
+ D:/msys64_250221/mingw64/include/malloc.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/gthreadpool.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/gtimer.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/gtrashstack.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/gtree.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/guri.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/guuid.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/gversion.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/gwin32.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/deprecated/gallocator.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/deprecated/gcache.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/deprecated/gcompletion.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/deprecated/gmain.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/deprecated/grel.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/deprecated/gthread.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/glib-autocleanups.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gdk/gdkversionmacros.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gdk/gdkapplaunchcontext.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gio.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/giotypes.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gioenums.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib-object.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gobject/gbinding.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gobject/gobject.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gobject/gtype.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gobject/gobject-visibility.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gobject/gvalue.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gobject/gparam.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gobject/gclosure.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gobject/gsignal.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gobject/gmarshal.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gobject/gboxed.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gobject/glib-types.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gobject/gbindinggroup.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gobject/genums.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gobject/glib-enumtypes.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gobject/gparamspecs.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gobject/gsignalgroup.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gobject/gsourceclosure.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gobject/gtypemodule.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gobject/gtypeplugin.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gobject/gvaluearray.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gobject/gvaluetypes.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gobject/gobject-autocleanups.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gio-visibility.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gaction.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gactiongroup.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gactiongroupexporter.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gactionmap.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gappinfo.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gapplication.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gapplicationcommandline.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gasyncinitable.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/ginitable.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gasyncresult.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gbufferedinputstream.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gfilterinputstream.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/ginputstream.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gbufferedoutputstream.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gfilteroutputstream.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/goutputstream.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gbytesicon.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gcancellable.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gcharsetconverter.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gconverter.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gcontenttype.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gconverterinputstream.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gconverteroutputstream.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gcredentials.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gdatagrambased.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gdatainputstream.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gdataoutputstream.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gdbusactiongroup.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/giotypes.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gdbusaddress.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gdbusauthobserver.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gdbusconnection.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gdbuserror.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gdbusinterface.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gdbusinterfaceskeleton.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gdbusintrospection.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gdbusmenumodel.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gdbusmessage.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gdbusmethodinvocation.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gdbusnameowning.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gdbusnamewatching.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gdbusobject.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gdbusobjectmanager.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gdbusobjectmanagerclient.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gdbusobjectmanagerserver.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gdbusobjectproxy.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gdbusobjectskeleton.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gdbusproxy.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gdbusserver.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gdbusutils.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gdebugcontroller.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gdebugcontrollerdbus.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gdrive.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gdtlsclientconnection.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gdtlsconnection.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gdtlsserverconnection.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gemblemedicon.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gicon.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gemblem.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gfile.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gfileattribute.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gfileenumerator.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gfileicon.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gfileinfo.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gfileinputstream.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gfileiostream.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/giostream.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gioerror.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gfilemonitor.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gfilenamecompleter.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gfileoutputstream.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/ginetaddress.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/ginetaddressmask.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/ginetsocketaddress.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gsocketaddress.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gioenumtypes.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/giomodule.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gmodule.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gmodule/gmodule-visibility.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gioscheduler.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/glistmodel.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gliststore.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gloadableicon.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gmemoryinputstream.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gmemorymonitor.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gmemoryoutputstream.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gmenu.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gmenumodel.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gmenuexporter.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gmount.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gmountoperation.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gnativesocketaddress.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gnativevolumemonitor.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gvolumemonitor.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gnetworkaddress.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gnetworkmonitor.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gnetworkservice.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gnotification.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gpermission.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gpollableinputstream.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gpollableoutputstream.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gpollableutils.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gpowerprofilemonitor.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gpropertyaction.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gproxy.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gproxyaddress.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gproxyaddressenumerator.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gsocketaddressenumerator.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gproxyresolver.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gremoteactiongroup.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gresolver.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gresource.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gseekable.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gsettings.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gsettingsschema.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gsimpleaction.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gsimpleactiongroup.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gactiongroup.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gactionmap.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gsimpleasyncresult.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gsimpleiostream.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gsimplepermission.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gsimpleproxyresolver.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gsocket.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gsocketclient.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gsocketconnectable.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gsocketconnection.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gsocketcontrolmessage.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gsocketlistener.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gsocketservice.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gsrvtarget.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gsubprocess.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gsubprocesslauncher.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gtask.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gtcpconnection.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gtcpwrapperconnection.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gtestdbus.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gthemedicon.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gthreadedsocketservice.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gtlsbackend.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gtlscertificate.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gtlsclientconnection.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gtlsconnection.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gtlsdatabase.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gtlsfiledatabase.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gtlsinteraction.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gtlspassword.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gtlsserverconnection.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gunixconnection.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gunixcredentialsmessage.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gunixfdlist.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gunixsocketaddress.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gvfs.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gvolume.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gzlibcompressor.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gzlibdecompressor.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/gio/gio-autocleanups.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gdk/gdktypes.h \
+ D:/msys64_250221/mingw64/include/pango-1.0/pango/pango.h \
+ D:/msys64_250221/mingw64/include/pango-1.0/pango/pango-attributes.h \
+ D:/msys64_250221/mingw64/include/pango-1.0/pango/pango-font.h \
+ D:/msys64_250221/mingw64/include/pango-1.0/pango/pango-coverage.h \
+ D:/msys64_250221/mingw64/include/pango-1.0/pango/pango-version-macros.h \
+ D:/msys64_250221/mingw64/include/pango-1.0/pango/pango-features.h \
+ D:/msys64_250221/mingw64/include/harfbuzz/hb.h \
+ D:/msys64_250221/mingw64/include/harfbuzz/hb-blob.h \
+ D:/msys64_250221/mingw64/include/harfbuzz/hb-common.h \
+ D:/msys64_250221/mingw64/include/inttypes.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdint.h \
+ D:/msys64_250221/mingw64/include/stdint.h \
+ D:/msys64_250221/mingw64/include/harfbuzz/hb-script-list.h \
+ D:/msys64_250221/mingw64/include/harfbuzz/hb-buffer.h \
+ D:/msys64_250221/mingw64/include/harfbuzz/hb-unicode.h \
+ D:/msys64_250221/mingw64/include/harfbuzz/hb-font.h \
+ D:/msys64_250221/mingw64/include/harfbuzz/hb-face.h \
+ D:/msys64_250221/mingw64/include/harfbuzz/hb-map.h \
+ D:/msys64_250221/mingw64/include/harfbuzz/hb-set.h \
+ D:/msys64_250221/mingw64/include/harfbuzz/hb-draw.h \
+ D:/msys64_250221/mingw64/include/harfbuzz/hb.h \
+ D:/msys64_250221/mingw64/include/harfbuzz/hb-paint.h \
+ D:/msys64_250221/mingw64/include/harfbuzz/hb-deprecated.h \
+ D:/msys64_250221/mingw64/include/harfbuzz/hb-shape.h \
+ D:/msys64_250221/mingw64/include/harfbuzz/hb-shape-plan.h \
+ D:/msys64_250221/mingw64/include/harfbuzz/hb-style.h \
+ D:/msys64_250221/mingw64/include/harfbuzz/hb-version.h \
+ D:/msys64_250221/mingw64/include/pango-1.0/pango/pango-types.h \
+ D:/msys64_250221/mingw64/include/pango-1.0/pango/pango-gravity.h \
+ D:/msys64_250221/mingw64/include/pango-1.0/pango/pango-matrix.h \
+ D:/msys64_250221/mingw64/include/pango-1.0/pango/pango-script.h \
+ D:/msys64_250221/mingw64/include/pango-1.0/pango/pango-language.h \
+ D:/msys64_250221/mingw64/include/pango-1.0/pango/pango-bidi-type.h \
+ D:/msys64_250221/mingw64/include/pango-1.0/pango/pango-direction.h \
+ D:/msys64_250221/mingw64/include/pango-1.0/pango/pango-color.h \
+ D:/msys64_250221/mingw64/include/pango-1.0/pango/pango-break.h \
+ D:/msys64_250221/mingw64/include/pango-1.0/pango/pango-item.h \
+ D:/msys64_250221/mingw64/include/pango-1.0/pango/pango-context.h \
+ D:/msys64_250221/mingw64/include/pango-1.0/pango/pango-fontmap.h \
+ D:/msys64_250221/mingw64/include/pango-1.0/pango/pango-fontset.h \
+ D:/msys64_250221/mingw64/include/pango-1.0/pango/pango-engine.h \
+ D:/msys64_250221/mingw64/include/pango-1.0/pango/pango-glyph.h \
+ D:/msys64_250221/mingw64/include/pango-1.0/pango/pango-enum-types.h \
+ D:/msys64_250221/mingw64/include/pango-1.0/pango/pango-fontset-simple.h \
+ D:/msys64_250221/mingw64/include/pango-1.0/pango/pango-glyph-item.h \
+ D:/msys64_250221/mingw64/include/pango-1.0/pango/pango-layout.h \
+ D:/msys64_250221/mingw64/include/pango-1.0/pango/pango-tabs.h \
+ D:/msys64_250221/mingw64/include/pango-1.0/pango/pango-markup.h \
+ D:/msys64_250221/mingw64/include/pango-1.0/pango/pango-renderer.h \
+ D:/msys64_250221/mingw64/include/pango-1.0/pango/pango-utils.h \
+ D:/msys64_250221/mingw64/include/stdio.h \
+ D:/msys64_250221/mingw64/include/corecrt_stdio_config.h \
+ D:/msys64_250221/mingw64/include/_mingw_off_t.h \
+ D:/msys64_250221/mingw64/include/swprintf.inl \
+ D:/msys64_250221/mingw64/include/sec_api/stdio_s.h \
+ D:/msys64_250221/mingw64/include/cairo/cairo.h \
+ D:/msys64_250221/mingw64/include/cairo/cairo-version.h \
+ D:/msys64_250221/mingw64/include/cairo/cairo-features.h \
+ D:/msys64_250221/mingw64/include/cairo/cairo-deprecated.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gdk/gdkscreen.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gdk/gdkdisplay.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gdk/gdkevents.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gdk/gdkdnd.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gdk/gdkdevice.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gdk/gdkdevicetool.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gdk/gdkdevicemanager.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gdk/gdkseat.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gdk/gdkwindow.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gdk/gdkdrawingcontext.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gdk/gdkframeclock.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gdk/gdkframetimings.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gdk/gdkmonitor.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gdk/gdkrectangle.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gdk/gdkcairo.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gdk/deprecated/gdkcolor.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gdk/gdkrgba.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gdk/gdkpixbuf.h \
+ D:/msys64_250221/mingw64/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h \
+ D:/msys64_250221/mingw64/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h \
+ D:/msys64_250221/mingw64/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-features.h \
+ D:/msys64_250221/mingw64/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-core.h \
+ D:/msys64_250221/mingw64/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-transform.h \
+ D:/msys64_250221/mingw64/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-animation.h \
+ D:/msys64_250221/mingw64/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-simple-anim.h \
+ D:/msys64_250221/mingw64/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-io.h \
+ D:/msys64_250221/mingw64/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-loader.h \
+ D:/msys64_250221/mingw64/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-enum-types.h \
+ D:/msys64_250221/mingw64/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-autocleanups.h \
+ D:/msys64_250221/mingw64/include/pango-1.0/pango/pangocairo.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gdk/gdkcursor.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gdk/gdkdevicepad.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gdk/gdkdisplaymanager.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gdk/gdkenumtypes.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gdk/gdkglcontext.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gdk/gdkkeys.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gdk/gdkkeysyms.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gdk/gdkmain.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gdk/gdkpango.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gdk/gdkproperty.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gdk/gdkselection.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gdk/gdktestutils.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gdk/gdkthreads.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gdk/gdkvisual.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gdk/gdk-autocleanup.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkaboutdialog.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkdialog.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkwindow.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkapplication.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkwidget.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkaccelgroup.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkenums.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkborder.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtktypes.h \
+ D:/msys64_250221/mingw64/include/atk-1.0/atk/atk.h \
+ D:/msys64_250221/mingw64/include/atk-1.0/atk/atk-enum-types.h \
+ D:/msys64_250221/mingw64/include/atk-1.0/atk/atkversion.h \
+ D:/msys64_250221/mingw64/include/atk-1.0/atk/atkaction.h \
+ D:/msys64_250221/mingw64/include/atk-1.0/atk/atkobject.h \
+ D:/msys64_250221/mingw64/include/atk-1.0/atk/atkrelationtype.h \
+ D:/msys64_250221/mingw64/include/atk-1.0/atk/atkstate.h \
+ D:/msys64_250221/mingw64/include/atk-1.0/atk/atkcomponent.h \
+ D:/msys64_250221/mingw64/include/atk-1.0/atk/atkutil.h \
+ D:/msys64_250221/mingw64/include/atk-1.0/atk/atkdocument.h \
+ D:/msys64_250221/mingw64/include/atk-1.0/atk/atkeditabletext.h \
+ D:/msys64_250221/mingw64/include/atk-1.0/atk/atktext.h \
+ D:/msys64_250221/mingw64/include/atk-1.0/atk/atkgobjectaccessible.h \
+ D:/msys64_250221/mingw64/include/atk-1.0/atk/atkhyperlink.h \
+ D:/msys64_250221/mingw64/include/atk-1.0/atk/atkhyperlinkimpl.h \
+ D:/msys64_250221/mingw64/include/atk-1.0/atk/atkhypertext.h \
+ D:/msys64_250221/mingw64/include/atk-1.0/atk/atkimage.h \
+ D:/msys64_250221/mingw64/include/atk-1.0/atk/atkmisc.h \
+ D:/msys64_250221/mingw64/include/atk-1.0/atk/atknoopobject.h \
+ D:/msys64_250221/mingw64/include/atk-1.0/atk/atknoopobjectfactory.h \
+ D:/msys64_250221/mingw64/include/atk-1.0/atk/atkobjectfactory.h \
+ D:/msys64_250221/mingw64/include/atk-1.0/atk/atkplug.h \
+ D:/msys64_250221/mingw64/include/atk-1.0/atk/atkrange.h \
+ D:/msys64_250221/mingw64/include/atk-1.0/atk/atkregistry.h \
+ D:/msys64_250221/mingw64/include/atk-1.0/atk/atkobjectfactory.h \
+ D:/msys64_250221/mingw64/include/atk-1.0/atk/atkrelation.h \
+ D:/msys64_250221/mingw64/include/atk-1.0/atk/atkrelationset.h \
+ D:/msys64_250221/mingw64/include/atk-1.0/atk/atkselection.h \
+ D:/msys64_250221/mingw64/include/atk-1.0/atk/atksocket.h \
+ D:/msys64_250221/mingw64/include/atk-1.0/atk/atkstateset.h \
+ D:/msys64_250221/mingw64/include/atk-1.0/atk/atkstreamablecontent.h \
+ D:/msys64_250221/mingw64/include/atk-1.0/atk/atktable.h \
+ D:/msys64_250221/mingw64/include/atk-1.0/atk/atktablecell.h \
+ D:/msys64_250221/mingw64/include/atk-1.0/atk/atkvalue.h \
+ D:/msys64_250221/mingw64/include/atk-1.0/atk/atkwindow.h \
+ D:/msys64_250221/mingw64/include/atk-1.0/atk/atk-autocleanups.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkbin.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkcontainer.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkaccellabel.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtklabel.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/deprecated/gtkmisc.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkmenu.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkmenushell.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkaccelmap.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkaccessible.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkactionable.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkactionbar.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkadjustment.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkappchooser.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkappchooserdialog.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkappchooserwidget.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkbox.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkappchooserbutton.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkcombobox.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtktreemodel.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtktreeview.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtktreeviewcolumn.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkcellrenderer.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkcelleditable.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtktreesortable.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkcellarea.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkdnd.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkselection.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtktextiter.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtktextattributes.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtktextchild.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtktexttag.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkentry.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkeditable.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkimcontext.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkentrybuffer.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkentrycompletion.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkliststore.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtktreemodelfilter.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkimage.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkapplicationwindow.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkshortcutswindow.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkaspectframe.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkframe.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkassistant.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkbbox.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkbindings.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkbuildable.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkbuilder.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkbutton.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkcalendar.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkcellareabox.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkcellareacontext.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkcelllayout.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkcellrendereraccel.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkcellrenderertext.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkcellrenderercombo.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkcellrendererpixbuf.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkcellrendererprogress.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkcellrendererspin.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkcellrendererspinner.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkcellrenderertoggle.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkcellview.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkcheckbutton.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtktogglebutton.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkcheckmenuitem.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkmenuitem.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkclipboard.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkcolorbutton.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkcolorchooser.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkcolorchooserdialog.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkcolorchooserwidget.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkcolorutils.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkcomboboxtext.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkcssprovider.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkcsssection.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkdebug.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkdragdest.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkdragsource.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkdrawingarea.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkeventbox.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkeventcontroller.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkeventcontrollerkey.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkeventcontrollermotion.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkeventcontrollerscroll.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkexpander.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkfixed.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkfilechooser.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkfilefilter.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkfilechooserbutton.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkfilechooserdialog.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkfilechoosernative.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtknativedialog.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkfilechooserwidget.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkflowbox.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkfontbutton.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkfontchooser.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkfontchooserdialog.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkfontchooserwidget.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkgesture.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkgesturedrag.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkgesturesingle.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkgesturelongpress.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkgesturemultipress.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkgesturepan.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkgesturerotate.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkgesturestylus.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkgestureswipe.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkgesturezoom.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkglarea.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkgrid.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkheaderbar.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkicontheme.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkstylecontext.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkstyleprovider.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/deprecated/gtkiconfactory.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/deprecated/gtkstyleproperties.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkiconview.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtktooltip.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkimcontextinfo.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkimcontextsimple.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkimmulticontext.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkinfobar.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkinvisible.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtklayout.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtklevelbar.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtklinkbutton.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtklistbox.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtklockbutton.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkmain.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkmenubar.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkmenubutton.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkpopover.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkmenutoolbutton.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtktoolbutton.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtktoolitem.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtksizegroup.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkmessagedialog.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkmodelbutton.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkmodules.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkmountoperation.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtknotebook.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkoffscreenwindow.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkorientable.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkoverlay.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkpadcontroller.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkpagesetup.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkpapersize.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkpaned.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkplacessidebar.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkpopovermenu.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkprintcontext.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkprintoperation.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkprintsettings.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkprintoperationpreview.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkprogressbar.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkradiobutton.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkradiomenuitem.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkradiotoolbutton.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtktoggletoolbutton.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkrange.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkrecentchooser.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkrecentmanager.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkrecentfilter.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkrecentchooserdialog.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkrecentchoosermenu.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkrecentchooserwidget.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkrender.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkrevealer.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkscale.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkscalebutton.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkscrollable.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkscrollbar.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkscrolledwindow.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtksearchbar.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtksearchentry.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkseparator.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkseparatormenuitem.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkseparatortoolitem.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtksettings.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkshortcutlabel.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkshortcutsgroup.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkshortcutssection.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkshortcutsshortcut.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkshow.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkstacksidebar.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkstack.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtksizerequest.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkspinbutton.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkspinner.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkstackswitcher.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkstatusbar.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkswitch.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtktextbuffer.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtktexttagtable.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtktextmark.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtktextbufferrichtext.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtktextview.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtktoolbar.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtktoolitemgroup.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtktoolpalette.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtktoolshell.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtktestutils.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtktreednd.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtktreemodelsort.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtktreeselection.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtktreestore.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtktypebuiltins.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkversion.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkviewport.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkvolumebutton.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkwidgetpath.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkwindowgroup.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkwindow.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/deprecated/gtkarrow.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/deprecated/gtkactivatable.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/deprecated/gtkaction.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/deprecated/gtkactiongroup.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/deprecated/gtkstock.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/deprecated/gtkalignment.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/deprecated/gtkcolorsel.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/deprecated/gtkcolorseldialog.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/deprecated/gtkfontsel.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/deprecated/gtkgradient.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/deprecated/gtksymboliccolor.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/deprecated/gtkhandlebox.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/deprecated/gtkhbbox.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/deprecated/gtkhbox.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/deprecated/gtkhpaned.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/deprecated/gtkhsv.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/deprecated/gtkhscale.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/deprecated/gtkhscrollbar.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/deprecated/gtkhseparator.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/deprecated/gtkimagemenuitem.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/deprecated/gtknumerableicon.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/deprecated/gtkradioaction.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/deprecated/gtktoggleaction.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/deprecated/gtkrc.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/deprecated/gtkrecentaction.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/deprecated/gtkstyle.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/deprecated/gtktable.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/deprecated/gtktearoffmenuitem.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/deprecated/gtkthemingengine.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/deprecated/gtkuimanager.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/deprecated/gtkvbbox.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/deprecated/gtkvbox.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/deprecated/gtkvpaned.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/deprecated/gtkvscale.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/deprecated/gtkvscrollbar.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/deprecated/gtkvseparator.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtk-autocleanups.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/gstdio.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/gprintf.h \
+ D:/msys64_250221/mingw64/include/sys/stat.h \
+ D:/msys64_250221/mingw64/include/io.h \
+ D:/msys64_250221/mingw64/include/sys/types.h \
+ D:/msys64_250221/mingw64/include/_mingw_stat64.h \
+ D:/msys64_250221/mingw64/include/ctype.h \
+ D:/msys64_250221/mingw64/include/corecrt_wctype.h \
+ D:/msys64_250221/mingw64/include/unistd.h \
+ D:/msys64_250221/mingw64/include/process.h \
+ D:/msys64_250221/mingw64/include/corecrt_startup.h \
+ D:/msys64_250221/mingw64/include/getopt.h \
+ D:/msys64_250221/mingw64/include/pthread_unistd.h \
+ D:/msys64_250221/mingw64/include/math.h bluefish.h \
+ D:/msys64_250221/mingw64/include/windows.h \
+ D:/msys64_250221/mingw64/include/sdkddkver.h \
+ D:/msys64_250221/mingw64/include/excpt.h \
+ D:/msys64_250221/mingw64/include/windef.h \
+ D:/msys64_250221/mingw64/include/winapifamily.h \
+ D:/msys64_250221/mingw64/include/minwindef.h \
+ D:/msys64_250221/mingw64/include/specstrings.h \
+ D:/msys64_250221/mingw64/include/sal.h \
+ D:/msys64_250221/mingw64/include/concurrencysal.h \
+ D:/msys64_250221/mingw64/include/driverspecs.h \
+ D:/msys64_250221/mingw64/include/winnt.h \
+ D:/msys64_250221/mingw64/include/_mingw_unicode.h \
+ D:/msys64_250221/mingw64/include/apiset.h \
+ D:/msys64_250221/mingw64/include/psdk_inc/intrin-impl.h \
+ D:/msys64_250221/mingw64/include/basetsd.h \
+ D:/msys64_250221/mingw64/include/guiddef.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86gprintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/ia32intrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/adxintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/bmiintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/bmi2intrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/cetintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/cldemoteintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/clflushoptintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/clwbintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/clzerointrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/cmpccxaddintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/enqcmdintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/fxsrintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/lzcntintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/lwpintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/movdirintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mwaitintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mwaitxintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/pconfigintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/popcntintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/pkuintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/prfchiintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/raointintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/rdseedintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/rtmintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/serializeintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/sgxintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/tbmintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/tsxldtrkintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/uintrintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/waitpkgintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/wbnoinvdintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xsaveintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xsavecintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xsaveoptintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xsavesintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xtestintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/hresetintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/usermsrintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/immintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mmintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xmmintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/pmmintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/tmmintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/smmintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/wmmintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avxintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avxvnniintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avxifmaintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avxvnniint8intrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avxvnniint16intrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx2intrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512fintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512cdintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vlintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512bwintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512dqintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vlbwintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vldqintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512ifmaintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512ifmavlintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vbmiintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vbmivlintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vpopcntdqintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vbmi2intrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vbmi2vlintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vnniintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vnnivlintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vpopcntdqvlintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512bitalgintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512bitalgvlintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vp2intersectintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vp2intersectvlintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512fp16intrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512fp16vlintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/shaintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/sm3intrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/sha512intrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/sm4intrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/fmaintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/f16cintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/gfniintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/vaesintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/vpclmulqdqintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512bf16vlintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512bf16intrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avxneconvertintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxtileintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxint8intrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxbf16intrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxcomplexintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxavx512intrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxtf32intrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxtransposeintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxfp8intrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/prfchwintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/keylockerintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxfp16intrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2mediaintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2-512mediaintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2convertintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2-512convertintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2bf16intrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2-512bf16intrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2satcvtintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2-512satcvtintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2minmaxintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2-512minmaxintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2copyintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/movrsintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxmovrsintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm3dnow.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/fma4intrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/ammintrin.h \
+ D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xopintrin.h \
+ D:/msys64_250221/mingw64/include/pshpack4.h \
+ D:/msys64_250221/mingw64/include/poppack.h \
+ D:/msys64_250221/mingw64/include/pshpack4.h \
+ D:/msys64_250221/mingw64/include/pshpack2.h \
+ D:/msys64_250221/mingw64/include/poppack.h \
+ D:/msys64_250221/mingw64/include/pshpack2.h \
+ D:/msys64_250221/mingw64/include/pshpack8.h \
+ D:/msys64_250221/mingw64/include/pshpack8.h \
+ D:/msys64_250221/mingw64/include/ktmtypes.h \
+ D:/msys64_250221/mingw64/include/winbase.h \
+ D:/msys64_250221/mingw64/include/apisetcconv.h \
+ D:/msys64_250221/mingw64/include/minwinbase.h \
+ D:/msys64_250221/mingw64/include/bemapiset.h \
+ D:/msys64_250221/mingw64/include/debugapi.h \
+ D:/msys64_250221/mingw64/include/errhandlingapi.h \
+ D:/msys64_250221/mingw64/include/fibersapi.h \
+ D:/msys64_250221/mingw64/include/fileapi.h \
+ D:/msys64_250221/mingw64/include/handleapi.h \
+ D:/msys64_250221/mingw64/include/heapapi.h \
+ D:/msys64_250221/mingw64/include/ioapiset.h \
+ D:/msys64_250221/mingw64/include/interlockedapi.h \
+ D:/msys64_250221/mingw64/include/jobapi.h \
+ D:/msys64_250221/mingw64/include/libloaderapi.h \
+ D:/msys64_250221/mingw64/include/memoryapi.h \
+ D:/msys64_250221/mingw64/include/namedpipeapi.h \
+ D:/msys64_250221/mingw64/include/namespaceapi.h \
+ D:/msys64_250221/mingw64/include/processenv.h \
+ D:/msys64_250221/mingw64/include/processthreadsapi.h \
+ D:/msys64_250221/mingw64/include/processtopologyapi.h \
+ D:/msys64_250221/mingw64/include/profileapi.h \
+ D:/msys64_250221/mingw64/include/realtimeapiset.h \
+ D:/msys64_250221/mingw64/include/securityappcontainer.h \
+ D:/msys64_250221/mingw64/include/securitybaseapi.h \
+ D:/msys64_250221/mingw64/include/synchapi.h \
+ D:/msys64_250221/mingw64/include/sysinfoapi.h \
+ D:/msys64_250221/mingw64/include/systemtopologyapi.h \
+ D:/msys64_250221/mingw64/include/threadpoolapiset.h \
+ D:/msys64_250221/mingw64/include/threadpoollegacyapiset.h \
+ D:/msys64_250221/mingw64/include/utilapiset.h \
+ D:/msys64_250221/mingw64/include/wow64apiset.h \
+ D:/msys64_250221/mingw64/include/winerror.h \
+ D:/msys64_250221/mingw64/include/fltwinerror.h \
+ D:/msys64_250221/mingw64/include/timezoneapi.h \
+ D:/msys64_250221/mingw64/include/wingdi.h \
+ D:/msys64_250221/mingw64/include/pshpack1.h \
+ D:/msys64_250221/mingw64/include/winuser.h \
+ D:/msys64_250221/mingw64/include/tvout.h \
+ D:/msys64_250221/mingw64/include/winnls.h \
+ D:/msys64_250221/mingw64/include/datetimeapi.h \
+ D:/msys64_250221/mingw64/include/stringapiset.h \
+ D:/msys64_250221/mingw64/include/wincon.h \
+ D:/msys64_250221/mingw64/include/wincontypes.h \
+ D:/msys64_250221/mingw64/include/consoleapi.h \
+ D:/msys64_250221/mingw64/include/consoleapi2.h \
+ D:/msys64_250221/mingw64/include/consoleapi3.h \
+ D:/msys64_250221/mingw64/include/winver.h \
+ D:/msys64_250221/mingw64/include/winreg.h \
+ D:/msys64_250221/mingw64/include/reason.h \
+ D:/msys64_250221/mingw64/include/winnetwk.h \
+ D:/msys64_250221/mingw64/include/wnnc.h \
+ D:/msys64_250221/mingw64/include/virtdisk.h \
+ D:/msys64_250221/mingw64/include/cderr.h \
+ D:/msys64_250221/mingw64/include/dde.h \
+ D:/msys64_250221/mingw64/include/ddeml.h \
+ D:/msys64_250221/mingw64/include/dlgs.h \
+ D:/msys64_250221/mingw64/include/lzexpand.h \
+ D:/msys64_250221/mingw64/include/mmsystem.h \
+ D:/msys64_250221/mingw64/include/mmsyscom.h \
+ D:/msys64_250221/mingw64/include/mciapi.h \
+ D:/msys64_250221/mingw64/include/mmiscapi.h \
+ D:/msys64_250221/mingw64/include/mmiscapi2.h \
+ D:/msys64_250221/mingw64/include/playsoundapi.h \
+ D:/msys64_250221/mingw64/include/mmeapi.h \
+ D:/msys64_250221/mingw64/include/timeapi.h \
+ D:/msys64_250221/mingw64/include/joystickapi.h \
+ D:/msys64_250221/mingw64/include/nb30.h \
+ D:/msys64_250221/mingw64/include/rpc.h \
+ D:/msys64_250221/mingw64/include/rpcdce.h \
+ D:/msys64_250221/mingw64/include/rpcdcep.h \
+ D:/msys64_250221/mingw64/include/rpcnsi.h \
+ D:/msys64_250221/mingw64/include/rpcnterr.h \
+ D:/msys64_250221/mingw64/include/rpcasync.h \
+ D:/msys64_250221/mingw64/include/shellapi.h \
+ D:/msys64_250221/mingw64/include/winperf.h \
+ D:/msys64_250221/mingw64/include/winsock.h \
+ D:/msys64_250221/mingw64/include/_bsd_types.h \
+ D:/msys64_250221/mingw64/include/inaddr.h \
+ D:/msys64_250221/mingw64/include/psdk_inc/_socket_types.h \
+ D:/msys64_250221/mingw64/include/psdk_inc/_fd_types.h \
+ D:/msys64_250221/mingw64/include/psdk_inc/_ip_types.h \
+ D:/msys64_250221/mingw64/include/psdk_inc/_ip_mreq1.h \
+ D:/msys64_250221/mingw64/include/psdk_inc/_wsadata.h \
+ D:/msys64_250221/mingw64/include/psdk_inc/_xmitfile.h \
+ D:/msys64_250221/mingw64/include/psdk_inc/_wsa_errnos.h \
+ D:/msys64_250221/mingw64/include/wincrypt.h \
+ D:/msys64_250221/mingw64/include/bcrypt.h \
+ D:/msys64_250221/mingw64/include/ncrypt.h \
+ D:/msys64_250221/mingw64/include/dpapi.h \
+ D:/msys64_250221/mingw64/include/winefs.h \
+ D:/msys64_250221/mingw64/include/winscard.h \
+ D:/msys64_250221/mingw64/include/wtypes.h \
+ D:/msys64_250221/mingw64/include/rpcndr.h \
+ D:/msys64_250221/mingw64/include/rpcnsip.h \
+ D:/msys64_250221/mingw64/include/rpcsal.h \
+ D:/msys64_250221/mingw64/include/ole2.h \
+ D:/msys64_250221/mingw64/include/objbase.h \
+ D:/msys64_250221/mingw64/include/combaseapi.h \
+ D:/msys64_250221/mingw64/include/wtypesbase.h \
+ D:/msys64_250221/mingw64/include/unknwnbase.h \
+ D:/msys64_250221/mingw64/include/objidlbase.h \
+ D:/msys64_250221/mingw64/include/cguid.h \
+ D:/msys64_250221/mingw64/include/objidl.h \
+ D:/msys64_250221/mingw64/include/unknwn.h \
+ D:/msys64_250221/mingw64/include/urlmon.h \
+ D:/msys64_250221/mingw64/include/oleidl.h \
+ D:/msys64_250221/mingw64/include/servprov.h \
+ D:/msys64_250221/mingw64/include/msxml.h \
+ D:/msys64_250221/mingw64/include/oaidl.h \
+ D:/msys64_250221/mingw64/include/propidl.h \
+ D:/msys64_250221/mingw64/include/oleauto.h \
+ D:/msys64_250221/mingw64/include/winioctl.h \
+ D:/msys64_250221/mingw64/include/winsmcrd.h \
+ D:/msys64_250221/mingw64/include/winspool.h \
+ D:/msys64_250221/mingw64/include/prsht.h \
+ D:/msys64_250221/mingw64/include/commdlg.h \
+ D:/msys64_250221/mingw64/include/stralign.h \
+ D:/msys64_250221/mingw64/include/sec_api/stralign_s.h \
+ D:/msys64_250221/mingw64/include/winsvc.h \
+ D:/msys64_250221/mingw64/include/mcx.h \
+ D:/msys64_250221/mingw64/include/imm.h \
+ D:/msys64_250221/mingw64/include/glib-2.0/glib/gi18n.h \
+ D:/msys64_250221/mingw64/include/libintl.h \
+ D:/msys64_250221/mingw64/include/locale.h compatibility.h \
+ D:/msys64_250221/mingw64/include/gtk-3.0/gdk/gdkkeysyms-compat.h \
+ bftextview2.h bf_lib.h
+config.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtk.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gdk/gdk.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gdk/gdkconfig.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/galloca.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/gtypes.h:
+D:/msys64_250221/mingw64/lib/glib-2.0/include/glibconfig.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/gmacros.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h:
+D:/msys64_250221/mingw64/include/stddef.h:
+D:/msys64_250221/mingw64/include/crtdefs.h:
+D:/msys64_250221/mingw64/include/corecrt.h:
+D:/msys64_250221/mingw64/include/_mingw.h:
+D:/msys64_250221/mingw64/include/_mingw_mac.h:
+D:/msys64_250221/mingw64/include/_mingw_secapi.h:
+D:/msys64_250221/mingw64/include/vadefs.h:
+D:/msys64_250221/mingw64/include/sdks/_mingw_ddk.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h:
+D:/msys64_250221/mingw64/include/limits.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/float.h:
+D:/msys64_250221/mingw64/include/float.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/gversionmacros.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/glib-visibility.h:
+D:/msys64_250221/mingw64/include/time.h:
+D:/msys64_250221/mingw64/include/sys/timeb.h:
+D:/msys64_250221/mingw64/include/sec_api/sys/timeb_s.h:
+D:/msys64_250221/mingw64/include/_timeval.h:
+D:/msys64_250221/mingw64/include/pthread_time.h:
+D:/msys64_250221/mingw64/include/pthread_compat.h:
+D:/msys64_250221/mingw64/include/string.h:
+D:/msys64_250221/mingw64/include/sec_api/string_s.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/garray.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/gasyncqueue.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/gthread.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/gatomic.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/glib-typeof.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/gerror.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h:
+D:/msys64_250221/mingw64/include/stdarg.h:
+D:/msys64_250221/mingw64/include/_mingw_stdarg.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/gquark.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/gutils.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/gbacktrace.h:
+D:/msys64_250221/mingw64/include/signal.h:
+D:/msys64_250221/mingw64/include/pthread_signal.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/gbase64.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/gbitlock.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/gbookmarkfile.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/gdatetime.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/gtimezone.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/gbytes.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/gcharset.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/gchecksum.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/gconvert.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/gdataset.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/gdate.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/gdir.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/genviron.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/gfileutils.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/ggettext.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/ghash.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/glist.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/gmem.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/gnode.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/ghmac.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/gchecksum.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/ghook.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/ghostutils.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/giochannel.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/gmain.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/gpoll.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/gslist.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/gstring.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/gunicode.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/gstrfuncs.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/gkeyfile.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/gmappedfile.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/gmarkup.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/gmessages.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/gvariant.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/gvarianttype.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/goption.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/gpathbuf.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/gpattern.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/gprimes.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/gqsort.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/gqueue.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/grand.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/grcbox.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/grefcount.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/grefstring.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/gmem.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/gmacros.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/gregex.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/gscanner.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/gsequence.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/gshell.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/gslice.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/gspawn.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/gstringchunk.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/gstrvbuilder.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/gtestutils.h:
+D:/msys64_250221/mingw64/include/errno.h:
+D:/msys64_250221/mingw64/include/stdlib.h:
+D:/msys64_250221/mingw64/include/corecrt_wstdlib.h:
+D:/msys64_250221/mingw64/include/sec_api/stdlib_s.h:
+D:/msys64_250221/mingw64/include/malloc.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/gthreadpool.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/gtimer.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/gtrashstack.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/gtree.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/guri.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/guuid.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/gversion.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/gwin32.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/deprecated/gallocator.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/deprecated/gcache.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/deprecated/gcompletion.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/deprecated/gmain.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/deprecated/grel.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/deprecated/gthread.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/glib-autocleanups.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gdk/gdkversionmacros.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gdk/gdkapplaunchcontext.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gio.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/giotypes.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gioenums.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib-object.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gobject/gbinding.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gobject/gobject.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gobject/gtype.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gobject/gobject-visibility.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gobject/gvalue.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gobject/gparam.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gobject/gclosure.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gobject/gsignal.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gobject/gmarshal.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gobject/gboxed.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gobject/glib-types.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gobject/gbindinggroup.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gobject/genums.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gobject/glib-enumtypes.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gobject/gparamspecs.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gobject/gsignalgroup.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gobject/gsourceclosure.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gobject/gtypemodule.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gobject/gtypeplugin.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gobject/gvaluearray.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gobject/gvaluetypes.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gobject/gobject-autocleanups.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gio-visibility.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gaction.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gactiongroup.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gactiongroupexporter.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gactionmap.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gappinfo.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gapplication.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gapplicationcommandline.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gasyncinitable.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/ginitable.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gasyncresult.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gbufferedinputstream.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gfilterinputstream.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/ginputstream.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gbufferedoutputstream.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gfilteroutputstream.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/goutputstream.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gbytesicon.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gcancellable.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gcharsetconverter.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gconverter.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gcontenttype.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gconverterinputstream.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gconverteroutputstream.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gcredentials.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gdatagrambased.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gdatainputstream.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gdataoutputstream.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gdbusactiongroup.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/giotypes.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gdbusaddress.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gdbusauthobserver.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gdbusconnection.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gdbuserror.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gdbusinterface.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gdbusinterfaceskeleton.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gdbusintrospection.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gdbusmenumodel.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gdbusmessage.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gdbusmethodinvocation.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gdbusnameowning.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gdbusnamewatching.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gdbusobject.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gdbusobjectmanager.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gdbusobjectmanagerclient.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gdbusobjectmanagerserver.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gdbusobjectproxy.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gdbusobjectskeleton.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gdbusproxy.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gdbusserver.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gdbusutils.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gdebugcontroller.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gdebugcontrollerdbus.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gdrive.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gdtlsclientconnection.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gdtlsconnection.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gdtlsserverconnection.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gemblemedicon.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gicon.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gemblem.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gfile.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gfileattribute.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gfileenumerator.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gfileicon.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gfileinfo.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gfileinputstream.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gfileiostream.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/giostream.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gioerror.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gfilemonitor.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gfilenamecompleter.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gfileoutputstream.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/ginetaddress.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/ginetaddressmask.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/ginetsocketaddress.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gsocketaddress.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gioenumtypes.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/giomodule.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gmodule.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gmodule/gmodule-visibility.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gioscheduler.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/glistmodel.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gliststore.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gloadableicon.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gmemoryinputstream.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gmemorymonitor.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gmemoryoutputstream.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gmenu.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gmenumodel.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gmenuexporter.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gmount.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gmountoperation.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gnativesocketaddress.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gnativevolumemonitor.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gvolumemonitor.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gnetworkaddress.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gnetworkmonitor.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gnetworkservice.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gnotification.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gpermission.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gpollableinputstream.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gpollableoutputstream.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gpollableutils.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gpowerprofilemonitor.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gpropertyaction.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gproxy.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gproxyaddress.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gproxyaddressenumerator.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gsocketaddressenumerator.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gproxyresolver.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gremoteactiongroup.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gresolver.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gresource.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gseekable.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gsettings.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gsettingsschema.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gsimpleaction.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gsimpleactiongroup.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gactiongroup.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gactionmap.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gsimpleasyncresult.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gsimpleiostream.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gsimplepermission.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gsimpleproxyresolver.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gsocket.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gsocketclient.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gsocketconnectable.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gsocketconnection.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gsocketcontrolmessage.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gsocketlistener.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gsocketservice.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gsrvtarget.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gsubprocess.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gsubprocesslauncher.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gtask.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gtcpconnection.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gtcpwrapperconnection.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gtestdbus.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gthemedicon.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gthreadedsocketservice.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gtlsbackend.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gtlscertificate.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gtlsclientconnection.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gtlsconnection.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gtlsdatabase.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gtlsfiledatabase.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gtlsinteraction.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gtlspassword.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gtlsserverconnection.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gunixconnection.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gunixcredentialsmessage.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gunixfdlist.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gunixsocketaddress.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gvfs.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gvolume.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gzlibcompressor.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gzlibdecompressor.h:
+D:/msys64_250221/mingw64/include/glib-2.0/gio/gio-autocleanups.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gdk/gdktypes.h:
+D:/msys64_250221/mingw64/include/pango-1.0/pango/pango.h:
+D:/msys64_250221/mingw64/include/pango-1.0/pango/pango-attributes.h:
+D:/msys64_250221/mingw64/include/pango-1.0/pango/pango-font.h:
+D:/msys64_250221/mingw64/include/pango-1.0/pango/pango-coverage.h:
+D:/msys64_250221/mingw64/include/pango-1.0/pango/pango-version-macros.h:
+D:/msys64_250221/mingw64/include/pango-1.0/pango/pango-features.h:
+D:/msys64_250221/mingw64/include/harfbuzz/hb.h:
+D:/msys64_250221/mingw64/include/harfbuzz/hb-blob.h:
+D:/msys64_250221/mingw64/include/harfbuzz/hb-common.h:
+D:/msys64_250221/mingw64/include/inttypes.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdint.h:
+D:/msys64_250221/mingw64/include/stdint.h:
+D:/msys64_250221/mingw64/include/harfbuzz/hb-script-list.h:
+D:/msys64_250221/mingw64/include/harfbuzz/hb-buffer.h:
+D:/msys64_250221/mingw64/include/harfbuzz/hb-unicode.h:
+D:/msys64_250221/mingw64/include/harfbuzz/hb-font.h:
+D:/msys64_250221/mingw64/include/harfbuzz/hb-face.h:
+D:/msys64_250221/mingw64/include/harfbuzz/hb-map.h:
+D:/msys64_250221/mingw64/include/harfbuzz/hb-set.h:
+D:/msys64_250221/mingw64/include/harfbuzz/hb-draw.h:
+D:/msys64_250221/mingw64/include/harfbuzz/hb.h:
+D:/msys64_250221/mingw64/include/harfbuzz/hb-paint.h:
+D:/msys64_250221/mingw64/include/harfbuzz/hb-deprecated.h:
+D:/msys64_250221/mingw64/include/harfbuzz/hb-shape.h:
+D:/msys64_250221/mingw64/include/harfbuzz/hb-shape-plan.h:
+D:/msys64_250221/mingw64/include/harfbuzz/hb-style.h:
+D:/msys64_250221/mingw64/include/harfbuzz/hb-version.h:
+D:/msys64_250221/mingw64/include/pango-1.0/pango/pango-types.h:
+D:/msys64_250221/mingw64/include/pango-1.0/pango/pango-gravity.h:
+D:/msys64_250221/mingw64/include/pango-1.0/pango/pango-matrix.h:
+D:/msys64_250221/mingw64/include/pango-1.0/pango/pango-script.h:
+D:/msys64_250221/mingw64/include/pango-1.0/pango/pango-language.h:
+D:/msys64_250221/mingw64/include/pango-1.0/pango/pango-bidi-type.h:
+D:/msys64_250221/mingw64/include/pango-1.0/pango/pango-direction.h:
+D:/msys64_250221/mingw64/include/pango-1.0/pango/pango-color.h:
+D:/msys64_250221/mingw64/include/pango-1.0/pango/pango-break.h:
+D:/msys64_250221/mingw64/include/pango-1.0/pango/pango-item.h:
+D:/msys64_250221/mingw64/include/pango-1.0/pango/pango-context.h:
+D:/msys64_250221/mingw64/include/pango-1.0/pango/pango-fontmap.h:
+D:/msys64_250221/mingw64/include/pango-1.0/pango/pango-fontset.h:
+D:/msys64_250221/mingw64/include/pango-1.0/pango/pango-engine.h:
+D:/msys64_250221/mingw64/include/pango-1.0/pango/pango-glyph.h:
+D:/msys64_250221/mingw64/include/pango-1.0/pango/pango-enum-types.h:
+D:/msys64_250221/mingw64/include/pango-1.0/pango/pango-fontset-simple.h:
+D:/msys64_250221/mingw64/include/pango-1.0/pango/pango-glyph-item.h:
+D:/msys64_250221/mingw64/include/pango-1.0/pango/pango-layout.h:
+D:/msys64_250221/mingw64/include/pango-1.0/pango/pango-tabs.h:
+D:/msys64_250221/mingw64/include/pango-1.0/pango/pango-markup.h:
+D:/msys64_250221/mingw64/include/pango-1.0/pango/pango-renderer.h:
+D:/msys64_250221/mingw64/include/pango-1.0/pango/pango-utils.h:
+D:/msys64_250221/mingw64/include/stdio.h:
+D:/msys64_250221/mingw64/include/corecrt_stdio_config.h:
+D:/msys64_250221/mingw64/include/_mingw_off_t.h:
+D:/msys64_250221/mingw64/include/swprintf.inl:
+D:/msys64_250221/mingw64/include/sec_api/stdio_s.h:
+D:/msys64_250221/mingw64/include/cairo/cairo.h:
+D:/msys64_250221/mingw64/include/cairo/cairo-version.h:
+D:/msys64_250221/mingw64/include/cairo/cairo-features.h:
+D:/msys64_250221/mingw64/include/cairo/cairo-deprecated.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gdk/gdkscreen.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gdk/gdkdisplay.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gdk/gdkevents.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gdk/gdkdnd.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gdk/gdkdevice.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gdk/gdkdevicetool.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gdk/gdkdevicemanager.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gdk/gdkseat.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gdk/gdkwindow.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gdk/gdkdrawingcontext.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gdk/gdkframeclock.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gdk/gdkframetimings.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gdk/gdkmonitor.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gdk/gdkrectangle.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gdk/gdkcairo.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gdk/deprecated/gdkcolor.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gdk/gdkrgba.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gdk/gdkpixbuf.h:
+D:/msys64_250221/mingw64/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:
+D:/msys64_250221/mingw64/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:
+D:/msys64_250221/mingw64/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-features.h:
+D:/msys64_250221/mingw64/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-core.h:
+D:/msys64_250221/mingw64/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-transform.h:
+D:/msys64_250221/mingw64/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-animation.h:
+D:/msys64_250221/mingw64/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-simple-anim.h:
+D:/msys64_250221/mingw64/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-io.h:
+D:/msys64_250221/mingw64/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-loader.h:
+D:/msys64_250221/mingw64/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-enum-types.h:
+D:/msys64_250221/mingw64/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-autocleanups.h:
+D:/msys64_250221/mingw64/include/pango-1.0/pango/pangocairo.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gdk/gdkcursor.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gdk/gdkdevicepad.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gdk/gdkdisplaymanager.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gdk/gdkenumtypes.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gdk/gdkglcontext.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gdk/gdkkeys.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gdk/gdkkeysyms.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gdk/gdkmain.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gdk/gdkpango.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gdk/gdkproperty.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gdk/gdkselection.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gdk/gdktestutils.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gdk/gdkthreads.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gdk/gdkvisual.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gdk/gdk-autocleanup.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkaboutdialog.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkdialog.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkwindow.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkapplication.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkwidget.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkaccelgroup.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkenums.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkborder.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtktypes.h:
+D:/msys64_250221/mingw64/include/atk-1.0/atk/atk.h:
+D:/msys64_250221/mingw64/include/atk-1.0/atk/atk-enum-types.h:
+D:/msys64_250221/mingw64/include/atk-1.0/atk/atkversion.h:
+D:/msys64_250221/mingw64/include/atk-1.0/atk/atkaction.h:
+D:/msys64_250221/mingw64/include/atk-1.0/atk/atkobject.h:
+D:/msys64_250221/mingw64/include/atk-1.0/atk/atkrelationtype.h:
+D:/msys64_250221/mingw64/include/atk-1.0/atk/atkstate.h:
+D:/msys64_250221/mingw64/include/atk-1.0/atk/atkcomponent.h:
+D:/msys64_250221/mingw64/include/atk-1.0/atk/atkutil.h:
+D:/msys64_250221/mingw64/include/atk-1.0/atk/atkdocument.h:
+D:/msys64_250221/mingw64/include/atk-1.0/atk/atkeditabletext.h:
+D:/msys64_250221/mingw64/include/atk-1.0/atk/atktext.h:
+D:/msys64_250221/mingw64/include/atk-1.0/atk/atkgobjectaccessible.h:
+D:/msys64_250221/mingw64/include/atk-1.0/atk/atkhyperlink.h:
+D:/msys64_250221/mingw64/include/atk-1.0/atk/atkhyperlinkimpl.h:
+D:/msys64_250221/mingw64/include/atk-1.0/atk/atkhypertext.h:
+D:/msys64_250221/mingw64/include/atk-1.0/atk/atkimage.h:
+D:/msys64_250221/mingw64/include/atk-1.0/atk/atkmisc.h:
+D:/msys64_250221/mingw64/include/atk-1.0/atk/atknoopobject.h:
+D:/msys64_250221/mingw64/include/atk-1.0/atk/atknoopobjectfactory.h:
+D:/msys64_250221/mingw64/include/atk-1.0/atk/atkobjectfactory.h:
+D:/msys64_250221/mingw64/include/atk-1.0/atk/atkplug.h:
+D:/msys64_250221/mingw64/include/atk-1.0/atk/atkrange.h:
+D:/msys64_250221/mingw64/include/atk-1.0/atk/atkregistry.h:
+D:/msys64_250221/mingw64/include/atk-1.0/atk/atkobjectfactory.h:
+D:/msys64_250221/mingw64/include/atk-1.0/atk/atkrelation.h:
+D:/msys64_250221/mingw64/include/atk-1.0/atk/atkrelationset.h:
+D:/msys64_250221/mingw64/include/atk-1.0/atk/atkselection.h:
+D:/msys64_250221/mingw64/include/atk-1.0/atk/atksocket.h:
+D:/msys64_250221/mingw64/include/atk-1.0/atk/atkstateset.h:
+D:/msys64_250221/mingw64/include/atk-1.0/atk/atkstreamablecontent.h:
+D:/msys64_250221/mingw64/include/atk-1.0/atk/atktable.h:
+D:/msys64_250221/mingw64/include/atk-1.0/atk/atktablecell.h:
+D:/msys64_250221/mingw64/include/atk-1.0/atk/atkvalue.h:
+D:/msys64_250221/mingw64/include/atk-1.0/atk/atkwindow.h:
+D:/msys64_250221/mingw64/include/atk-1.0/atk/atk-autocleanups.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkbin.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkcontainer.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkaccellabel.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtklabel.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/deprecated/gtkmisc.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkmenu.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkmenushell.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkaccelmap.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkaccessible.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkactionable.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkactionbar.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkadjustment.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkappchooser.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkappchooserdialog.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkappchooserwidget.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkbox.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkappchooserbutton.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkcombobox.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtktreemodel.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtktreeview.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtktreeviewcolumn.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkcellrenderer.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkcelleditable.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtktreesortable.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkcellarea.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkdnd.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkselection.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtktextiter.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtktextattributes.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtktextchild.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtktexttag.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkentry.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkeditable.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkimcontext.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkentrybuffer.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkentrycompletion.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkliststore.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtktreemodelfilter.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkimage.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkapplicationwindow.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkshortcutswindow.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkaspectframe.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkframe.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkassistant.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkbbox.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkbindings.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkbuildable.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkbuilder.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkbutton.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkcalendar.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkcellareabox.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkcellareacontext.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkcelllayout.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkcellrendereraccel.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkcellrenderertext.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkcellrenderercombo.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkcellrendererpixbuf.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkcellrendererprogress.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkcellrendererspin.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkcellrendererspinner.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkcellrenderertoggle.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkcellview.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkcheckbutton.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtktogglebutton.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkcheckmenuitem.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkmenuitem.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkclipboard.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkcolorbutton.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkcolorchooser.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkcolorchooserdialog.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkcolorchooserwidget.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkcolorutils.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkcomboboxtext.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkcssprovider.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkcsssection.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkdebug.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkdragdest.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkdragsource.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkdrawingarea.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkeventbox.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkeventcontroller.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkeventcontrollerkey.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkeventcontrollermotion.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkeventcontrollerscroll.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkexpander.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkfixed.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkfilechooser.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkfilefilter.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkfilechooserbutton.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkfilechooserdialog.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkfilechoosernative.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtknativedialog.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkfilechooserwidget.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkflowbox.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkfontbutton.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkfontchooser.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkfontchooserdialog.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkfontchooserwidget.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkgesture.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkgesturedrag.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkgesturesingle.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkgesturelongpress.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkgesturemultipress.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkgesturepan.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkgesturerotate.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkgesturestylus.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkgestureswipe.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkgesturezoom.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkglarea.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkgrid.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkheaderbar.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkicontheme.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkstylecontext.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkstyleprovider.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/deprecated/gtkiconfactory.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/deprecated/gtkstyleproperties.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkiconview.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtktooltip.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkimcontextinfo.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkimcontextsimple.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkimmulticontext.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkinfobar.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkinvisible.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtklayout.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtklevelbar.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtklinkbutton.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtklistbox.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtklockbutton.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkmain.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkmenubar.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkmenubutton.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkpopover.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkmenutoolbutton.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtktoolbutton.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtktoolitem.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtksizegroup.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkmessagedialog.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkmodelbutton.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkmodules.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkmountoperation.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtknotebook.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkoffscreenwindow.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkorientable.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkoverlay.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkpadcontroller.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkpagesetup.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkpapersize.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkpaned.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkplacessidebar.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkpopovermenu.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkprintcontext.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkprintoperation.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkprintsettings.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkprintoperationpreview.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkprogressbar.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkradiobutton.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkradiomenuitem.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkradiotoolbutton.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtktoggletoolbutton.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkrange.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkrecentchooser.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkrecentmanager.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkrecentfilter.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkrecentchooserdialog.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkrecentchoosermenu.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkrecentchooserwidget.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkrender.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkrevealer.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkscale.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkscalebutton.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkscrollable.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkscrollbar.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkscrolledwindow.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtksearchbar.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtksearchentry.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkseparator.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkseparatormenuitem.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkseparatortoolitem.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtksettings.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkshortcutlabel.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkshortcutsgroup.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkshortcutssection.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkshortcutsshortcut.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkshow.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkstacksidebar.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkstack.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtksizerequest.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkspinbutton.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkspinner.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkstackswitcher.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkstatusbar.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkswitch.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtktextbuffer.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtktexttagtable.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtktextmark.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtktextbufferrichtext.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtktextview.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtktoolbar.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtktoolitemgroup.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtktoolpalette.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtktoolshell.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtktestutils.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtktreednd.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtktreemodelsort.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtktreeselection.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtktreestore.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtktypebuiltins.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkversion.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkviewport.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkvolumebutton.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkwidgetpath.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkwindowgroup.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtkwindow.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/deprecated/gtkarrow.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/deprecated/gtkactivatable.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/deprecated/gtkaction.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/deprecated/gtkactiongroup.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/deprecated/gtkstock.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/deprecated/gtkalignment.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/deprecated/gtkcolorsel.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/deprecated/gtkcolorseldialog.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/deprecated/gtkfontsel.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/deprecated/gtkgradient.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/deprecated/gtksymboliccolor.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/deprecated/gtkhandlebox.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/deprecated/gtkhbbox.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/deprecated/gtkhbox.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/deprecated/gtkhpaned.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/deprecated/gtkhsv.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/deprecated/gtkhscale.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/deprecated/gtkhscrollbar.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/deprecated/gtkhseparator.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/deprecated/gtkimagemenuitem.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/deprecated/gtknumerableicon.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/deprecated/gtkradioaction.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/deprecated/gtktoggleaction.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/deprecated/gtkrc.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/deprecated/gtkrecentaction.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/deprecated/gtkstyle.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/deprecated/gtktable.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/deprecated/gtktearoffmenuitem.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/deprecated/gtkthemingengine.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/deprecated/gtkuimanager.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/deprecated/gtkvbbox.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/deprecated/gtkvbox.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/deprecated/gtkvpaned.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/deprecated/gtkvscale.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/deprecated/gtkvscrollbar.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/deprecated/gtkvseparator.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtk-autocleanups.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/gstdio.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/gprintf.h:
+D:/msys64_250221/mingw64/include/sys/stat.h:
+D:/msys64_250221/mingw64/include/io.h:
+D:/msys64_250221/mingw64/include/sys/types.h:
+D:/msys64_250221/mingw64/include/_mingw_stat64.h:
+D:/msys64_250221/mingw64/include/ctype.h:
+D:/msys64_250221/mingw64/include/corecrt_wctype.h:
+D:/msys64_250221/mingw64/include/unistd.h:
+D:/msys64_250221/mingw64/include/process.h:
+D:/msys64_250221/mingw64/include/corecrt_startup.h:
+D:/msys64_250221/mingw64/include/getopt.h:
+D:/msys64_250221/mingw64/include/pthread_unistd.h:
+D:/msys64_250221/mingw64/include/math.h:
+bluefish.h:
+D:/msys64_250221/mingw64/include/windows.h:
+D:/msys64_250221/mingw64/include/sdkddkver.h:
+D:/msys64_250221/mingw64/include/excpt.h:
+D:/msys64_250221/mingw64/include/windef.h:
+D:/msys64_250221/mingw64/include/winapifamily.h:
+D:/msys64_250221/mingw64/include/minwindef.h:
+D:/msys64_250221/mingw64/include/specstrings.h:
+D:/msys64_250221/mingw64/include/sal.h:
+D:/msys64_250221/mingw64/include/concurrencysal.h:
+D:/msys64_250221/mingw64/include/driverspecs.h:
+D:/msys64_250221/mingw64/include/winnt.h:
+D:/msys64_250221/mingw64/include/_mingw_unicode.h:
+D:/msys64_250221/mingw64/include/apiset.h:
+D:/msys64_250221/mingw64/include/psdk_inc/intrin-impl.h:
+D:/msys64_250221/mingw64/include/basetsd.h:
+D:/msys64_250221/mingw64/include/guiddef.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86gprintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/ia32intrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/adxintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/bmiintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/bmi2intrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/cetintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/cldemoteintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/clflushoptintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/clwbintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/clzerointrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/cmpccxaddintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/enqcmdintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/fxsrintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/lzcntintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/lwpintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/movdirintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mwaitintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mwaitxintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/pconfigintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/popcntintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/pkuintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/prfchiintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/raointintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/rdseedintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/rtmintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/serializeintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/sgxintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/tbmintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/tsxldtrkintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/uintrintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/waitpkgintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/wbnoinvdintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xsaveintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xsavecintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xsaveoptintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xsavesintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xtestintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/hresetintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/usermsrintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/immintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mmintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xmmintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/pmmintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/tmmintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/smmintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/wmmintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avxintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avxvnniintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avxifmaintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avxvnniint8intrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avxvnniint16intrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx2intrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512fintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512cdintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vlintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512bwintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512dqintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vlbwintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vldqintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512ifmaintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512ifmavlintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vbmiintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vbmivlintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vpopcntdqintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vbmi2intrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vbmi2vlintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vnniintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vnnivlintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vpopcntdqvlintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512bitalgintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512bitalgvlintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vp2intersectintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vp2intersectvlintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512fp16intrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512fp16vlintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/shaintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/sm3intrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/sha512intrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/sm4intrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/fmaintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/f16cintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/gfniintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/vaesintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/vpclmulqdqintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512bf16vlintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512bf16intrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avxneconvertintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxtileintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxint8intrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxbf16intrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxcomplexintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxavx512intrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxtf32intrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxtransposeintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxfp8intrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/prfchwintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/keylockerintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxfp16intrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2mediaintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2-512mediaintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2convertintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2-512convertintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2bf16intrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2-512bf16intrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2satcvtintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2-512satcvtintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2minmaxintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2-512minmaxintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2copyintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/movrsintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxmovrsintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm3dnow.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/fma4intrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/ammintrin.h:
+D:/msys64_250221/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xopintrin.h:
+D:/msys64_250221/mingw64/include/pshpack4.h:
+D:/msys64_250221/mingw64/include/poppack.h:
+D:/msys64_250221/mingw64/include/pshpack4.h:
+D:/msys64_250221/mingw64/include/pshpack2.h:
+D:/msys64_250221/mingw64/include/poppack.h:
+D:/msys64_250221/mingw64/include/pshpack2.h:
+D:/msys64_250221/mingw64/include/pshpack8.h:
+D:/msys64_250221/mingw64/include/pshpack8.h:
+D:/msys64_250221/mingw64/include/ktmtypes.h:
+D:/msys64_250221/mingw64/include/winbase.h:
+D:/msys64_250221/mingw64/include/apisetcconv.h:
+D:/msys64_250221/mingw64/include/minwinbase.h:
+D:/msys64_250221/mingw64/include/bemapiset.h:
+D:/msys64_250221/mingw64/include/debugapi.h:
+D:/msys64_250221/mingw64/include/errhandlingapi.h:
+D:/msys64_250221/mingw64/include/fibersapi.h:
+D:/msys64_250221/mingw64/include/fileapi.h:
+D:/msys64_250221/mingw64/include/handleapi.h:
+D:/msys64_250221/mingw64/include/heapapi.h:
+D:/msys64_250221/mingw64/include/ioapiset.h:
+D:/msys64_250221/mingw64/include/interlockedapi.h:
+D:/msys64_250221/mingw64/include/jobapi.h:
+D:/msys64_250221/mingw64/include/libloaderapi.h:
+D:/msys64_250221/mingw64/include/memoryapi.h:
+D:/msys64_250221/mingw64/include/namedpipeapi.h:
+D:/msys64_250221/mingw64/include/namespaceapi.h:
+D:/msys64_250221/mingw64/include/processenv.h:
+D:/msys64_250221/mingw64/include/processthreadsapi.h:
+D:/msys64_250221/mingw64/include/processtopologyapi.h:
+D:/msys64_250221/mingw64/include/profileapi.h:
+D:/msys64_250221/mingw64/include/realtimeapiset.h:
+D:/msys64_250221/mingw64/include/securityappcontainer.h:
+D:/msys64_250221/mingw64/include/securitybaseapi.h:
+D:/msys64_250221/mingw64/include/synchapi.h:
+D:/msys64_250221/mingw64/include/sysinfoapi.h:
+D:/msys64_250221/mingw64/include/systemtopologyapi.h:
+D:/msys64_250221/mingw64/include/threadpoolapiset.h:
+D:/msys64_250221/mingw64/include/threadpoollegacyapiset.h:
+D:/msys64_250221/mingw64/include/utilapiset.h:
+D:/msys64_250221/mingw64/include/wow64apiset.h:
+D:/msys64_250221/mingw64/include/winerror.h:
+D:/msys64_250221/mingw64/include/fltwinerror.h:
+D:/msys64_250221/mingw64/include/timezoneapi.h:
+D:/msys64_250221/mingw64/include/wingdi.h:
+D:/msys64_250221/mingw64/include/pshpack1.h:
+D:/msys64_250221/mingw64/include/winuser.h:
+D:/msys64_250221/mingw64/include/tvout.h:
+D:/msys64_250221/mingw64/include/winnls.h:
+D:/msys64_250221/mingw64/include/datetimeapi.h:
+D:/msys64_250221/mingw64/include/stringapiset.h:
+D:/msys64_250221/mingw64/include/wincon.h:
+D:/msys64_250221/mingw64/include/wincontypes.h:
+D:/msys64_250221/mingw64/include/consoleapi.h:
+D:/msys64_250221/mingw64/include/consoleapi2.h:
+D:/msys64_250221/mingw64/include/consoleapi3.h:
+D:/msys64_250221/mingw64/include/winver.h:
+D:/msys64_250221/mingw64/include/winreg.h:
+D:/msys64_250221/mingw64/include/reason.h:
+D:/msys64_250221/mingw64/include/winnetwk.h:
+D:/msys64_250221/mingw64/include/wnnc.h:
+D:/msys64_250221/mingw64/include/virtdisk.h:
+D:/msys64_250221/mingw64/include/cderr.h:
+D:/msys64_250221/mingw64/include/dde.h:
+D:/msys64_250221/mingw64/include/ddeml.h:
+D:/msys64_250221/mingw64/include/dlgs.h:
+D:/msys64_250221/mingw64/include/lzexpand.h:
+D:/msys64_250221/mingw64/include/mmsystem.h:
+D:/msys64_250221/mingw64/include/mmsyscom.h:
+D:/msys64_250221/mingw64/include/mciapi.h:
+D:/msys64_250221/mingw64/include/mmiscapi.h:
+D:/msys64_250221/mingw64/include/mmiscapi2.h:
+D:/msys64_250221/mingw64/include/playsoundapi.h:
+D:/msys64_250221/mingw64/include/mmeapi.h:
+D:/msys64_250221/mingw64/include/timeapi.h:
+D:/msys64_250221/mingw64/include/joystickapi.h:
+D:/msys64_250221/mingw64/include/nb30.h:
+D:/msys64_250221/mingw64/include/rpc.h:
+D:/msys64_250221/mingw64/include/rpcdce.h:
+D:/msys64_250221/mingw64/include/rpcdcep.h:
+D:/msys64_250221/mingw64/include/rpcnsi.h:
+D:/msys64_250221/mingw64/include/rpcnterr.h:
+D:/msys64_250221/mingw64/include/rpcasync.h:
+D:/msys64_250221/mingw64/include/shellapi.h:
+D:/msys64_250221/mingw64/include/winperf.h:
+D:/msys64_250221/mingw64/include/winsock.h:
+D:/msys64_250221/mingw64/include/_bsd_types.h:
+D:/msys64_250221/mingw64/include/inaddr.h:
+D:/msys64_250221/mingw64/include/psdk_inc/_socket_types.h:
+D:/msys64_250221/mingw64/include/psdk_inc/_fd_types.h:
+D:/msys64_250221/mingw64/include/psdk_inc/_ip_types.h:
+D:/msys64_250221/mingw64/include/psdk_inc/_ip_mreq1.h:
+D:/msys64_250221/mingw64/include/psdk_inc/_wsadata.h:
+D:/msys64_250221/mingw64/include/psdk_inc/_xmitfile.h:
+D:/msys64_250221/mingw64/include/psdk_inc/_wsa_errnos.h:
+D:/msys64_250221/mingw64/include/wincrypt.h:
+D:/msys64_250221/mingw64/include/bcrypt.h:
+D:/msys64_250221/mingw64/include/ncrypt.h:
+D:/msys64_250221/mingw64/include/dpapi.h:
+D:/msys64_250221/mingw64/include/winefs.h:
+D:/msys64_250221/mingw64/include/winscard.h:
+D:/msys64_250221/mingw64/include/wtypes.h:
+D:/msys64_250221/mingw64/include/rpcndr.h:
+D:/msys64_250221/mingw64/include/rpcnsip.h:
+D:/msys64_250221/mingw64/include/rpcsal.h:
+D:/msys64_250221/mingw64/include/ole2.h:
+D:/msys64_250221/mingw64/include/objbase.h:
+D:/msys64_250221/mingw64/include/combaseapi.h:
+D:/msys64_250221/mingw64/include/wtypesbase.h:
+D:/msys64_250221/mingw64/include/unknwnbase.h:
+D:/msys64_250221/mingw64/include/objidlbase.h:
+D:/msys64_250221/mingw64/include/cguid.h:
+D:/msys64_250221/mingw64/include/objidl.h:
+D:/msys64_250221/mingw64/include/unknwn.h:
+D:/msys64_250221/mingw64/include/urlmon.h:
+D:/msys64_250221/mingw64/include/oleidl.h:
+D:/msys64_250221/mingw64/include/servprov.h:
+D:/msys64_250221/mingw64/include/msxml.h:
+D:/msys64_250221/mingw64/include/oaidl.h:
+D:/msys64_250221/mingw64/include/propidl.h:
+D:/msys64_250221/mingw64/include/oleauto.h:
+D:/msys64_250221/mingw64/include/winioctl.h:
+D:/msys64_250221/mingw64/include/winsmcrd.h:
+D:/msys64_250221/mingw64/include/winspool.h:
+D:/msys64_250221/mingw64/include/prsht.h:
+D:/msys64_250221/mingw64/include/commdlg.h:
+D:/msys64_250221/mingw64/include/stralign.h:
+D:/msys64_250221/mingw64/include/sec_api/stralign_s.h:
+D:/msys64_250221/mingw64/include/winsvc.h:
+D:/msys64_250221/mingw64/include/mcx.h:
+D:/msys64_250221/mingw64/include/imm.h:
+D:/msys64_250221/mingw64/include/glib-2.0/glib/gi18n.h:
+D:/msys64_250221/mingw64/include/libintl.h:
+D:/msys64_250221/mingw64/include/locale.h:
+compatibility.h:
+D:/msys64_250221/mingw64/include/gtk-3.0/gdk/gdkkeysyms-compat.h:
+bftextview2.h:
+bf_lib.h:

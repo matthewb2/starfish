@@ -1,0 +1,12 @@
+*.o
+
+.o
+
+.exe
+
+.Po
+
+autom4te.cache
+
+m4
+

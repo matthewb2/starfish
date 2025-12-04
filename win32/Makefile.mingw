@@ -1,0 +1,110 @@
+BLUEFISH_PACKAGE = bluefish
+BLUEFISH_VERSION = 2.2.18
+BLUEFISH_LOCALES = ar bg ca cs da de el en es eu fa fi fr gl hu it ja ko nb nl nn pl pt pt_BR ro ru sk sr sv ta tr uk zh_CN zh_TW
+BLUEFISH_GTK_VER = $(shell pkg-config gtk+-3.0 --modversion)
+
+srcdir = .
+top_srcdir = ..
+abs_srcdir = /home/user/bluefish-2.2.18/win32
+abs_top_srcdir = /home/user/bluefish-2.2.18
+
+BUILD_DIR = $(srcdir)/build/
+MSYS2DIR = /c/msys64/ucrt64
+MAKENSIS = makensis.exe
+
+EXTERNAL_DLLS = \
+	libgcc_s_seh-1.dll \
+	libstdc++-6.dll \
+	libfontconfig-1.dll \
+	libfreetype-6.dll \
+	libpixman-1-0.dll \
+	libpng16-16.dll \
+	zlib1.dll \
+	libcairo-gobject-2.dll \
+	libtiff-6.dll \
+	libjpeg-8.dll \
+	libepoxy-0.dll \
+	libfribidi-0.dll \
+	libpangowin32-1.0-0.dll \
+	libpcre2-8-0.dll \
+	libffi-8.dll \
+	libiconv-2.dll \
+	libharfbuzz-0.dll \
+	libthai-0.dll \
+	libpangoft2-1.0-0.dll \
+	libatk-1.0-0.dll \
+	liblzma-5.dll \
+	libwinpthread-1.dll \
+	libexpat-1.dll \
+	libbz2-1.dll \
+	libbrotlidec.dll \
+	libdeflate.dll \
+	libjbig-0.dll \
+	libLerc.dll \
+	libwebp-7.dll \
+	libzstd.dll \
+	libdatrie-1.dll \
+	libgraphite2.dll \
+	libbrotlicommon.dll \
+	libsharpyuv-0.dll \
+	libpython3.12.dll \
+	gspawn-win64-helper.exe
+
+#	libaspell-15.dll \
+#	libenchant-1.dll \
+#	libgnurx-0.dll \
+#	libgucharmap-7.dll \
+#	libxml2-2.dll
+
+build: $(top_srcdir)/config.status
+	$(MAKE) -C $(top_srcdir) \
+	    pkgdatadir="./share/$(BLUEFISH_PACKAGE)" \
+	    localedir="./share/locale/"
+
+install: build
+	mkdir -p $(BUILD_DIR)
+	$(MAKE) -C $(top_srcdir) install DESTDIR=$(CURDIR)/$(BUILD_DIR)
+
+strip: install
+	find $(BUILD_DIR) $(BUILD_DIR)/lib/bluefish*/ \
+	    -maxdepth 1 \( -name '*.dll' -o -name '*.exe' \) \
+	    -exec strip --strip-debug {} ';' 
+
+prepare: install
+	for file in `ntldd.exe $(BUILD_DIR)/bluefish.exe |grep ucrt64|cut -f3 -d ' '`; do cp $${file} $(BUILD_DIR); done
+	cp -f $(addprefix $(MSYS2DIR)/bin/,$(EXTERNAL_DLLS)) $(BUILD_DIR)
+	cp -rf $(MSYS2DIR)/share/enchant-2  $(BUILD_DIR)/share/
+	mkdir -p $(BUILD_DIR)/share/enchant/hunspell
+	cp -rf $(MSYS2DIR)/share/hunspell  $(BUILD_DIR)/share/enchant/
+	cp -rf $(MSYS2DIR)/share/glib-2.0  $(BUILD_DIR)/share/
+	cp -rf $(MSYS2DIR)/share/gtk-3.0  $(BUILD_DIR)/share/
+	cp -rf $(MSYS2DIR)/share/mime  $(BUILD_DIR)/share/
+	cp -rf $(MSYS2DIR)/lib/aspell-0.60  $(BUILD_DIR)/lib/
+	cp -rf $(MSYS2DIR)/lib/enchant-2  $(BUILD_DIR)/lib/
+	cp -rf $(MSYS2DIR)/lib/python3.12  $(BUILD_DIR)/lib/
+	#mkdir -p $(BUILD_DIR)/python3.12
+	#cp -rf $(MSYS2DIR)/lib/python3.12/re  $(BUILD_DIR)/lib/python3.12
+	#cp -f $(MSYS2DIR)/lib/python3.12/copy.py  $(BUILD_DIR)/lib/python3.12
+	#cp -f $(MSYS2DIR)/lib/python3.12/os.py  $(BUILD_DIR)/lib/python3.12
+	#cp -f $(MSYS2DIR)/lib/python3.12/types.py  $(BUILD_DIR)/lib/python3.12
+
+#	mkdir -p $(BUILD_DIR)/lib/aspell-0.60
+#	mkdir -p $(BUILD_DIR)/lib/enchant
+#	mkdir -p $(BUILD_DIR)/share/enchant
+#	cp -f /local/lib/enchant/libenchant_aspell.dll  $(BUILD_DIR)/lib/enchant/
+#	cp -f /local/lib/aspell-0.60/*.cmap             $(BUILD_DIR)/lib/aspell-0.60/
+#	cp -f /local/lib/aspell-0.60/*.cset             $(BUILD_DIR)/lib/aspell-0.60/
+#	cp -f /local/lib/aspell-0.60/*.amf              $(BUILD_DIR)/lib/aspell-0.60/
+#	cp -f /local/lib/aspell-0.60/*.kbd              $(BUILD_DIR)/lib/aspell-0.60/
+#	cp -f /local/share/enchant/enchant.ordering     $(BUILD_DIR)/share/enchant/
+
+installer: strip prepare
+	$(MAKENSIS) -V3 \
+	    -DPACKAGE="$(BLUEFISH_PACKAGE)" \
+	    -DVERSION="$(BLUEFISH_VERSION)" \
+	    -DBUILD="$(BLUEFISH_GTK_VER)" \
+	    -DLOCALES="$(BLUEFISH_LOCALES)" \
+	    msys2build.nsi
+
+clean:
+	$(RM) -r Makefile.mingw $(BUILD_DIR)

@@ -1,0 +1,125 @@
+# Brazilian Portuguese language file for Bluefish.
+# Copyright (C) 2000 Free Software Foundation, Inc.
+# Anderson Rocha <anderson@ilheusnet.com.br>, 2003, 2004.
+# Esfinge Metal <esfingemetal@gmail.com>, 2009, 2010, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Bluefish 2.2.2\n"
+"Report-Msgid-Bugs-To: olivier@bluefish.openoffice.nl\n"
+"POT-Creation-Date: 2025-10-30 11:19+0100\n"
+"PO-Revision-Date: 2023-05-21 23:44-0300\n"
+"Last-Translator: Matheus Cunha Motta <esfingemetal@gmail.com>\n"
+"Language-Team: \n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.1.1\n"
+
+#: src/plugin_about/about.c:131
+msgid ""
+"This version of Bluefish was built with:\n"
+"\n"
+msgstr ""
+"Essa versão do Bluefish foi produzida com:\n"
+"\n"
+
+#: src/plugin_about/about.c:224
+msgid ""
+"\n"
+"Developers of previous releases:"
+msgstr ""
+"\n"
+"Desenvolvedores de versões anteriores:"
+
+#: src/plugin_about/about.c:254
+msgid ""
+"\n"
+"If you know of anyone missing from this list,\n"
+"please let us know at:"
+msgstr ""
+"\n"
+"Se você souber de alguém faltando nessa lista,\n"
+"por favor deixe-nos saber em:"
+
+#: src/plugin_about/about.c:255
+msgid "bluefish@bluefish.openoffice.nl <bluefish@bluefish.openoffice.nl>"
+msgstr "bluefish@bluefish.openoffice.nl <bluefish@bluefish.openoffice.nl>"
+
+#: src/plugin_about/about.c:256
+msgid ""
+"\n"
+"Thanks to all who helped make this software available.\n"
+msgstr ""
+"\n"
+"Obrigado a todos que ajudaram a tornar esse software disponível.\n"
+
+#: src/plugin_about/about.c:292
+msgid ""
+"An open-source editor for experienced web designers and programmers, "
+"supporting many programming and markup languages, but focusing on creating "
+"dynamic and interactive websites."
+msgstr ""
+"Um editor open source (código aberto) para web designers experientes e "
+"programadores, suportando muitas linguagens de programação e markup, mas "
+"focando na criação de websites dinâmicos e interativos."
+
+#. Translators: This is a special message that shouldn't be translated
+#. * literally. It is used in the about box to give credits to
+#. * the translators.
+#. * Thus, you should translate it to your name and email address and
+#. * the name and email address of all translator who have contributed
+#. * to this translation (in general: this special locale). Please
+#. * use a separate line for every translator ending with a newlines (\n).
+#.
+#: src/plugin_about/about.c:302
+msgid "translator-credits"
+msgstr "créditos de tradução"
+
+#: src/plugin_about/about.c:400
+msgid "_Help"
+msgstr "Aj_uda"
+
+#: src/plugin_about/about.c:401
+msgid "Bluefish _Homepage"
+msgstr "Bluefish _Homepage"
+
+#: src/plugin_about/about.c:401
+msgid "Bluefish homepage"
+msgstr "Bluefish homepage"
+
+#: src/plugin_about/about.c:403
+msgid "Report a _Bug"
+msgstr "Reportar um bug"
+
+#: src/plugin_about/about.c:403
+msgid "Report a bug"
+msgstr "Reportar bug"
+
+#: src/plugin_about/about.c:404
+msgid "_About"
+msgstr "_Sobre"
+
+#: src/plugin_about/about.c:404
+msgid "About Bluefish"
+msgstr "Sobre Bluefish"
+
+#: src/plugin_about/about.c:406
+msgid "Build _Info"
+msgstr "_Informação de build"
+
+#: src/plugin_about/about.c:406
+msgid "Build info"
+msgstr "Informação de build"
+
+#: src/plugin_about/about.c:465
+msgid "About Dialog"
+msgstr ""
+
+#~ msgid ""
+#~ "\n"
+#~ "Package maintainers:"
+#~ msgstr ""
+#~ "\n"
+#~ "Mantenedores de pacotes:"

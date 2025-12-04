@@ -1,0 +1,76 @@
+# Arabic translations for bluefish package.
+# Copyright (C) 2014 The Bluefish Development Team.
+# This file is distributed under the same license as the bluefish package.
+# Automatically generated, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: bluefish 2.2.5\n"
+"Report-Msgid-Bugs-To: bluefish-dev@lists.ems.ru\n"
+"POT-Creation-Date: 2025-10-30 11:19+0100\n"
+"PO-Revision-Date: 2025-02-16 01:12+0300\n"
+"Last-Translator: Amar <al_janabi7@yahoo.com>\n"
+"Language-Team: none\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Generator: Poedit 2.4.3\n"
+
+#: src/plugin_zencoding/zencoding.c:177
+msgid "_Zencoding"
+msgstr "ترميز _زَن Zencoding"
+
+#: src/plugin_zencoding/zencoding.c:178
+msgid "E_xpand zen-coding"
+msgstr "_وسّع ترميز-زَن"
+
+#: src/plugin_zencoding/zencoding.c:178
+msgid "Expand zen-code at cursor"
+msgstr "وسّع ترميز-زَن عند المؤشّر"
+
+#: src/plugin_zencoding/zencoding.c:179
+msgid "Select Tag _Content"
+msgstr "حدد مح_توى الوسم"
+
+#: src/plugin_zencoding/zencoding.c:180
+msgid "Select _Tag and Content"
+msgstr "حدد ال_وسم والمحتوى"
+
+#: src/plugin_zencoding/zencoding.c:181
+msgid "Wrap with _Abbreviation"
+msgstr "لفّ بالا_ختصار"
+
+#: src/plugin_zencoding/zencoding.c:182
+msgid "_Split or Join Tag"
+msgstr "ا_قسم او اربط الوسم"
+
+#: src/plugin_zencoding/zencoding.c:183
+msgid "_Previous Edit Point"
+msgstr "نقطة التحرير السا_بقة"
+
+#: src/plugin_zencoding/zencoding.c:184
+msgid "_Next Edit Point"
+msgstr "نقطة التحرير ال_تالية"
+
+#: src/plugin_zencoding/zencoding.c:185
+msgid "_Insert Formatted Newline"
+msgstr "أ_درِج سطرا جديدا منسقًا"
+
+#: src/plugin_zencoding/zencoding.c:186
+msgid "_Go to Matching Pair"
+msgstr "ا_ذهب إلى الزوج المطابق"
+
+#: src/plugin_zencoding/zencoding.c:187
+msgid "_Merge Lines"
+msgstr "ا_دمج السطور"
+
+#: src/plugin_zencoding/zencoding.c:188
+msgid "_Remove Tag"
+msgstr "أ_زِل الوسم"
+
+#: src/plugin_zencoding/zencoding.c:189
+msgid "_Evaluate Math Expression"
+msgstr "_قيّم التعبير الرياضي"

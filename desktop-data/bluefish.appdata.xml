@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>bluefish.desktop</id>
+  <name>Bluefish</name>
+  <summary>Code and text editor with many web and software development extras</summary>
+  <url type="homepage">https://bluefish.openoffice.nl/</url>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-2.0-or-later</project_license>
+  <developer id="nl.openoffice.bluefish">
+    <name>Olivier Sessink</name>
+  </developer>
+  <description>
+    <p>Bluefish is a powerful editor targeted towards programmers and web developers, with many options to write code, scripts and websites. Bluefish supports many programming and markup languages and has many features, but is still a very fast and lightweight application.</p>
+    <p>
+      <em>Note that the flatpak version of Bluefish does not integrate well with other tools on your system.</em>
+    </p>
+    <p>A selection of the features:</p>
+    <ul>
+      <li>Well done syntax highlighting which for example supports languages inside languages (e.g. Javascript inside HTML inside PHP)</li>
+      <li>All kind of powerful editor features like auto indenting and auto completion for many functions and libraries in many programming languages</li>
+      <li>Project support</li>
+      <li>Support for remote files over ftp, sftp, webdav, etc</li>
+      <li>Powerful multi-file and regex capable search and replace engine</li>
+      <li>Customizable integration of external programs such as pylint, make, etc</li>
+      <li>Snippets plugin to automate often used code</li>
+      <li>Code-aware in-line spell checking</li>
+      <li>Zencoding or Emmet support</li>
+      <li>Bookmarks</li>
+    </ul>
+    <p>If you are an occasional coder who is in need for a simple to learn editor, or a heavy coder who dislikes heavy IDE's like eclipse or netbeans, Bluefish is your editor of choice!</p>
+  </description>
+  <launchable type="desktop-id">bluefish.desktop</launchable>
+  <categories>
+    <category>Development</category>
+    <category>WebDevelopment</category>
+    <category>IDE</category>
+    <category>Utility</category>
+    <category>TextEditor</category>
+  </categories>
+  <keywords>
+    <keyword>IDE</keyword>
+    <keyword>development</keyword>
+    <keyword>programming</keyword>
+    <keyword>editor</keyword>
+  </keywords>
+  <screenshots>
+    <screenshot type="default">
+      <image type="source" width="1292" height="1041">https://bluefish.openoffice.nl/images/bluefish-appdata-screenshot.png</image>
+      <caption>The Bluefish main window showing the application</caption>
+    </screenshot>
+  </screenshots>
+  <kudos>
+    <kudo>HiDpiIcon</kudo>
+    <kudo>ModernToolkit</kudo>
+  </kudos>
+  <content_rating type="oars-1.0"/>
+  <releases>
+    <release version="2.2.18" date="2025-10-30" type="stable"/>
+    <release version="2.2.17" date="2025-03-30" type="stable"/>
+    <release version="2.2.16" date="2024-08-31" type="stable"/>
+    <release version="2.2.15" date="2024-03-17" type="stable"/>
+    <release version="2.2.14" date="2023-06-02" type="stable"/>
+    <release version="2.2.13" date="2023-01-03" type="stable"/>
+    <release version="2.2.12" date="2020-11-05" type="stable"/>
+    <release version="2.2.11" date="2020-01-24" type="stable"/>
+    <release version="2.2.10" date="2019-01-27" type="stable"/>
+  </releases>
+</component>

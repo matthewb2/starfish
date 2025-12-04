@@ -1,0 +1,106 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR The Bluefish Development Team.
+# This file is distributed under the same license as the bluefish package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: bluefish 2.2.18\n"
+"Report-Msgid-Bugs-To: olivier@bluefish.openoffice.nl\n"
+"POT-Creation-Date: 2025-10-30 11:19+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/plugin_about/about.c:131
+msgid ""
+"This version of Bluefish was built with:\n"
+"\n"
+msgstr ""
+
+#: src/plugin_about/about.c:224
+msgid ""
+"\n"
+"Developers of previous releases:"
+msgstr ""
+
+#: src/plugin_about/about.c:254
+msgid ""
+"\n"
+"If you know of anyone missing from this list,\n"
+"please let us know at:"
+msgstr ""
+
+#: src/plugin_about/about.c:255
+msgid "bluefish@bluefish.openoffice.nl <bluefish@bluefish.openoffice.nl>"
+msgstr ""
+
+#: src/plugin_about/about.c:256
+msgid ""
+"\n"
+"Thanks to all who helped make this software available.\n"
+msgstr ""
+
+#: src/plugin_about/about.c:292
+msgid ""
+"An open-source editor for experienced web designers and programmers, "
+"supporting many programming and markup languages, but focusing on creating "
+"dynamic and interactive websites."
+msgstr ""
+
+#. Translators: This is a special message that shouldn't be translated
+#. * literally. It is used in the about box to give credits to
+#. * the translators.
+#. * Thus, you should translate it to your name and email address and
+#. * the name and email address of all translator who have contributed
+#. * to this translation (in general: this special locale). Please
+#. * use a separate line for every translator ending with a newlines (\n).
+#.
+#: src/plugin_about/about.c:302
+msgid "translator-credits"
+msgstr ""
+
+#: src/plugin_about/about.c:400
+msgid "_Help"
+msgstr ""
+
+#: src/plugin_about/about.c:401
+msgid "Bluefish _Homepage"
+msgstr ""
+
+#: src/plugin_about/about.c:401
+msgid "Bluefish homepage"
+msgstr ""
+
+#: src/plugin_about/about.c:403
+msgid "Report a _Bug"
+msgstr ""
+
+#: src/plugin_about/about.c:403
+msgid "Report a bug"
+msgstr ""
+
+#: src/plugin_about/about.c:404
+msgid "_About"
+msgstr ""
+
+#: src/plugin_about/about.c:404
+msgid "About Bluefish"
+msgstr ""
+
+#: src/plugin_about/about.c:406
+msgid "Build _Info"
+msgstr ""
+
+#: src/plugin_about/about.c:406
+msgid "Build info"
+msgstr ""
+
+#: src/plugin_about/about.c:465
+msgid "About Dialog"
+msgstr ""

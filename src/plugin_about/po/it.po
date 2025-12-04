@@ -1,0 +1,134 @@
+# Bluefish, Italian translation
+# Copyright (C) 2000, 2001 Free Software Foundation, Inc.
+# Marco Cassisa <marco@linox.tecnoprogress.it>
+# Andrea Scialpi <solopec@tiscalinet.it> 2000
+# Stefano Canepa <sc@linux.it> 2003, 2004
+# Roberto Bellingeri <bellingeri@netguru.it> 2010, 2011
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Bluefish 2.2.2\n"
+"Report-Msgid-Bugs-To: olivier@bluefish.openoffice.nl\n"
+"POT-Creation-Date: 2025-10-30 11:19+0100\n"
+"PO-Revision-Date: 2020-01-09 08:38+0100\n"
+"Last-Translator: Roberto Bellingeri <bellingeri@netguru.it>\n"
+"Language-Team: \n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n!=1;\n"
+"X-Generator: Poedit 2.2.4\n"
+
+#: src/plugin_about/about.c:131
+msgid ""
+"This version of Bluefish was built with:\n"
+"\n"
+msgstr ""
+"Questa versione di Bluefish è stata compilata con:\n"
+"\n"
+
+#: src/plugin_about/about.c:224
+msgid ""
+"\n"
+"Developers of previous releases:"
+msgstr ""
+"\n"
+"Sviluppatori delle versioni precedenti:"
+
+#: src/plugin_about/about.c:254
+msgid ""
+"\n"
+"If you know of anyone missing from this list,\n"
+"please let us know at:"
+msgstr ""
+"\n"
+"Se sapete che qualcuno manca a questo elenco,\n"
+"vi invitiamo a contattarci a:"
+
+#: src/plugin_about/about.c:255
+msgid "bluefish@bluefish.openoffice.nl <bluefish@bluefish.openoffice.nl>"
+msgstr "bluefish@bluefish.openoffice.nl <bluefish@bluefish.openoffice.nl>"
+
+#: src/plugin_about/about.c:256
+msgid ""
+"\n"
+"Thanks to all who helped make this software available.\n"
+msgstr ""
+"\n"
+"Grazie a tutti coloro che hanno contribuito a rendere questo software "
+"disponibile.\n"
+
+#: src/plugin_about/about.c:292
+msgid ""
+"An open-source editor for experienced web designers and programmers, "
+"supporting many programming and markup languages, but focusing on creating "
+"dynamic and interactive websites."
+msgstr ""
+"Un editor open-source per web designer esperti e programmatori, supporta "
+"molti linguaggi di programmazione e di markup, ma specifico per la creazione "
+"di siti web dinamici e interattivi."
+
+#. Translators: This is a special message that shouldn't be translated
+#. * literally. It is used in the about box to give credits to
+#. * the translators.
+#. * Thus, you should translate it to your name and email address and
+#. * the name and email address of all translator who have contributed
+#. * to this translation (in general: this special locale). Please
+#. * use a separate line for every translator ending with a newlines (\n).
+#.
+#: src/plugin_about/about.c:302
+msgid "translator-credits"
+msgstr ""
+"Free Translation Project - Sezione Italiana <tp@lists.linux.it>\n"
+"Marco Cassisa <marco@linox.tecnoprogress.it>\n"
+"Andrea Scialpi <solopec@tiscalinet.it>\n"
+"Stefano Canepa <sc@linux.it>\n"
+"Roberto Bellingeri <bellingeri@netguru.it>"
+
+#: src/plugin_about/about.c:400
+msgid "_Help"
+msgstr "A_iuto"
+
+#: src/plugin_about/about.c:401
+msgid "Bluefish _Homepage"
+msgstr "_Homepage di Bluefish"
+
+#: src/plugin_about/about.c:401
+msgid "Bluefish homepage"
+msgstr "Homepage di Bluefish"
+
+#: src/plugin_about/about.c:403
+msgid "Report a _Bug"
+msgstr "_Segnala un Problema"
+
+#: src/plugin_about/about.c:403
+msgid "Report a bug"
+msgstr "Segnala un problema"
+
+#: src/plugin_about/about.c:404
+msgid "_About"
+msgstr "_Informazioni"
+
+#: src/plugin_about/about.c:404
+msgid "About Bluefish"
+msgstr "Informazioni su Bluefish"
+
+#: src/plugin_about/about.c:406
+msgid "Build _Info"
+msgstr "Infomazioni di _Compilazione"
+
+#: src/plugin_about/about.c:406
+msgid "Build info"
+msgstr "Infomazioni di compilazione"
+
+#: src/plugin_about/about.c:465
+msgid "About Dialog"
+msgstr ""
+
+#~ msgid ""
+#~ "\n"
+#~ "Package maintainers:"
+#~ msgstr ""
+#~ "\n"
+#~ "Package maintainers:"

@@ -1,0 +1,4180 @@
+# Arabic translations for bluefish package.
+# Copyright (C) 2014 THE bluefish'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the bluefish package.
+# Automatically generated, 2014.
+#
+#: src/xmlstrings.h:1
+msgid ""
+msgstr ""
+"Project-Id-Version: bluefish 2.2.5\n"
+"Report-Msgid-Bugs-To: olivier@bluefish.openoffice.nl\n"
+"POT-Creation-Date: 2025-10-30 18:31+0100\n"
+"PO-Revision-Date: 2025-02-16 02:03+0300\n"
+"Last-Translator: Amar <al_janabi7@yahoo.com>\n"
+"Language-Team: none\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Generator: Poedit 2.4.3\n"
+
+#: desktop-data/bluefish.appdata.xml.in:4
+msgid "Bluefish"
+msgstr "بلوفِش"
+
+#: desktop-data/bluefish.appdata.xml.in:5 desktop-data/bluefish.desktop.in:5
+msgid "Code and text editor with many web and software development extras"
+msgstr "محرر نص وشفرة مع ملحقات كثيرة لتطوير الوب والبرمجيات"
+
+#: desktop-data/bluefish.appdata.xml.in:9
+msgid "Olivier Sessink"
+msgstr "أوليفيير سسنك"
+
+#: desktop-data/bluefish.appdata.xml.in:11
+msgid ""
+"Bluefish is a powerful editor targeted towards programmers and web "
+"developers, with many options to write code, scripts and websites. Bluefish "
+"supports many programming and markup languages and has many features, but is "
+"still a very fast and lightweight application."
+msgstr ""
+"بلوفِش Bluefish محرر قوي يستهدف المبرمجين ومطوري الوب وفيه خيارات عديدة "
+"لكتابة الشفرة والمخطوطات ومواقع الوب. يدعم بلوفِش Bluefish العديد من لغات "
+"البرمجة ولغات الترميز markup كما أن فيه العديد من الميزات، ومع ذلك فهو تطبيق "
+"سريع جدا وخفيف الوزن."
+
+#: desktop-data/bluefish.appdata.xml.in:12
+msgid ""
+"<em>Note that the flatpak version of Bluefish does not integrate well with "
+"other tools on your system.</em>"
+msgstr ""
+"<em>لاحظ أنّ إصار فلاتباك من بلوفِش لا تندمج جيداً مع الأدوات الأخرى في نظامك.</"
+"em>"
+
+#: desktop-data/bluefish.appdata.xml.in:13
+msgid "A selection of the features:"
+msgstr "مختارات من الميزات:"
+
+#: desktop-data/bluefish.appdata.xml.in:15
+msgid ""
+"Well done syntax highlighting which for example supports languages inside "
+"languages (e.g. Javascript inside HTML inside PHP)"
+msgstr ""
+"تمييز متقن لقواعد اللغات والذي يدعم على سبيل المثال لغات داخل لغات (مثلا "
+"جافاسكربت داخل HTML داخل PHP)"
+
+#: desktop-data/bluefish.appdata.xml.in:16
+msgid ""
+"All kind of powerful editor features like auto indenting and auto completion "
+"for many functions and libraries in many programming languages"
+msgstr ""
+"كل أنواع خصائص المحرر القوية مثل الإزاحة التلقائية والإكمال التلقائي للعديد "
+"من الدوال والمكتبات في العديد من لغات البرمجة"
+
+#: desktop-data/bluefish.appdata.xml.in:17
+msgid "Project support"
+msgstr "دعم المشروع"
+
+#: desktop-data/bluefish.appdata.xml.in:18
+msgid "Support for remote files over ftp, sftp, webdav, etc"
+msgstr "دعم للملفات البعيدة عبر ftp و sftp و webdav وغيرها"
+
+#: desktop-data/bluefish.appdata.xml.in:19
+msgid "Powerful multi-file and regex capable search and replace engine"
+msgstr "محرك بحث واستبدال قوي للملفات المتعددة وباستخدام التعابير النظامية"
+
+#: desktop-data/bluefish.appdata.xml.in:20
+msgid "Customizable integration of external programs such as pylint, make, etc"
+msgstr "تكامل قابل للتخصيص للبرامج الخارجية مثل pylint و make وغيرها"
+
+#: desktop-data/bluefish.appdata.xml.in:21
+msgid "Snippets plugin to automate often used code"
+msgstr "ملحقة جُزازات snippets لجعل الشفرة المستخدمة بصورة متكررة تلقائية"
+
+#: desktop-data/bluefish.appdata.xml.in:22
+msgid "Code-aware in-line spell checking"
+msgstr "تدقيق إملائي سطري مكتشف للشفرة"
+
+#: desktop-data/bluefish.appdata.xml.in:23
+msgid "Zencoding or Emmet support"
+msgstr "دعم Zencoding أو Emmet"
+
+#: desktop-data/bluefish.appdata.xml.in:24 src/bfwin.c:285
+msgid "Bookmarks"
+msgstr "العلامات"
+
+#: desktop-data/bluefish.appdata.xml.in:26
+msgid ""
+"If you are an occasional coder who is in need for a simple to learn editor, "
+"or a heavy coder who dislikes heavy IDE's like eclipse or netbeans, Bluefish "
+"is your editor of choice!"
+msgstr ""
+"إذا كنت متعاملا عرضيا مع الشفرات وبحاجة الى محرر سهل التعلم أو كنت متعاملا "
+"شديدا مع الشفرات ولا ترغب ببيئات التطوير المتكاملة الشديدة مثل eclipse أو "
+"netbeans فإنّ بلوفِش هو خيارك من المحررات!"
+
+#: desktop-data/bluefish.appdata.xml.in:35
+msgid "IDE"
+msgstr "بيئة تطوير مدمجة"
+
+#: desktop-data/bluefish.appdata.xml.in:36
+msgid "development"
+msgstr "تطوير"
+
+#: desktop-data/bluefish.appdata.xml.in:37
+msgid "programming"
+msgstr "برمجة"
+
+#: desktop-data/bluefish.appdata.xml.in:38
+msgid "editor"
+msgstr "محرر"
+
+#: desktop-data/bluefish.appdata.xml.in:43
+msgid "The Bluefish main window showing the application"
+msgstr "نافذة بلوفِش الرئيسية مُظهرة التطبيق"
+
+#: desktop-data/bluefish.desktop.in:4 src/bluefish.c:95
+msgid "Bluefish Editor"
+msgstr "محرر بلوفِش"
+
+#: desktop-data/bluefish.desktop.in:6
+msgid "programming;code;web;editor;development;html;php;python;"
+msgstr ""
+"programming;code;web;editor;development;html;php;python;برمجة;محرر;تطوير;"
+
+#: desktop-data/bluefish.xml.in:5
+msgid "Bluefish project file"
+msgstr "ملف مشروع بلوفِش"
+
+#: desktop-data/bluefish.xml.in:10
+msgid "Bluefish language definition file"
+msgstr "ملف تعريف لغة بلوفِش"
+
+#: src/bftextview2.c:2227
+msgid "Collapse all"
+msgstr "اطوِ الكل"
+
+#: src/bftextview2.c:2230
+msgid "Expand all"
+msgstr "وسّع الكل"
+
+#: src/bftextview2.c:2238
+#, c-format
+msgid "Collapse %s"
+msgstr "اطوِ %s"
+
+#: src/bftextview2.c:2248
+#, c-format
+msgid "Expand %s"
+msgstr "وسّع %s"
+
+#: src/bftextview2_spell.c:797
+msgid "Spell check language"
+msgstr "لغة التدقيق الإملائي"
+
+#: src/bftextview2_spell.c:834
+msgid "Add to dictionary"
+msgstr "أضف الى القاموس"
+
+#: src/bftextview2_spell.c:837
+msgid "Ignore spelling"
+msgstr "تجاهل الإملاء"
+
+#: src/bftextview2_spell.c:852
+msgid "Insert special characters as entities"
+msgstr "أدرِج محارف خاصة ككيانات"
+
+#: src/bfwin.c:283
+msgid "Filebrowser"
+msgstr "متصفح الملفات"
+
+#: src/bfwin.c:1053
+msgid "Goto Line:"
+msgstr "اذهب الى السطر:"
+
+#: src/bfwin.c:1065
+msgid "Find:"
+msgstr "جِد:"
+
+#: src/bfwin.c:1076 src/snr3.c:1626
+msgid "Regular expression (pcre)"
+msgstr "تعبير نظامي (pcre)"
+
+#: src/bfwin.c:1079
+msgid "Case sensitive"
+msgstr "حساس لحالة الحرف"
+
+#: src/bfwin.c:1082
+msgid "Dot character matches newlines"
+msgstr "محرف النقطة يطابق سطورا جديدة"
+
+#: src/bfwin.c:1085
+msgid "Pattern contains backslash escaped sequences"
+msgstr "النمط يحتوي تتابعات شرطة مائلة متجاوَزة"
+
+#: src/bfwin.c:1097
+msgid "Advanced"
+msgstr "متقدّم"
+
+#: src/bfwin.c:1571
+msgid "New Bluefish Window"
+msgstr "نافذة بلوفِش جديدة"
+
+#. Fake-label (for notebook_hide() and _show() ;)
+#: src/bfwin.c:1637
+msgid "Stand by..."
+msgstr "انتظر..."
+
+#: src/bfwin_uimanager.c:790
+msgid "Leave Fullscreen"
+msgstr "غادر الشاشة الكاملة"
+
+#: src/bfwin_uimanager.c:790
+msgid "Fullscreen"
+msgstr "شاشة كاملة"
+
+#: src/bfwin_uimanager.c:848
+msgid "_File"
+msgstr "م_لف"
+
+#: src/bfwin_uimanager.c:849
+msgid "New From Template"
+msgstr "جديد من قالب"
+
+#: src/bfwin_uimanager.c:850 src/bfwin_uimanager.c:861
+msgid "Open _Recent"
+msgstr "افتح ال_حديثة"
+
+#: src/bfwin_uimanager.c:851
+msgid "_Edit"
+msgstr "ت_حرير"
+
+#: src/bfwin_uimanager.c:852
+msgid "_View"
+msgstr "_منظور"
+
+#: src/bfwin_uimanager.c:853
+msgid "_Document"
+msgstr "م_ستند"
+
+#: src/bfwin_uimanager.c:854
+msgid "_Tab Size"
+msgstr "حجم ال_لسان"
+
+#: src/bfwin_uimanager.c:855
+msgid "_Font Size"
+msgstr "حجم ال_خط"
+
+#: src/bfwin_uimanager.c:856
+msgid "Language M_ode"
+msgstr "_طور اللغة"
+
+#: src/bfwin_uimanager.c:857
+msgid "Character _Encoding"
+msgstr "ترمي_ز المحارف"
+
+#: src/bfwin_uimanager.c:858
+msgid "Reorder documents"
+msgstr "أعد ترتيب المستندات"
+
+#: src/bfwin_uimanager.c:859
+msgid "_Go"
+msgstr "_هيا"
+
+#: src/bfwin_uimanager.c:860
+msgid "_Project"
+msgstr "م_شروع"
+
+#: src/bfwin_uimanager.c:862
+msgid "_Tools"
+msgstr "أ_دوات"
+
+#: src/bfwin_uimanager.c:863
+msgid "_Commands"
+msgstr "أ_وامر"
+
+#: src/bfwin_uimanager.c:864
+msgid "_Filters"
+msgstr "م_رشحات"
+
+#: src/bfwin_uimanager.c:865
+msgid "_Output parsers"
+msgstr "مفسرات الم_خرجات"
+
+#: src/bfwin_uimanager.c:866
+msgid "For_mat"
+msgstr "ال_نسق"
+
+#: src/bfwin_uimanager.c:867
+msgid "_Insert"
+msgstr "إ_دراج"
+
+#: src/bfwin_uimanager.c:868
+msgid "Con_vert"
+msgstr "_تحويل"
+
+#: src/bfwin_uimanager.c:872
+msgid "_New"
+msgstr "_جديد"
+
+#: src/bfwin_uimanager.c:872 src/filebrowser2.c:899 src/filebrowser2.c:901
+#: src/filebrowser2.c:1322
+msgid "New file"
+msgstr "ملف جديد"
+
+#: src/bfwin_uimanager.c:873
+msgid "New _Window"
+msgstr "_نافذة جديدة"
+
+#: src/bfwin_uimanager.c:873
+msgid "New window"
+msgstr "نافذة جديدة"
+
+#: src/bfwin_uimanager.c:875
+msgid "Close Win_dow"
+msgstr "إ_غلاق النافذة"
+
+#: src/bfwin_uimanager.c:875
+msgid "Close window"
+msgstr "إغلاق النافذة"
+
+#: src/bfwin_uimanager.c:876
+msgid "_Open..."
+msgstr "?_???..."
+
+#: src/bfwin_uimanager.c:876
+msgid "Open file"
+msgstr "افتح ملفًا"
+
+#: src/bfwin_uimanager.c:877
+msgid "Open Ad_vanced..."
+msgstr "فتح مت_قدم..."
+
+#: src/bfwin_uimanager.c:877 src/filebrowser2.c:1316
+msgid "Open advanced"
+msgstr "فتح متقدم"
+
+#: src/bfwin_uimanager.c:879
+msgid "Open _from Selection"
+msgstr "افتح من _تحديد"
+
+#: src/bfwin_uimanager.c:879
+msgid "Open from Selection"
+msgstr "افتح من تحديد"
+
+#: src/bfwin_uimanager.c:881
+msgid "_Print..."
+msgstr "_طباعة..."
+
+#: src/bfwin_uimanager.c:881
+msgid "Print"
+msgstr "اطبع"
+
+#: src/bfwin_uimanager.c:882
+msgid "_Quit"
+msgstr "ا_خرج"
+
+#: src/bfwin_uimanager.c:882
+msgid "Quit Bluefish"
+msgstr "أنهِ بلوفِش"
+
+#: src/bfwin_uimanager.c:884 src/bfwin_uimanager.c:887
+msgid "Preference_s..."
+msgstr "التف_ضيلات..."
+
+#: src/bfwin_uimanager.c:884 src/bfwin_uimanager.c:887
+msgid "Edit Preferences"
+msgstr "حرر التفضيلات"
+
+#: src/bfwin_uimanager.c:890
+msgid "Select _All"
+msgstr "اختر الك_ل"
+
+#: src/bfwin_uimanager.c:890
+msgid "Select all"
+msgstr "انتقِ الكل"
+
+#: src/bfwin_uimanager.c:891
+msgid "Toggle Boo_kmark"
+msgstr "استحضر الع_لامة"
+
+#: src/bfwin_uimanager.c:891
+msgid "Toggle bookmark"
+msgstr "استحضر العلامة"
+
+#: src/bfwin_uimanager.c:893
+msgid "_Add or Remove..."
+msgstr "أضِ_ف أو أزِل..."
+
+#: src/bfwin_uimanager.c:893
+msgid "Add or remove character encoding"
+msgstr "أضِف أو أزِل ترميزات محارف"
+
+#: src/bfwin_uimanager.c:895
+msgid "Floati_ng Window"
+msgstr "نافذة عا_ئمة"
+
+#: src/bfwin_uimanager.c:895
+msgid "Open current document in floating window"
+msgstr "افتح المستند الحالي في نافذة عائمة"
+
+#: src/bfwin_uimanager.c:897 src/bfwin_uimanager.c:903
+msgid "_Increase"
+msgstr "_زِد"
+
+#: src/bfwin_uimanager.c:897
+msgid "Increase document font size"
+msgstr "زِد حجم خط المستند"
+
+#: src/bfwin_uimanager.c:899 src/bfwin_uimanager.c:905
+msgid "_Decrease"
+msgstr "أ_نقص"
+
+#: src/bfwin_uimanager.c:899
+msgid "Decrease document font size"
+msgstr "أنقص حجم خط المستند"
+
+#: src/bfwin_uimanager.c:901 src/bfwin_uimanager.c:907
+msgid "_Reset"
+msgstr "_صفّر"
+
+#: src/bfwin_uimanager.c:901
+msgid "Reset document font size"
+msgstr "صفّر حجم خط المستند"
+
+#: src/bfwin_uimanager.c:903
+msgid "Increase document tab size"
+msgstr "زِد حجم لسان المستند"
+
+#: src/bfwin_uimanager.c:905
+msgid "Decrease document tab size"
+msgstr "أنقص حجم لسان المستند"
+
+#: src/bfwin_uimanager.c:907
+msgid "Reset document tab size"
+msgstr "صفّر حجم لسان المستند"
+
+#: src/bfwin_uimanager.c:910
+msgid "Rescan Synta_x & Spelling"
+msgstr "أعِد فحص ال_قواعد والإملاء"
+
+#: src/bfwin_uimanager.c:910 src/bfwin_uimanager.c:913
+msgid "Rescan document highlighting"
+msgstr "أعِد فحص تمييز المستند"
+
+#: src/bfwin_uimanager.c:913
+msgid "Rescan Synta_x"
+msgstr "أعِد فحص ال_قواعد"
+
+#: src/bfwin_uimanager.c:916
+msgid "_New Project..."
+msgstr "مشروع _جديد..."
+
+#: src/bfwin_uimanager.c:916 src/project.c:231
+msgid "New project"
+msgstr "مشروع جديد"
+
+#: src/bfwin_uimanager.c:917
+msgid "_Open Project..."
+msgstr "ا_فتح مشروعًا..."
+
+#: src/bfwin_uimanager.c:917
+msgid "Open project"
+msgstr "افتح مشروعًا"
+
+#: src/bfwin_uimanager.c:918
+msgid "_Synchronize Text Block"
+msgstr "_زامِن كتلة النص"
+
+#: src/bfwin_uimanager.c:918 src/blocksync.c:295
+msgid "Synchronize text block"
+msgstr "زامِن كتلة النص"
+
+#: src/bfwin_uimanager.c:920
+msgid "_Toggle Comment"
+msgstr "_تحول إلى التعليق"
+
+#: src/bfwin_uimanager.c:920
+msgid "Toggle comment"
+msgstr "تحول إلى التعليق"
+
+#: src/bfwin_uimanager.c:922
+msgid "Select _Block"
+msgstr "حدد ال_كتلة"
+
+#: src/bfwin_uimanager.c:923
+msgid "Select block, use multiple times to select parent blocks "
+msgstr "حدد كتلة، استخدم عدة مرات لتحديد الكتل الحاضنة "
+
+#: src/bfwin_uimanager.c:925
+msgid "Select _Identifier"
+msgstr "حدد الم_عرِّف"
+
+#: src/bfwin_uimanager.c:926
+msgid "Select identifier"
+msgstr "حدد المعرِّف"
+
+#: src/bfwin_uimanager.c:927
+msgid "D_uplicate Line"
+msgstr "ك_رر السطر"
+
+#: src/bfwin_uimanager.c:927
+msgid "Duplicate the current line"
+msgstr "كرر السطر الحالي"
+
+#: src/bfwin_uimanager.c:929
+msgid "_Delete Line"
+msgstr "احذف السطر"
+
+#: src/bfwin_uimanager.c:929
+msgid "Delete the current line"
+msgstr "احذف السطر الحالي"
+
+#: src/bfwin_uimanager.c:931
+msgid "_Word Count"
+msgstr "عدد الك_لمات"
+
+#: src/bfwin_uimanager.c:931
+msgid "Word count"
+msgstr "عدد الكلمات"
+
+#: src/bfwin_uimanager.c:932 src/doc_extern_tools.c:47
+msgid "Lorem Ipsum generator"
+msgstr "مولّد النص العشوائي"
+
+#: src/bfwin_uimanager.c:934
+msgid "Insert Relative Filename"
+msgstr "أدرِج اسم الملف النسبي"
+
+#: src/bfwin_uimanager.c:936
+msgid "Insert Absolute Filename"
+msgstr "أدرِج اسم الملف المطلق"
+
+#: src/bfwin_uimanager.c:938
+msgid "Indenting to S_paces"
+msgstr "الإزاحة إلى ال_فراغات"
+
+#: src/bfwin_uimanager.c:938
+msgid "Indenting to spaces"
+msgstr "الإزاحة إلى الفراغات"
+
+#: src/bfwin_uimanager.c:940
+msgid "Indenting to T_abs"
+msgstr "الإزاحة إلى الأ&لسنة"
+
+#: src/bfwin_uimanager.c:940
+msgid "Indenting to tabs"
+msgstr "الإزاحة إلى الألسنة"
+
+#: src/bfwin_uimanager.c:942
+msgid "_Join Lines Together"
+msgstr "ا_ربط السطور معًا"
+
+#: src/bfwin_uimanager.c:942
+msgid "Join lines together"
+msgstr "اربط السطور معًا"
+
+#: src/bfwin_uimanager.c:944
+msgid "Split Lines on Right _Margin"
+msgstr "اقسم السطور عند ال_هامش الأيمن"
+
+#: src/bfwin_uimanager.c:944
+msgid "Split lines on right margin"
+msgstr "اقسم السطور عند الهامش الأيمن"
+
+#: src/bfwin_uimanager.c:946
+msgid "Merge Lines Into Col_umns"
+msgstr "ادمج السطور إلى أ_عمدة"
+
+#: src/bfwin_uimanager.c:946
+msgid "Merge lines into columns"
+msgstr "ادمج السطور إلى أعمدة"
+
+#: src/bfwin_uimanager.c:948
+msgid "Rewrap _Lines"
+msgstr "أعد لف ال_سطور"
+
+#: src/bfwin_uimanager.c:948
+msgid "Rewrap lines"
+msgstr "أعد لف السطور"
+
+#: src/bfwin_uimanager.c:949
+msgid "Strip T_railing Whitespace"
+msgstr "اقتطع المسافات ال_ذيلية"
+
+#: src/bfwin_uimanager.c:949
+msgid "Strip trailing whitespace"
+msgstr "اقتطع المسافات الذيلية"
+
+#: src/bfwin_uimanager.c:951
+msgid "Javascript beautifier"
+msgstr "مجمّل جافاسكربت"
+
+#: src/bfwin_uimanager.c:953
+msgid "Preview in browser"
+msgstr "عايِن في المتصفح"
+
+#: src/bfwin_uimanager.c:958
+msgid "_Full Screen"
+msgstr "شاشة _كاملة"
+
+#: src/bfwin_uimanager.c:958
+msgid "Full screen"
+msgstr "شاشة كاملة"
+
+#: src/bfwin_uimanager.c:960
+msgid "_Main Toolbar"
+msgstr "شريط الأدوات ال_رئيسي"
+
+#: src/bfwin_uimanager.c:960
+msgid "Show main toolbar"
+msgstr "أظهر شريط الأدوات الرئيسي"
+
+#: src/bfwin_uimanager.c:962
+msgid "_Side Pane"
+msgstr "اللوح ال_جانبي"
+
+#: src/bfwin_uimanager.c:962
+msgid "Show side pane"
+msgstr "أظهر اللوح الجانبي"
+
+#: src/bfwin_uimanager.c:963
+msgid "_Output Pane"
+msgstr "لوح المُ_خرجات"
+
+#: src/bfwin_uimanager.c:963
+msgid "Show output pane"
+msgstr "أظهر لوح المُخرَجات"
+
+#: src/bfwin_uimanager.c:965
+msgid "Status_bar"
+msgstr "_شريط الحالة"
+
+#: src/bfwin_uimanager.c:965
+msgid "Show statusbar"
+msgstr "أظهر شريط الحالة"
+
+#: src/bfwin_uimanager.c:967
+msgid "Auto _Completion Popup"
+msgstr "منبثقة الإكمال ال_تلقائي"
+
+#: src/bfwin_uimanager.c:967
+msgid "Show auto completion popup"
+msgstr "أظهر منبثقة الإكمال التلقائي"
+
+#: src/bfwin_uimanager.c:969
+msgid "_Auto Indent"
+msgstr "إ_زاحة تلقائية"
+
+#: src/bfwin_uimanager.c:969
+msgid "Auto indent"
+msgstr "إزاحة تلقائية"
+
+#: src/bfwin_uimanager.c:970
+msgid "Highlight Block _Delimiters"
+msgstr "أبرز مح_ددات الكتلة"
+
+#: src/bfwin_uimanager.c:971
+msgid "Highlight block delimiters"
+msgstr "أبرز محددات الكتلة"
+
+#: src/bfwin_uimanager.c:972
+msgid "_Highlight Syntax"
+msgstr "أ_برِز القواعد"
+
+#: src/bfwin_uimanager.c:972
+msgid "Highlight syntax"
+msgstr "أبرِز القواعد"
+
+#: src/bfwin_uimanager.c:974
+msgid "Show _Blocks"
+msgstr "أظهِر ال_كتل"
+
+#: src/bfwin_uimanager.c:974
+msgid "Show blocks"
+msgstr "أظهِر الكتل"
+
+#: src/bfwin_uimanager.c:975
+msgid "Show Line N_umbers"
+msgstr "أظهر أر_قام السطور"
+
+#: src/bfwin_uimanager.c:975
+msgid "Show line numbers"
+msgstr "أظهر أرقام السطور"
+
+#: src/bfwin_uimanager.c:977
+msgid "Show Right _Margin"
+msgstr "أظهر ال_هامش الأيمن"
+
+#: src/bfwin_uimanager.c:977
+msgid "Show right margin"
+msgstr "أظهر الهامش الأيمن"
+
+#: src/bfwin_uimanager.c:979
+msgid "Show Split _View"
+msgstr "أظهر المعاينة المنق_سمة"
+
+#: src/bfwin_uimanager.c:979
+msgid "Show split view"
+msgstr "أظهر المعاينة المنقسمة"
+
+#: src/bfwin_uimanager.c:981
+msgid "Show V_isible Spacing"
+msgstr "أظهر التباعد الم_رئي"
+
+#: src/bfwin_uimanager.c:981
+msgid "Show visible spacing"
+msgstr "أظهر التباعد المرئي"
+
+#: src/bfwin_uimanager.c:983
+msgid "Show Indenting"
+msgstr "أظهر الإزاحة"
+
+#: src/bfwin_uimanager.c:983
+msgid "Show indenting"
+msgstr "أظهر الإزاحة"
+
+#: src/bfwin_uimanager.c:985
+msgid "_Wrap Text"
+msgstr "_لفّ النص"
+
+#: src/bfwin_uimanager.c:985
+msgid "Wrap text"
+msgstr "لفّ النص"
+
+#: src/bfwin_uimanager.c:989 src/document.c:2112 src/document.c:3506
+msgid "_Close"
+msgstr "إغلاق"
+
+#: src/bfwin_uimanager.c:989
+msgid "Close current file"
+msgstr "أغلق الملف الحالي"
+
+#: src/bfwin_uimanager.c:991
+msgid "Close A_ll"
+msgstr "أغلق ال_كل"
+
+#: src/bfwin_uimanager.c:991
+msgid "Close all files"
+msgstr "أغلق كل الملفات"
+
+#: src/bfwin_uimanager.c:993 src/bfwin_uimanager.c:1103 src/file_dialogs.c:1456
+msgid "_Save"
+msgstr "اح_فظ"
+
+#: src/bfwin_uimanager.c:993
+msgid "Save current file"
+msgstr "احفظ الملف الحالي"
+
+#: src/bfwin_uimanager.c:995 src/bfwin_uimanager.c:1104
+msgid "Save _as..."
+msgstr "احفظ با_سم..."
+
+#: src/bfwin_uimanager.c:995
+msgid "Save file as"
+msgstr "احفظ الملف بإسم"
+
+#: src/bfwin_uimanager.c:997
+msgid "Sav_e All"
+msgstr "ا_حفظ الكل"
+
+#: src/bfwin_uimanager.c:997
+msgid "Save all files"
+msgstr "احفظ كل الملفات"
+
+#: src/bfwin_uimanager.c:999
+msgid "Rever_t to Saved"
+msgstr "ترا_جع إلى المحفوظ"
+
+#: src/bfwin_uimanager.c:999
+msgid "Reload current file"
+msgstr "أعِد تحميل الملف الحالي"
+
+#: src/bfwin_uimanager.c:1001
+msgid "Save a cop_y..."
+msgstr "احفظ _نسخة..."
+
+#: src/bfwin_uimanager.c:1001
+msgid "Save a copy"
+msgstr "احفظ نسخة"
+
+#: src/bfwin_uimanager.c:1003
+msgid "_Insert..."
+msgstr "أ_درج..."
+
+#: src/bfwin_uimanager.c:1003
+msgid "Insert file"
+msgstr "أدرج ملفًا"
+
+#. Required to move here to disable sensitivity on OSX
+#: src/bfwin_uimanager.c:1004
+msgid "Rena_me..."
+msgstr "أعِ_د التسمية..."
+
+#: src/bfwin_uimanager.c:1004
+msgid "Rename file"
+msgstr "أعِد تسمية الملف"
+
+#: src/bfwin_uimanager.c:1006 src/bfwin_uimanager.c:1009
+msgid "_Indent"
+msgstr "إز_احة"
+
+#: src/bfwin_uimanager.c:1006 src/bfwin_uimanager.c:1009
+msgid "Indent"
+msgstr "إزاحة"
+
+#: src/bfwin_uimanager.c:1007 src/bfwin_uimanager.c:1010
+msgid "Unin_dent"
+msgstr "أزل الإ_زاحة"
+
+#: src/bfwin_uimanager.c:1007 src/bfwin_uimanager.c:1010
+msgid "Unindent"
+msgstr "أزِل الإزاحة"
+
+#: src/bfwin_uimanager.c:1013
+msgid "F_irst Bookmark"
+msgstr "العلامة الأ_ولى"
+
+#: src/bfwin_uimanager.c:1013
+msgid "Goto first bookmark"
+msgstr "اذهب الى العلامة الاولى"
+
+#: src/bfwin_uimanager.c:1015
+msgid "L_ast Bookmark"
+msgstr "العلامة الأ_خيرة"
+
+#: src/bfwin_uimanager.c:1015
+msgid "Goto last bookmark"
+msgstr "اذهب الى العلامة الاخيرة"
+
+#: src/bfwin_uimanager.c:1017
+msgid "N_ext Bookmark"
+msgstr "العلامة ال_تالية"
+
+#: src/bfwin_uimanager.c:1017
+msgid "Goto next bookmark"
+msgstr "اذهب الى العلامة التالية"
+
+#: src/bfwin_uimanager.c:1019
+msgid "P_revious Bookmark"
+msgstr "العلامة السا_بقة"
+
+#: src/bfwin_uimanager.c:1020 src/bfwin_uimanager.c:1041
+#: src/bfwin_uimanager.c:1053
+msgid "Goto previous document"
+msgstr "اذهب الى العلامة السابقة"
+
+#: src/bfwin_uimanager.c:1021
+msgid "Move Tab _Left"
+msgstr "حرك اللسان _يسارا"
+
+#: src/bfwin_uimanager.c:1021
+msgid "Move current tab left"
+msgstr "حرك اللسان الحالي يسارا"
+
+#: src/bfwin_uimanager.c:1023
+msgid "Move Tab _Right"
+msgstr "حرك اللسان ي_مينا"
+
+#: src/bfwin_uimanager.c:1023
+msgid "Move current tab right"
+msgstr "حرك اللسان الحالي يمينا"
+
+#: src/bfwin_uimanager.c:1025
+msgid "Sort by filename"
+msgstr "رتب حسب اسم الملف"
+
+#: src/bfwin_uimanager.c:1027
+msgid "Sort by full path"
+msgstr "رتب حسب المسار الكامل"
+
+#: src/bfwin_uimanager.c:1029
+msgid "_Recent Document"
+msgstr "المستند الأخي_ر"
+
+#: src/bfwin_uimanager.c:1029
+msgid "Goto most recent document"
+msgstr "اذهب الى احدث مستند"
+
+#: src/bfwin_uimanager.c:1032 src/bfwin_uimanager.c:1044
+msgid "_First Document"
+msgstr "ا_ول مستند"
+
+#: src/bfwin_uimanager.c:1033 src/bfwin_uimanager.c:1045
+msgid "Goto first document"
+msgstr "اذهب الى اول مستند"
+
+#: src/bfwin_uimanager.c:1035 src/bfwin_uimanager.c:1047
+msgid "_Last Document"
+msgstr "آ_خر مستند"
+
+#: src/bfwin_uimanager.c:1036 src/bfwin_uimanager.c:1048
+msgid "Goto last document"
+msgstr "اذهب الى آخر مستند"
+
+#: src/bfwin_uimanager.c:1038 src/bfwin_uimanager.c:1050
+msgid "_Next Document"
+msgstr "المستند التا_لي"
+
+#: src/bfwin_uimanager.c:1038 src/bfwin_uimanager.c:1050
+msgid "Goto next document"
+msgstr "اذهب الى المستند التالي"
+
+#: src/bfwin_uimanager.c:1040 src/bfwin_uimanager.c:1052
+msgid "_Previous Document"
+msgstr "المستند ال_سابق"
+
+#: src/bfwin_uimanager.c:1056
+msgid "_Goto Line"
+msgstr "ا_ذهب الى السطر"
+
+#: src/bfwin_uimanager.c:1056
+msgid "Goto line"
+msgstr "اذهب الى السطر"
+
+#: src/bfwin_uimanager.c:1057
+msgid "Goto Line Number from _Clipboard"
+msgstr "اذهب الى رقم السطر من ال_حافظة"
+
+#: src/bfwin_uimanager.c:1058
+msgid "Goto line number in clipboard or selection"
+msgstr "اذهب الى رقم السطر في الحافظة او التحديد"
+
+#: src/bfwin_uimanager.c:1059
+msgid "_Jump to Reference"
+msgstr "ا_نتقل الى المرجع"
+
+#: src/bfwin_uimanager.c:1059
+msgid "Jump to reference"
+msgstr "انتقل الى المرجع"
+
+#: src/bfwin_uimanager.c:1062 src/bfwin_uimanager.c:1063
+#: src/bfwin_uimanager.c:1066 src/bfwin_uimanager.c:1067
+msgid "Jump to Matching Block Boundary"
+msgstr "انتقل الى حد الكتلة المطابقة"
+
+#: src/bfwin_uimanager.c:1073
+msgid "Cu_t"
+msgstr "_قصّ"
+
+#: src/bfwin_uimanager.c:1073
+msgid "Cut"
+msgstr "قص"
+
+#: src/bfwin_uimanager.c:1074
+msgid "_Copy"
+msgstr "ا_نسح"
+
+#: src/bfwin_uimanager.c:1074
+msgid "Copy"
+msgstr "نسخة"
+
+#: src/bfwin_uimanager.c:1075
+msgid "_Paste"
+msgstr "أ_لصق"
+
+#: src/bfwin_uimanager.c:1075
+msgid "Paste"
+msgstr "لصق"
+
+#: src/bfwin_uimanager.c:1076
+msgid "Paste Specia_l"
+msgstr "لصق _خاص"
+
+#: src/bfwin_uimanager.c:1076
+msgid "Paste Special"
+msgstr "لصق خاص"
+
+#: src/bfwin_uimanager.c:1081
+msgid "_Find"
+msgstr "_جِد"
+
+#: src/bfwin_uimanager.c:1081
+msgid "Show find bar"
+msgstr "أظهر شريط الإيجاد"
+
+#: src/bfwin_uimanager.c:1082
+msgid "Find A_gain"
+msgstr "جد _ثانيةً"
+
+#: src/bfwin_uimanager.c:1082
+msgid "Find again"
+msgstr "جِد ثانيةً"
+
+#: src/bfwin_uimanager.c:1083
+msgid "Find from Clip_board"
+msgstr "جد من الحا_فظة"
+
+#: src/bfwin_uimanager.c:1084
+msgid "Find from clipboard or selection"
+msgstr "جِد من الحافظة او التحديد"
+
+#: src/bfwin_uimanager.c:1087 src/bfwin_uimanager.c:1091
+msgid "Ad_vanced Find & Replace..."
+msgstr "الإيجاد والاستبدال المتق_دم..."
+
+#: src/bfwin_uimanager.c:1088 src/bfwin_uimanager.c:1092
+msgid "Advanced Find and Replace"
+msgstr "الإيجاد والاستبدال المتقدم"
+
+#: src/bfwin_uimanager.c:1101
+msgid "Save & _close"
+msgstr "احفظ وا_غلق"
+
+#: src/bfwin_uimanager.c:1101
+msgid "Save & close project"
+msgstr "احفظ واغلق المشروع"
+
+#: src/bfwin_uimanager.c:1103
+msgid "Save project"
+msgstr "احفظ المشروع"
+
+#: src/bfwin_uimanager.c:1104
+msgid "Save project as"
+msgstr "احفظ المشروع بإسم"
+
+#: src/bfwin_uimanager.c:1105
+msgid "_Edit Project Options..."
+msgstr "ح_رر خيارات المشروع..."
+
+#: src/bfwin_uimanager.c:1105
+msgid "Edit project options"
+msgstr "حرر خيارات المشروع"
+
+#: src/bfwin_uimanager.c:1110
+msgid "_Undo"
+msgstr "_تراجع"
+
+#: src/bfwin_uimanager.c:1110
+msgid "Undo"
+msgstr "تراجع"
+
+#: src/bfwin_uimanager.c:1111
+msgid "U_ndo All"
+msgstr "ترا_جع عن الكل"
+
+#: src/bfwin_uimanager.c:1111
+msgid "Undo All"
+msgstr "تراجع عن الكل"
+
+#: src/bfwin_uimanager.c:1112
+msgid "_Redo"
+msgstr "أعِ_د العمل"
+
+#: src/bfwin_uimanager.c:1112
+msgid "Redo"
+msgstr "أعِد العمل"
+
+#: src/bfwin_uimanager.c:1113
+msgid "R_edo All"
+msgstr "أعِد عمل ال_كل"
+
+#: src/bfwin_uimanager.c:1113
+msgid "Redo All"
+msgstr "أعِد عمل الكل"
+
+#: src/bfwin_uimanager.c:1140
+#, c-format
+msgid "Always use this syntax for files of type %s ?"
+msgstr "دومًا استخدم هذه القواعد للملفات من النوع %s؟"
+
+#: src/bfwin_uimanager.c:1319
+msgid "Open _URL..."
+msgstr "افتح ال_رابط..."
+
+#: src/bfwin_uimanager.c:1329
+msgid "Upload _/ Download..."
+msgstr "ارفع _\\ حمّل..."
+
+#: src/bfwin_uimanager.c:1342
+msgid "_Spell Check"
+msgstr "_تدقيق إملائي"
+
+#: src/bfwin_uimanager.c:1840
+msgid "Text area to filter"
+msgstr "مساحة النص لترشيحها"
+
+#: src/bfwin_uimanager.c:1841
+msgid "All text"
+msgstr "كل النص"
+
+#: src/bfwin_uimanager.c:1842
+msgid "Selected text only"
+msgstr "النص المحدد فقط"
+
+#: src/bfwin_uimanager.c:1844
+msgid "Never ask again"
+msgstr "لا تسأل ثانيةً أبداً"
+
+#: src/blocksync.c:87
+msgid ""
+"Select the block to sync to other pages. Include the start-of-block and end-"
+"of-block markers in your selection."
+msgstr ""
+"حدد الكتل التي ستُزامَن مع الصفحات الاخرى. ضمّن مشيرات بداية الكتلة start-of-"
+"block ونهاية الكتلة end-of-block في تحديدك."
+
+#: src/blocksync.c:92
+msgid "To proceed with the current selection click forward."
+msgstr "للمتابعة مع التحديد الحالي انقر للأمام."
+
+#: src/blocksync.c:121
+msgid ""
+"Below is the block, including start and end marker. Please <b>select the "
+"start marker</b> in the text below."
+msgstr ""
+"فيما يلي الكتلة، متضمنة مشير البدء والنهاية. لطفًا <b>حدد مشير البدء</b> في "
+"النص التالي."
+
+#: src/blocksync.c:156
+msgid "Please <b>select the end marker</b> in the text below."
+msgstr "لطفًا <b>حدد مشير النهاية</b> في النص التالي."
+
+#: src/blocksync.c:194
+#, c-format
+msgid ""
+"Will replace the text between <i>%s</i> and <i>%s</i> in all documents "
+"opened in this window.\n"
+"<b>Proceed?</b>"
+msgstr ""
+"سيستبدل النص ما بين <i>%s و <i>%s في كل المستندات المفتوحة في هذه النافذة.\n"
+"<b>هل أواصل؟</b>"
+
+#: src/blocksync.c:225
+msgid ""
+"<span foreground=\"red\" weight=\"bold\">Please select the block of text to "
+"synchronize.</span>"
+msgstr ""
+"<span foreground=\"red\" weight=\"bold\">لطفًا حدد كتلة النص التي ستُزامَن.</"
+"span>"
+
+#: src/blocksync.c:239 src/blocksync.c:259
+msgid ""
+"<span foreground=\"red\" weight=\"bold\">This marker exists more than once "
+"in the block.</span>"
+msgstr ""
+"<span foreground=\"red\" weight=\"bold\">هذا المشير موجود أكثر من مرة في هذه "
+"الكتلة.</span>"
+
+#: src/blocksync.c:245
+msgid ""
+"<span foreground=\"red\" weight=\"bold\">Select the text that marks the "
+"start of the block.</span>"
+msgstr ""
+"<span foreground=\"red\" weight=\"bold\">حدد النص الذي يؤشر بداية الكتلة.</"
+"span>"
+
+#: src/blocksync.c:265
+msgid ""
+"<span foreground=\"red\" weight=\"bold\">Select the text that marks the end "
+"of the block.</span>"
+msgstr ""
+"<span foreground=\"red\" weight=\"bold\">حدد النص الذي يؤشر نهاية الكتلة.</"
+"span>"
+
+#: src/bluefish.c:95
+msgid "Visit us at http://bluefish.openoffice.nl"
+msgstr "زُرنا في http://bluefish.openoffice.nl"
+
+#: src/bluefish.c:347
+msgid "Open in existing window."
+msgstr "افتح في نافذة موجودة."
+
+#: src/bluefish.c:349
+msgid "Open in new window."
+msgstr "افتح في نافذة جديدة."
+
+#: src/bluefish.c:351
+msgid "Print version information."
+msgstr "اطبع معلومات الإصدار."
+
+#: src/bluefish.c:378
+msgid " [FILE(S)]"
+msgstr " [ملف(ات)]"
+
+#: src/bluefish.c:389
+#, c-format
+msgid ""
+"Error parsing command line options. %s\n"
+"Please run: %s -?\n"
+msgstr ""
+"خطأ في تحليل خيارات سطر الأوامر. %s\n"
+"لطفًا شغّل: %s -?\n"
+
+#: src/bookmark.c:590 src/bookmark.c:611
+msgid "_Name:"
+msgstr "الا_سم:"
+
+#: src/bookmark.c:597 src/bookmark.c:615
+msgid "_Description:"
+msgstr "ال_وصف:"
+
+#: src/bookmark.c:600
+msgid "_Temporary"
+msgstr "م_ؤقَّت"
+
+#: src/bookmark.c:617
+msgid "Temporary"
+msgstr "مؤقَّت"
+
+#: src/bookmark.c:816
+#, c-format
+msgid "Do you really want to delete %s?"
+msgstr "أتريد حقا حذف %s؟"
+
+#: src/bookmark.c:819
+msgid "Delete permanent bookmark."
+msgstr "احذف العلامة الدائمية."
+
+#: src/bookmark.c:845
+msgid "Delete all bookmarks."
+msgstr "احذف كل العلامات."
+
+#: src/bookmark.c:894
+#, c-format
+msgid "Do you really want to delete all bookmarks for %s?"
+msgstr "أتريد حقا حذف كل العلامات لـ %s؟"
+
+#: src/bookmark.c:896
+msgid "Delete bookmarks?"
+msgstr "احذف العلامات؟"
+
+#: src/bookmark.c:929 src/bookmark.c:995
+msgid "Edit bookmark"
+msgstr "حرر العلامة"
+
+#: src/bookmark.c:991
+msgid "Bookmark menu"
+msgstr "قائمة العلامات"
+
+#: src/bookmark.c:992
+msgid "Show Bookmark"
+msgstr "أظهِر العلامة"
+
+#: src/bookmark.c:993
+msgid "Show File"
+msgstr "أظهِر الملف"
+
+#: src/bookmark.c:994
+msgid "Bookmark search menu"
+msgstr "قائمة بحث العلامات"
+
+#: src/bookmark.c:995
+msgid "_Edit..."
+msgstr "_حرّر..."
+
+#: src/bookmark.c:997 src/filebrowser2.c:1321
+msgid "_Delete"
+msgstr "ا_حذف"
+
+#: src/bookmark.c:997 src/document.c:2324
+msgid "Delete bookmark"
+msgstr "احذف العلامة"
+
+#: src/bookmark.c:998
+msgid "Delete All"
+msgstr "احذف الكل"
+
+#: src/bookmark.c:998
+msgid "Delete all bookmarks"
+msgstr "احذف كل العلامات"
+
+#: src/bookmark.c:1000
+msgid "Delete All in Document"
+msgstr "احذف الكل في المستند"
+
+#: src/bookmark.c:1001
+msgid "Delete all bookmarks in document"
+msgstr "احذف كل العلامات في المستند"
+
+#: src/bookmark.c:1002
+msgid "Delete temporary in Document"
+msgstr "احذف المؤقت في المستند"
+
+#: src/bookmark.c:1003
+msgid "Delete temporary bookmarks in document"
+msgstr "احذف العلامات المؤقتة في المستند"
+
+#: src/bookmark.c:1007
+msgid "Permanent by default"
+msgstr "دائمية مبدئيا"
+
+#: src/bookmark.c:1009 src/filebrowser2.c:1341
+msgid "Follow active document"
+msgstr "اتبع المستند النشط"
+
+#: src/bookmark.c:1011
+msgid "Follow cursor"
+msgstr "اتبع المؤشِّر"
+
+#: src/bookmark.c:1011
+msgid "Follow cursor position"
+msgstr "اتبع موقع المؤشِّر"
+
+#: src/bookmark.c:1016
+msgid "By Name"
+msgstr "حسب الاسم"
+
+#: src/bookmark.c:1017
+msgid "By Full Path"
+msgstr "حسب المسار الكامل"
+
+#: src/bookmark.c:1018
+msgid "By Full URI"
+msgstr "حسب الرابط الكامل"
+
+#: src/bookmark.c:1022 src/bookmark.c:1028
+msgid "Content"
+msgstr "المحتوى"
+
+#: src/bookmark.c:1023 src/bookmark.c:1029 src/preferences.c:699
+#: src/preferences.c:1730 src/preferences.c:1732 src/preferences.c:1920
+#: src/preferences.c:2018
+msgid "Name"
+msgstr "الإسم"
+
+#: src/bookmark.c:1024 src/bookmark.c:1030
+msgid "Name & Content"
+msgstr "الاسم والمحتوى"
+
+#: src/bookmark.c:1418
+msgid "First bookmark"
+msgstr "العلامة الاولى"
+
+#: src/bookmark.c:1422
+msgid "Previous bookmark"
+msgstr "العلامة السابقة"
+
+#: src/bookmark.c:1426
+msgid "Next bookmark"
+msgstr "العلامة التالية"
+
+#: src/bookmark.c:1430
+msgid "Last bookmark"
+msgstr "العلامة الاخيرة"
+
+#: src/document.c:510
+msgid "Name: "
+msgstr "الاسم : "
+
+#: src/document.c:537
+msgid ""
+"\n"
+"Language mode: "
+msgstr ""
+"\n"
+"طور اللغة: "
+
+#: src/document.c:541
+msgid ""
+"\n"
+"Encoding: "
+msgstr ""
+"\n"
+"الترميز: "
+
+#: src/document.c:553
+msgid ""
+"\n"
+"Mime type: "
+msgstr ""
+"\n"
+"نوع الملف: "
+
+#: src/document.c:561
+#, c-format
+msgid ""
+"\n"
+"Permissions: %s\n"
+"Uid: %u Gid: %u"
+msgstr ""
+"\n"
+"التصاريح: %s\n"
+"معرّف المستخدم Uid: %u معرّف المجموعة Gid: %u"
+
+#: src/document.c:578
+msgid ""
+"\n"
+"Size (on disk): "
+msgstr ""
+"\n"
+"الحجم (على القرص): "
+
+#: src/document.c:587
+msgid ""
+"\n"
+"Last modified: "
+msgstr ""
+"\n"
+"آخر تعديل: "
+
+#: src/document.c:655
+#, c-format
+msgid "Untitled %d"
+msgstr "%d بلا عنوان"
+
+#: src/document.c:838
+#, c-format
+msgid "Changed tab width to %d"
+msgstr "غيّر عُرض اللسان الى %d"
+
+#: src/document.c:1016
+#, c-format
+msgid "Document %s is already open in another Bluefish window."
+msgstr "المستند %s مفتوح سلفًا في نافذة بلوفِش أخرى."
+
+#: src/document.c:1018
+msgid "Move to this window"
+msgstr "انقل الى هذه النافذة"
+
+#: src/document.c:1018
+msgid "Open readonly"
+msgstr "افتح للقراءة فقط"
+
+#: src/document.c:1019
+msgid "Do not open"
+msgstr "لا تفتح"
+
+#: src/document.c:1381
+#, c-format
+msgid "Ln: %d, Col: %d, Char: %d, Blocks: %d"
+msgstr "طول: %d، عمود: %d، محرف: %d، كتل: %d"
+
+#: src/document.c:1402
+msgid " OVR"
+msgstr " OVR"
+
+#: src/document.c:1402
+msgid " INS"
+msgstr " INS"
+
+#: src/document.c:1404
+msgid " RO"
+msgstr " RO"
+
+#: src/document.c:1423
+msgid "Unknown"
+msgstr "مجهول"
+
+#: src/document.c:2031
+msgid "_No"
+msgstr "_كلا"
+
+#: src/document.c:2031
+msgid "_Split"
+msgstr "ا_قسم"
+
+#: src/document.c:2034
+msgid "File contains very long lines. Split these lines?"
+msgstr "يحوي الملف سطورا طويلة جدا. أقسم هذه السطور؟"
+
+#: src/document.c:2036
+msgid ""
+"The lines in this file are longer than Bluefish can handle with reasonable "
+"performance. This split function, however, is unaware of any language "
+"syntax, and may replace spaces or tabs with newlines in any location, or "
+"insert newlines if no spaces or tabs are found."
+msgstr ""
+"السطور في هذا الملف أطول مما يستطيع بلوفِش التعامل معه بأداء معقول. لكن وظيفة "
+"التقسيم ليست على دراية بقواعد أية لغة، وقد تستبدل الفراغات أو علامات التبويب "
+"بسطور جديدة في أي موضع، أو تُدرج سطورا جديدة إذا لم توجد فراغات أو علامات "
+"تبويب."
+
+#: src/document.c:2112
+msgid "_Convert"
+msgstr "_حوّل"
+
+#: src/document.c:2116
+#, c-format
+msgid ""
+"File '%s' is not a valid text file.\n"
+"The file might be corrupted, truncated, or in an unexpected encoding."
+msgstr ""
+"الملف '%s' ليس ملف نص صحيح.\n"
+"قد يكون الملف تالفًا أو مقتطعًا أو بترميز غير متوقع."
+
+#: src/document.c:2121
+msgid ""
+"Bluefish can convert this file into a valid one by replacing illegal symbols "
+"with spaces. Convert?"
+msgstr ""
+"يستطيع بلوفِش تحويل هذا الملف الى ملف صحيح باستبدال الرموز غير القانونية "
+"بالفراغات. تحويل؟"
+
+#: src/document.c:2133
+#, c-format
+msgid ""
+"File is opened in read-only mode since it differs from original one.\n"
+"%lu characters were replaced by space"
+msgstr ""
+"فُتح الملف بطور القراءة فقط حيث أنه يختلف عن الملف الأصلي.\n"
+"استُبدل %lu من المحارف بالفراغ"
+
+#: src/document.c:2136
+msgid "Use 'Save As' to save it with different name and make editable"
+msgstr "استخدم ’حفظ باسم‘ لتحفظه باسم مختلف وتجعله قابلا للتعديل"
+
+#: src/document.c:2328
+msgid "Add bookmark"
+msgstr "أضِف علامة"
+
+#: src/document.c:2334
+msgid "Exit fullscreen"
+msgstr "اخرج من الشاشة الكاملة"
+
+#. if (main_v->props.backup_abort_action == 2)
+#. we have to ask the user
+#. we have to ask the user what to do
+#: src/document.c:2525 src/file_dialogs.c:449 src/file_dialogs.c:487
+msgid "_Abort save"
+msgstr "أح_بط الحفظ"
+
+#: src/document.c:2525
+msgid "_Continue save in UTF-8"
+msgstr "استمر بالحفظ بترميز UTF-8"
+
+#: src/document.c:2538
+#, c-format
+msgid ""
+"Failed to convert %s to character encoding %s. Encoding failed on character "
+"'%s' at line %d column %d\n"
+"\n"
+"Continue saving in UTF-8 encoding?"
+msgstr ""
+"تعذر تحويل %s الى ترميز المحارف %s. فشل الترميز في المحرف '%s' في السطر %d "
+"العمود %d\n"
+"\n"
+"مواصلة الحفظ بترميز UTF-8؟"
+
+#: src/document.c:2543
+msgid "File encoding conversion failure"
+msgstr "أخفق تحويل ترميز الملف"
+
+#: src/document.c:2722
+msgid "Previously: "
+msgstr "سابقًا: "
+
+#: src/document.c:3421
+msgid "Unable to open file"
+msgstr "تعذر فتح الملف"
+
+#: src/document.c:3433
+#, c-format
+msgid ""
+"If you revert \"%s\" to your last saved copy, your current changes will be "
+"permanently lost."
+msgstr ""
+"إذا تراجعت بـ \"%s\" الى آخر نسخة محفوظة فستفقد التغييرات الحالية التي "
+"أجريتها الى الابد."
+
+#: src/document.c:3437
+msgid "Revert changes to last saved copy?"
+msgstr "التراجع بالتغييرات الى آخِر نسخة محفوظة؟"
+
+#: src/document.c:3506
+msgid "_Retry"
+msgstr "أ_عِد المحاولة"
+
+#: src/document.c:3506
+msgid "Retry _all failed"
+msgstr "أخفقت إعادة محاولة ال_كل"
+
+#: src/document.c:3506
+msgid "Close all _failed"
+msgstr "أخفق إ_غلاق الكل"
+
+#: src/document.c:3511
+msgid "File "
+msgstr "الملف "
+
+#: src/document.c:3511
+msgid " failed to load."
+msgstr " أخفق في أن يحمّل."
+
+#: src/document.c:3515
+msgid "File failed to load\n"
+msgstr "أخفق الملف في أن يحمّل\n"
+
+#: src/document.c:3650
+msgid "Select file to insert"
+msgstr "حدد ملفا لإدراجه"
+
+#: src/document.c:3659
+msgid "No file to insert"
+msgstr "لا ملف ليُدرَج"
+
+#: src/document.c:3750
+msgid "Save pasted image as"
+msgstr "احفظ الصورة الملصقة كـ"
+
+#: src/document.c:3852
+msgid "Paste special"
+msgstr "لصق خاص"
+
+#: src/document.c:3858
+msgid "No compatible clipboard data found"
+msgstr "لم يعثر على بيانات محفظة متوافقة"
+
+#: src/document.c:3863
+msgid "Paste as _HTML"
+msgstr "الص_ق كـ HTML"
+
+#: src/document.c:3868
+msgid "Paste as HTML with _JPG"
+msgstr "الصق كـ HTML _مع JPG"
+
+#: src/document.c:3878
+msgid "Paste as plain text"
+msgstr "الصق كنص بسيط"
+
+#: src/document.c:3973
+#, c-format
+msgid "%d line"
+msgid_plural "%d lines"
+msgstr[0] "لا سطور"
+msgstr[1] "سطر واحد"
+msgstr[2] "سطران"
+msgstr[3] "%d سطور"
+msgstr[4] "%d سطراً"
+msgstr[5] "%d سطرٍ"
+
+#: src/document.c:3974
+#, c-format
+msgid "%d word"
+msgid_plural "%d words"
+msgstr[0] "لا كلمات"
+msgstr[1] "كلمة واحدة"
+msgstr[2] "كلمتان"
+msgstr[3] "%d كلمات"
+msgstr[4] "%d كلمةً"
+msgstr[5] "%d كلمةٍ"
+
+#: src/document.c:3975
+#, c-format
+msgid "%d character"
+msgid_plural "%d characters"
+msgstr[0] "لا محارف"
+msgstr[1] "محرف واحد"
+msgstr[2] "محرفان"
+msgstr[3] "%d محارف"
+msgstr[4] "%d محرفًا"
+msgstr[5] "%d محرفٍ"
+
+#: src/document.c:3977
+msgid "Selection statistics: "
+msgstr "احصاءات التحديد: "
+
+#: src/document.c:3977
+msgid "Statistics: "
+msgstr "الاحصاءات: "
+
+#: src/doc_text_tools.c:401
+msgid "Lines into columns"
+msgstr "سطور الى أعمدة"
+
+#: src/doc_text_tools.c:413
+msgid "Number of columns:"
+msgstr "عدد الأعمدة:"
+
+#: src/doc_text_tools.c:417
+msgid "Spread lines horizontally"
+msgstr "وزع الصطور أفقيًا"
+
+#: src/doc_text_tools.c:424
+msgid "Column separator:"
+msgstr "فاصل الأعمدة:"
+
+#: src/doc_text_tools.c:428
+msgid "Fill empty entries:"
+msgstr "املأ المُدخَلات الفارغة:"
+
+#: src/doc_extern_tools.c:63
+msgid "Number of _paragraphs:"
+msgstr "عدد الم_قاطع:"
+
+#: src/doc_extern_tools.c:68
+msgid "Number of _sentences:"
+msgstr "عدد ال_جُمل:"
+
+#: src/doc_extern_tools.c:71 src/doc_extern_tools.c:86
+msgid "Insert plain text"
+msgstr "أدرِج نصًا بسيطًا"
+
+#: src/doc_extern_tools.c:71 src/doc_extern_tools.c:86
+msgid "Insert in <li>"
+msgstr "درِج في <li>"
+
+#: src/doc_extern_tools.c:71 src/doc_extern_tools.c:86
+msgid "Insert in <p>"
+msgstr "درِج في <p>"
+
+#: src/doc_extern_tools.c:81
+msgid "Number of paragraphs"
+msgstr "عدد المقاطع"
+
+#: src/doc_extern_tools.c:84
+msgid "Number of sentences"
+msgstr "عدد الجُمل"
+
+#: src/doc_extern_tools.c:134
+msgid "Javascript Beautify"
+msgstr "تجميل جافاسكربت"
+
+#: src/doc_extern_tools.c:148
+msgid "_Indent size:"
+msgstr "حجم الإ_زاحة:"
+
+#: src/doc_extern_tools.c:151 src/doc_extern_tools.c:178
+msgid "Use _tabs to indent, not spaces"
+msgstr "استخدم الأ_لسنة للإزاحة وليس الفراغات"
+
+#: src/doc_extern_tools.c:154 src/doc_extern_tools.c:183
+msgid "Do not _preserve existing line breaks"
+msgstr "لا _تحافظ على الفواصل الحالية للسطور"
+
+#: src/doc_extern_tools.c:156 src/doc_extern_tools.c:184
+msgid "More _jslint-compatible output"
+msgstr "مُخرَجات أك_ثر توافقًا مع jslint"
+
+#: src/doc_extern_tools.c:159 src/doc_extern_tools.c:186
+msgid "_Decode printable chars encoded in \\\\xNN notation"
+msgstr "ف_كّ ترميز المحارف المرمزة بتدوين ‎\\\\xNN"
+
+#: src/doc_extern_tools.c:164 src/doc_extern_tools.c:173
+msgid "Beautify only in _selection"
+msgstr "جمّل في ال_تحديد فقط"
+
+#: src/doc_extern_tools.c:179
+msgid "_Indent size"
+msgstr "حجم الإ_زاحة"
+
+#: src/encodings_dialog.c:287
+msgid "_Available encodings:"
+msgstr "الترمي_زات المتاحة:"
+
+#: src/encodings_dialog.c:333 src/encodings_dialog.c:385
+msgid "Description"
+msgstr "الوصف"
+
+#: src/encodings_dialog.c:339 src/encodings_dialog.c:390
+msgid "Encoding"
+msgstr "الترميز"
+
+#: src/encodings_dialog.c:362
+msgid "Encodings in _menu:"
+msgstr "الترميزات في ال_قائمة:"
+
+#: src/encodings_dialog.c:436
+msgid "Add or remove document encodings"
+msgstr "أضِف أو أزِل ترميزات للمستند"
+
+#: src/external_commands.c:478
+msgid "Supply extra arguments"
+msgstr "زوِّد معطيات إضافية"
+
+#: src/external_commands.c:484
+#, c-format
+msgid "Supply arguments to define %%a in '%s'"
+msgstr "زوِّد معطيات لتعرّف %%a في '%s'"
+
+#: src/external_commands.c:762
+msgid "Internal error."
+msgstr "خطأ داخلي."
+
+#: src/external_commands.c:765
+msgid ""
+"This command requires the current document to have a file name. Please save "
+"your document first."
+msgstr ""
+"هذا الأمر يتطلب أن يكون للمستند الحالي اسم ملف. لطفًا احفظ المستند أولاً."
+
+#: src/external_commands.c:768
+msgid ""
+"This command requires the current document to be a local file. Please save "
+"your document to a local file."
+msgstr ""
+"هذا الأمر يتطلب أن يكون المستند الحالي ملفًا محليًا. لطفًا احفظ المستند في ملف "
+"محلي."
+
+#: src/external_commands.c:771
+msgid ""
+"External commands cannot have an output defined. Please fix this command in "
+"the preferences."
+msgstr ""
+"لا يمكن أن يكون للأوامر الخارجية مُخرَجات معرَّفة. لطفًا أصلح هذا الأمر في "
+"التفضيلات."
+
+#: src/external_commands.c:774
+msgid ""
+"This command has multiple inputs. Please fix this command in the preferences."
+msgstr "لهذا الأمر مُدخَلات متعددة. لطفًا أصلح هذا الأمر في التفضيلات."
+
+#: src/external_commands.c:777
+msgid ""
+"This command has multiple outputs. Please fix this command in the "
+"preferences."
+msgstr "لهذا الأمر مُخرَجات متعددة. لطفًا أصلح هذا الأمر في التفضيلات."
+
+#: src/external_commands.c:781
+#, c-format
+msgid ""
+"Failed to create a command for %s.\n"
+"%s"
+msgstr ""
+"أخفق إنشاء أمر لـ ‏%s‏.\n"
+"%s"
+
+#: src/external_commands.c:783
+msgid "Failed to create a command"
+msgstr "أخفق إنشاء أمر"
+
+#: src/external_commands.c:804
+#, c-format
+msgid "The command %s exited with error code %d. %s"
+msgstr "خرج الأمر ‏%s برمز خطأ ‏%d. ‏%s"
+
+#: src/external_commands.c:807 src/outputbox.c:484
+msgid "Probably this application is not installed on your system."
+msgstr "من المحتمل أن لا يكون هذا التطبيق مثبَّتًا في نظامك."
+
+#: src/external_commands.c:810
+msgid "Command returned error code"
+msgstr "أرجعَ الأمر رمز خطأ"
+
+#: src/filebrowser2.c:749
+msgid "Set documentroot and webroot"
+msgstr "عيّن جذر المستند documentroot وجذر الوب webroot"
+
+#: src/filebrowser2.c:758
+msgid ""
+"The <i>documentroot</i> is the place where Bluefish finds the file,\n"
+"the <i>webroot</i> is the location where those same files can be viewed on "
+"the webserver"
+msgstr ""
+"الـ <i>جذر المستند documentroot</i> هو المكان الذي يجد بلوفِش فيه الملف\n"
+"و <i>جذر الوب webroot</i> هو الموضع يمكن فيه مشاهدة نفس هذه الملفات في خادوم "
+"الوب"
+
+#: src/filebrowser2.c:765
+msgid "Documentroot"
+msgstr "جذر المستند Documentroot"
+
+#: src/filebrowser2.c:776
+msgid "Webroot"
+msgstr "جذر الوب Webroot"
+
+#: src/filebrowser2.c:789 src/file_dialogs.c:776
+#, c-format
+msgid "Move/rename %s to"
+msgstr "انقل\\أعد تسمية %s الى"
+
+#: src/filebrowser2.c:800
+msgid "Could not rename\n"
+msgstr "تعذرت إعادة تسمية\n"
+
+#: src/filebrowser2.c:874 src/filebrowser2.c:1323
+msgid "New directory"
+msgstr "مجلد جديد"
+
+#. Do we really need to display the full path here?
+#. *
+#. * Having the filename in the both the primary and secondary text seems to be redundant.
+#. * Set back to just the primary text for now.
+#. *
+#. * --> Sometimes you can have a file in many directories (e.g. Makefile.in, index.html)
+#. * and then this might give you more indication if this is indeed the file you wanted to delete
+#.
+#: src/filebrowser2.c:980
+#, c-format
+msgid ""
+"Are you sure you want to delete\n"
+"\"%s\"?"
+msgstr ""
+"أمتأكد أنك تريد حذف\n"
+"\"%s\"؟"
+
+#: src/filebrowser2.c:981
+#, c-format
+msgid "If you delete %s, it will be permanently lost."
+msgstr "إذا حذفت %s فستفقده نهائيا."
+
+#: src/filebrowser2.c:1314
+msgid "File Browser menu"
+msgstr "قائمة متصفح الملفات"
+
+#: src/filebrowser2.c:1315
+msgid "_Open"
+msgstr "ا_فتح"
+
+#: src/filebrowser2.c:1315
+msgid "Open"
+msgstr "افتح"
+
+#: src/filebrowser2.c:1316
+msgid "Open _Advanced..."
+msgstr "فتح مت_قدم..."
+
+#: src/filebrowser2.c:1318
+msgid "Search files..."
+msgstr "ابحث الملفات..."
+
+#: src/filebrowser2.c:1318
+msgid "Search files"
+msgstr "ابحث الملفات"
+
+#: src/filebrowser2.c:1320
+msgid "Rena_me"
+msgstr "أعِ_د التسمية"
+
+#: src/filebrowser2.c:1320
+msgid "Rename"
+msgstr "غيّر الاسم"
+
+#: src/filebrowser2.c:1321
+msgid "Delete"
+msgstr "احذف"
+
+#: src/filebrowser2.c:1322
+msgid "New _File"
+msgstr "م_لف جديد"
+
+#: src/filebrowser2.c:1323
+msgid "_New Directory"
+msgstr "م_جلد جديد"
+
+#: src/filebrowser2.c:1325
+msgid "Insert _link"
+msgstr "أدرج _رابطًا"
+
+#: src/filebrowser2.c:1325
+msgid "Insert link"
+msgstr "أدرج رابطًا"
+
+#: src/filebrowser2.c:1326
+msgid "_Refresh"
+msgstr "_حدِّث"
+
+#: src/filebrowser2.c:1326
+msgid "Refresh"
+msgstr "أعِد التحميل"
+
+#: src/filebrowser2.c:1327
+msgid "_Set as base dir"
+msgstr "_عيّن كمجلد أساس"
+
+#: src/filebrowser2.c:1327
+msgid "Set as base directory"
+msgstr "عيّن كمجلد أساس"
+
+#: src/filebrowser2.c:1329
+msgid "Set as document root"
+msgstr "عيّن كجذر مستند"
+
+#: src/filebrowser2.c:1331
+msgid "Show Full _Tree"
+msgstr "أظهِر كامل ال_شجرة"
+
+#: src/filebrowser2.c:1331
+msgid "Show full tree"
+msgstr "أظهِر كامل الشجرة"
+
+#: src/filebrowser2.c:1333
+msgid "View Mode"
+msgstr "طور المعاينة"
+
+#: src/filebrowser2.c:1334
+msgid "Filter"
+msgstr "رشّح"
+
+#: src/filebrowser2.c:1335
+msgid "New Filter"
+msgstr "مرشح جديد"
+
+#: src/filebrowser2.c:1335 src/filefilter.c:548
+msgid "New filter"
+msgstr "مرشح جديد"
+
+#: src/filebrowser2.c:1336
+msgid "Edit Filter"
+msgstr "حرر المرشح"
+
+#: src/filebrowser2.c:1336 src/filefilter.c:553
+msgid "Edit filter"
+msgstr "حرر المرشح"
+
+#: src/filebrowser2.c:1337
+msgid "Delete Filter"
+msgstr "احذف المرشح"
+
+#: src/filebrowser2.c:1337
+msgid "Delete filter"
+msgstr "احذف المرشح"
+
+#: src/filebrowser2.c:1341
+msgid "Follow Active Document"
+msgstr "اتبع المستند النشط"
+
+#: src/filebrowser2.c:1343
+msgid "Show Backup Files"
+msgstr "أظهِر ملفات النسخ الاحتياطي"
+
+#: src/filebrowser2.c:1343 src/gtk_easy.c:1344
+msgid "Show backup files"
+msgstr "أظهِر ملفات النسخ الاحتياطي"
+
+#: src/filebrowser2.c:1345
+msgid "Show Hidden Files"
+msgstr "أظهِر الملفات المخفية"
+
+#: src/filebrowser2.c:1345
+msgid "Show hidden files"
+msgstr "أظهِر الملفات المخفية"
+
+#: src/filebrowser2.c:1350
+msgid "Dual"
+msgstr "مزدوج"
+
+#: src/filebrowser2.c:1351
+msgid "Flat"
+msgstr "مسطح"
+
+#: src/filebrowser2.c:1352
+msgid "Tree"
+msgstr "شجرة"
+
+#: src/filebrowser2.c:2399
+#, c-format
+msgid ""
+"<b>%s</b>\n"
+"which is the equivalent of\n"
+"<b>%s%s</b>"
+msgstr ""
+"<b>%s</b>\n"
+"وهو ما يكافئ\n"
+"<b>%s%s</b>"
+
+#: src/file.c:902
+#, c-format
+msgid "Still loading %d file, finished %s"
+msgid_plural "Still loading %d files, finished %s"
+msgstr[0] "%d لم يحمل أية ملفات، المنجز %s"
+msgstr[1] "مازال يحمّل %d ملفًا واحداً، المنجز %s"
+msgstr[2] "مازال يحمّل %d ملفين، المنجز %s"
+msgstr[3] "مازال يحمّل %d ملفات، المنجز %s"
+msgstr[4] "مازال يحمّل %d ملفًا، المنجز %s"
+msgstr[5] "مازال يحمّل %d ملفٍ، المنجز %s"
+
+#: src/file.c:910
+#, c-format
+msgid "All files loaded, finished %s, %d document open"
+msgid_plural "All files loaded, finished %s, %d documents open"
+msgstr[0] "حملت كل الملفات، المنجز %s‏، لا مستند مفتوح"
+msgstr[1] "حملت كل الملفات، المنجز %s‏، %d مستند واحد مفتوح"
+msgstr[2] "حملت كل الملفات، المنجز %s‏، %d مستندان مفتوحان"
+msgstr[3] "حملت كل الملفات، المنجز %s‏، %d مستندات مفتوحة"
+msgstr[4] "حملت كل الملفات، المنجز %s‏، %d مستنداً مفتوحًا"
+msgstr[5] "حملت كل الملفات، المنجز %s‏، %d مستندٍ مفتوح"
+
+#: src/file.c:1472
+#, c-format
+msgid "Finished advanced open, %d document open."
+msgid_plural "Finished advanced open, %d documents open."
+msgstr[0] "انتهى الفتح المتقدم، لا مستندات مفتوحة."
+msgstr[1] "انتهى الفتح المتقدم، %d مستند واحد مفتوح."
+msgstr[2] "انتهى الفتح المتقدم، %d مستندان مفتوحان."
+msgstr[3] "انتهى الفتح المتقدم، %d مستندات مفتوحة."
+msgstr[4] "انتهى الفتح المتقدم، %d مستنداً مفتوحًا."
+msgstr[5] "انتهى الفتح المتقدم، %d مستندٍ مفتوح."
+
+#: src/file.c:1649
+msgid "_Skip"
+msgstr "_تجاوز"
+
+#: src/file.c:1649 src/file_dialogs.c:620 src/file_dialogs.c:641
+#: src/project.c:352
+msgid "_Overwrite"
+msgstr "اكتب _عليه"
+
+#: src/file.c:1653
+#, c-format
+msgid "%s cannot be copied, it already exists, overwrite?"
+msgstr "يتعذر نسخ %s، انه موجود مسبقًا، الكتابة عليه؟"
+
+#: src/file.c:1655
+msgid "Overwrite file?"
+msgstr "الكتابة على الملف؟"
+
+#: src/file_autosave.c:291
+msgid "Autosave in progress..."
+msgstr "الحفظ التلقائي جارٍ..."
+
+#: src/file_dialogs.c:109
+msgid "Started open advanced..."
+msgstr "بدأ الفتح المتقدم..."
+
+#: src/file_dialogs.c:120
+msgid "Select basedir"
+msgstr "حدد المجلد الأساس"
+
+#: src/file_dialogs.c:142
+msgid "Advanced open file selector"
+msgstr "منتقي ملفات الفتح المتقدم"
+
+#: src/file_dialogs.c:159
+msgid "<b>Files</b>"
+msgstr "<b>الملفات</b>"
+
+#: src/file_dialogs.c:168
+msgid "Base _Dir:"
+msgstr "الم_جلد الأساس:"
+
+#: src/file_dialogs.c:183
+msgid "_Pattern:"
+msgstr "ال_نمط:"
+
+#: src/file_dialogs.c:191
+msgid "Pattern matches _full path:"
+msgstr "النمط يطابق المسار ال_كامل:"
+
+#: src/file_dialogs.c:195
+msgid "_Recursive:"
+msgstr "_تواتري:"
+
+#: src/file_dialogs.c:199
+msgid "Ma_x recursion:"
+msgstr "أ_قصى تواتر:"
+
+#: src/file_dialogs.c:208
+msgid "<b>Contains</b>"
+msgstr "<b>يحوي</b>"
+
+#: src/file_dialogs.c:213
+msgid "Pa_ttern:"
+msgstr "ال_نمط:"
+
+#: src/file_dialogs.c:217
+msgid "Is rege_x:"
+msgstr "يكون تعبيرا ن_ظاميا:"
+
+#: src/file_dialogs.c:286 src/file_dialogs.c:306
+msgid "Select files"
+msgstr "حدد الملفات"
+
+#: src/file_dialogs.c:366
+msgid "Open URL"
+msgstr "افتح الرابط"
+
+#: src/file_dialogs.c:449 src/file_dialogs.c:487
+msgid "_Continue save"
+msgstr "ا_ستمر بالحفظ"
+
+#: src/file_dialogs.c:453
+#, c-format
+msgid ""
+"A backupfile for %s could not be created. If you continue, this file will be "
+"overwritten."
+msgstr "تعذر إنشاء ملف نسخ احتياطي لـ %s. إذا استمررت فسيُكتب على الملف."
+
+#: src/file_dialogs.c:457
+msgid "File backup failure"
+msgstr "إخفاق في النسخ الاحتياطي للملف"
+
+#: src/file_dialogs.c:473
+msgid "Could not save file "
+msgstr "تعذر حفظ الملف "
+
+#: src/file_dialogs.c:508 src/file_dialogs.c:1499
+msgid "File changed on disk\n"
+msgstr "تغير الملف في القرص\n"
+
+#: src/file_dialogs.c:620 src/file_dialogs.c:641 src/file_dialogs.c:966
+#: src/project.c:352
+msgid "_Cancel"
+msgstr "_ألغِ"
+
+#: src/file_dialogs.c:621
+#, c-format
+msgid "File %s exists and is open, overwrite?"
+msgstr "الملف %s موجود ومفتوح، الكتابة عليه؟"
+
+#: src/file_dialogs.c:624
+msgid "The file you have selected is being edited in Bluefish."
+msgstr "الملف الذي حددته يجري تحريره في بلوفِش."
+
+#: src/file_dialogs.c:642 src/project.c:354
+#, c-format
+msgid "A file named \"%s\" already exists."
+msgstr "يوجد فعلا ملف بالاسم \"%s\"."
+
+#: src/file_dialogs.c:645 src/project.c:358
+msgid "Do you want to replace the existing file?"
+msgstr "أتريد استبدال الملف الموجود؟"
+
+#: src/file_dialogs.c:756
+msgid ""
+"File:\n"
+"\""
+msgstr ""
+"الملف:\n"
+"\""
+
+#: src/file_dialogs.c:757
+msgid "\" save is in progress"
+msgstr "\" الحفظ جارٍ"
+
+#: src/file_dialogs.c:759
+msgid "Save in progress!"
+msgstr "الحفظ جارٍ!"
+
+#: src/file_dialogs.c:772
+msgid "Save"
+msgstr "احفظ"
+
+#: src/file_dialogs.c:774
+#, c-format
+msgid "Save %s as"
+msgstr "احفظ %s بإسم"
+
+#: src/file_dialogs.c:778
+#, c-format
+msgid "Save copy of %s"
+msgstr "احفظ نسخة من %s"
+
+#: src/file_dialogs.c:937
+msgid "Close _Without Saving"
+msgstr "أغلق _بلا حفظ"
+
+#: src/file_dialogs.c:940
+#, c-format
+msgid "Save changes to \"%s\" before closing?"
+msgstr "حفظ التغييرات في \"%s\" قبل الإغلاق؟"
+
+#: src/file_dialogs.c:943 src/file_dialogs.c:970
+msgid "If you don't save your changes they will be lost."
+msgstr "إن لم تحفظ تغييراتك فستفقدها."
+
+#: src/file_dialogs.c:953
+msgid "_Reopen"
+msgstr "أ_عِد الفتح"
+
+#: src/file_dialogs.c:955
+#, c-format
+msgid "Project \"%s\" failed to load"
+msgstr "أخفق المشروع \"%s\" في أن يحمّل"
+
+#: src/file_dialogs.c:957
+msgid "Do you want to reopen project from another location?"
+msgstr "أتريد إعادة فتح المشروع من موضع آخر؟"
+
+#: src/file_dialogs.c:966
+msgid "Choose per _File"
+msgstr "اختر بحسب كل _ملف"
+
+#: src/file_dialogs.c:966
+msgid "Close _All"
+msgstr "أغلق ال_كل"
+
+#: src/file_dialogs.c:966
+msgid "_Save All"
+msgstr "اح_فظ الكل"
+
+#: src/file_dialogs.c:969
+msgid "One or more open files have been changed."
+msgstr "تغير واحد أو أكثر من الملفات المفتوحة."
+
+#: src/file_dialogs.c:1289
+#, c-format
+msgid "<span color=\"red\">%d failure</span>"
+msgid_plural "<span color=\"red\">%d failures</span>"
+msgstr[0] "<span color=\"red\">%d لا إخفاقات</span>"
+msgstr[1] "<span color=\"red\">%d إخفاق واحد</span>"
+msgstr[2] "<span color=\"red\">%d إخفاقان</span>"
+msgstr[3] "<span color=\"red\">%d إخفاقات</span>"
+msgstr[4] "<span color=\"red\">%d إخفاقًا</span>"
+msgstr[5] "<span color=\"red\">%d إخفاقٍ</span>"
+
+#: src/file_dialogs.c:1298
+msgid "incomplete finished"
+msgstr "أنجز غير مكتمل"
+
+#: src/file_dialogs.c:1300
+msgid "completed"
+msgstr "اكتمل"
+
+#: src/file_dialogs.c:1358
+msgid "Upload / Download"
+msgstr "رفع \\ تحميل"
+
+#: src/file_dialogs.c:1361
+msgid "Upload"
+msgstr "رفع"
+
+#: src/file_dialogs.c:1361
+msgid "Download"
+msgstr "تحميل"
+
+#: src/file_dialogs.c:1368
+msgid "Local directory"
+msgstr "مجلد محلي"
+
+#: src/file_dialogs.c:1374
+msgid "Remote directory"
+msgstr "مجلد بعيد"
+
+#: src/file_dialogs.c:1379
+msgid "Delete deprecated files"
+msgstr "احذف الملفات المتروكة"
+
+#: src/file_dialogs.c:1383
+msgid "Include hidden files"
+msgstr "ضمّن الملفات المخفية"
+
+#: src/file_dialogs.c:1386
+msgid "Include backup files"
+msgstr "ضمّن ملفات النسخ الاحتياطي"
+
+#. g_print("oldtimestr=%s, newtimestr=%s\n",oldtimestr,newtimestr);
+#: src/file_dialogs.c:1433
+#, c-format
+msgid ""
+"Filename:%s changed on disk.\n"
+"\n"
+"Original modification time was %s\n"
+"New modification time is %s\n"
+"Original size was %s bytes\n"
+"New size is %s bytes"
+msgstr ""
+"اسم الملف:%s تغير في القرص.\n"
+"\n"
+"كان وقت التعديل الأصلي %s\n"
+"وقت التعديل الجديد هو %s\n"
+"كان الحجم الأصلي %s بايت\n"
+"الحجم الجديد هو %s بايت"
+
+#: src/file_dialogs.c:1456
+msgid "_Unset file name"
+msgstr "أ_زِل تعيين اسم الملف"
+
+#: src/file_dialogs.c:1456
+msgid "Retry later"
+msgstr "أعد المحاولة لاحقا"
+
+#. file is deleted on disk, what do we do now ?
+#: src/file_dialogs.c:1458
+#, c-format
+msgid "File name: %s"
+msgstr "اسم الملف: %s"
+
+#: src/file_dialogs.c:1461
+msgid "File disappeared from disk\n"
+msgstr "اختفى الملف من القرص\n"
+
+#: src/file_dialogs.c:1482
+msgid "_Ignore"
+msgstr "تجا_هل"
+
+#: src/file_dialogs.c:1482
+msgid "_Reload"
+msgstr "أ_عِد التحميل"
+
+#: src/file_dialogs.c:1482
+msgid "Check and reload all documents"
+msgstr "افحص وأعد تحميل كل المستندات"
+
+#. build a list of filters
+#: src/filefilter.c:250 src/gtk_easy.c:1355 src/preferences.c:2747
+msgid "All files"
+msgstr "كل الملفات"
+
+#: src/filefilter.c:638
+msgid "Hide files that match the filter"
+msgstr "أخفِ الملفات التي تطابق المرشح"
+
+#: src/filefilter.c:642
+msgid "Add pattern"
+msgstr "أضِف نمطًا"
+
+#: src/filefilter.c:648 src/filefilter.c:660
+msgid "Mime type"
+msgstr "نوع الملف"
+
+#: src/filefilter.c:651 src/filefilter.c:663
+msgid "Icon"
+msgstr "أيقونة"
+
+#: src/gtk_easy.c:970
+#, c-format
+msgid "%d of %d"
+msgstr "%d من %d"
+
+#: src/gtk_easy.c:1051
+msgid "Select File"
+msgstr "حدد ملفًا"
+
+#: src/gtk_easy.c:1405
+msgid "Character _Encoding:"
+msgstr "ترمي_ز المحارف:"
+
+#: src/gtk_easy.c:1425
+msgid "Automatic detection"
+msgstr "كشف تلقائي"
+
+#: src/gtk_easy.c:1514
+msgid "<b>Keystroke choice</b>"
+msgstr "<b>اختيار ضربات المفاتيح</b>"
+
+#: src/gtk_easy.c:1522
+msgid ""
+"\n"
+"Press requested key combination.\n"
+"Please use Ctrl, Shift, Alt key with any other key.\n"
+"<i>Esc to cancel, Delete to remove the accelerator.</i>"
+msgstr ""
+"\n"
+"اضغط تركيبة المفاتيح المطلوبة.\n"
+"لطفًا استخدم مفاتيح تحكم Ctrl وتبديل Shift وتغيير Alt مع أي مفتاح آخر.\n"
+"<i>هروب Esc للإلغاء وحذف Delete لإزالة المسرِّع.</i>"
+
+#: src/gtk_easy.c:1547
+msgid "Press shortcut key combination"
+msgstr "اضغط تركيبة مفاتيح الاختصار"
+
+#: src/outputbox.c:252
+msgid "Filename"
+msgstr "اسم الملف"
+
+#: src/outputbox.c:255
+msgid "Line"
+msgstr "السطر"
+
+#: src/outputbox.c:258
+msgid "Output"
+msgstr "المُخرَجات"
+
+#: src/outputbox.c:481
+#, c-format
+msgid "The command %s exited with error code %d"
+msgstr "الأمر %s خرج برمز خطأ %d"
+
+#: src/outputbox.c:528
+#, c-format
+msgid "Failed to compile output parser pattern %s: %s"
+msgstr "أخفق تصريف نمط مفسر المخرجات %s: %s"
+
+#: src/print.c:384
+msgid "<b>What to print</b>"
+msgstr "<b>ما سيُطبَع</b>"
+
+#: src/print.c:386
+msgid "Print header"
+msgstr "ترويسة الطباعة"
+
+#: src/print.c:387
+msgid "Print line numbers"
+msgstr "اطبع أرقام السطور"
+
+#: src/print.c:438
+msgid "What to print"
+msgstr "ما سيُطبَع"
+
+#: src/preferences.c:334
+msgid "Untitled"
+msgstr "بلا عنوان"
+
+#: src/preferences.c:599
+msgid "_Mime type:"
+msgstr "_نوع الملف:"
+
+#: src/preferences.c:611 src/preferences.c:613
+msgid "None"
+msgstr "بلا"
+
+#: src/preferences.c:615
+msgid "_Template:"
+msgstr "_قالب:"
+
+#: src/preferences.c:618 src/snr3.c:1686
+msgid "<b>Options</b>"
+msgstr "<b>خيارات</b>"
+
+#: src/preferences.c:622
+msgid "Enable a_uto-completion"
+msgstr "مكِّن الإكمال التل_قائي"
+
+#: src/preferences.c:624
+msgid "Enable _block folding"
+msgstr "مكّن _طيّ الكتلة"
+
+#: src/preferences.c:626
+msgid "Display block stack in statusbar"
+msgstr "اعرض كدس الكتلة في شريط الحالة"
+
+#: src/preferences.c:628
+msgid "Highlight block _delimiters"
+msgstr "أبرز مح_ددات الكتلة"
+
+#: src/preferences.c:630
+msgid "_Highlight current line"
+msgstr "أ_برز السطر الحالي"
+
+#: src/preferences.c:632
+msgid "Show line _numbers"
+msgstr "أظهِر أ_رقام السطور"
+
+#: src/preferences.c:636
+msgid "Show _right margin indicator"
+msgstr "أظهِر مؤشر الهامش الأ_يمن"
+
+#: src/preferences.c:638
+msgid "Auto indentin_g"
+msgstr "إزاحة تلقا_ئية"
+
+#: src/preferences.c:640
+msgid "Wra_p lines"
+msgstr "ل_فّ السطور"
+
+#: src/preferences.c:642
+msgid "Enable syntax scanning"
+msgstr "مكّن مسح القواعد"
+
+#: src/preferences.c:644
+msgid "Show _visible spacing"
+msgstr "أظهر التباعد المر_ئي"
+
+#: src/preferences.c:646
+msgid "Show _indenting"
+msgstr "أظهِر الإ_زاحة"
+
+#: src/preferences.c:649
+msgid "_Enable spell check"
+msgstr "م_كّن تدقيق الإملاء"
+
+#: src/preferences.c:654
+msgid "<b>Tab Stops</b>"
+msgstr "<b>توقفات اللسان</b>"
+
+#: src/preferences.c:659
+msgid "Tab _width:"
+msgstr "_عُرض اللسان:"
+
+#: src/preferences.c:662
+msgid "Insert _spaces instead of tabs"
+msgstr "أدرج _فراغات بدلا عن التبويبات"
+
+#: src/preferences.c:700 src/preferences.c:1403 src/preferences.c:1555
+#: src/preferences.c:1918
+msgid "Enabled"
+msgstr "مقعّل"
+
+#: src/preferences.c:702
+msgid "Path to plugin"
+msgstr "المسار الى الملحقة"
+
+#: src/preferences.c:972
+msgid "Extension"
+msgstr "الامتداد"
+
+#: src/preferences.c:974
+msgid "Mime-Type"
+msgstr "نوع الملف"
+
+#: src/preferences.c:1203
+msgid ""
+"<small>Text styles are applied on top of each other. If multiple styles are "
+"applied to the same text, the top-most style in this list has the highest "
+"priority. Use drag and drop to re-order the text styles.</small>"
+msgstr ""
+"<small>تطبق طُرُز النص فوق بعضها البعض. إذا استخدمت عدة طُرُز على نفس النص فإنّ "
+"أعلى طراز في القائمة له الأولوية القصوى. استخدم السحب والإفلات لإعادة تنظيم "
+"طُرُز النص.</small>"
+
+#: src/preferences.c:1214 src/preferences.c:1404 src/preferences.c:1557
+msgid "Label"
+msgstr "واصفة"
+
+#: src/preferences.c:1229 src/preferences.c:2933
+msgid "Foreground color"
+msgstr "لون المقدمة"
+
+#: src/preferences.c:1230 src/preferences.c:2934
+msgid "_Foreground color:"
+msgstr "لون الم_قدمة:"
+
+#: src/preferences.c:1231 src/preferences.c:2937
+msgid "Background color"
+msgstr "لون الخلفية"
+
+#: src/preferences.c:1232 src/preferences.c:2938
+msgid "_Background color:"
+msgstr "لون ال_خلفية:"
+
+#: src/preferences.c:1236
+msgid "_Normal weight"
+msgstr "وزن _عادي"
+
+#: src/preferences.c:1238
+msgid "Bold _weight"
+msgstr "وزن _سميك"
+
+#: src/preferences.c:1240
+msgid "Normal st_yle"
+msgstr "_طراز عادي"
+
+#: src/preferences.c:1243
+msgid "_Italic style"
+msgstr "طراز _مائل"
+
+#: src/preferences.c:1245
+msgid "_Spell check"
+msgstr "تد_قيق إملائي"
+
+#: src/preferences.c:1287 src/preferences.c:1441 src/preferences.c:1587
+#: src/preferences.c:1768 src/preferences.c:1950 src/preferences.c:2049
+msgid "Add entry"
+msgstr "أضِف مُدخَلاً"
+
+#: src/preferences.c:1289 src/preferences.c:1443 src/preferences.c:1589
+#: src/preferences.c:1770 src/preferences.c:1952 src/preferences.c:2051
+msgid "Delete entry"
+msgstr "احذف مُدخَلاً"
+
+#: src/preferences.c:1380
+#, c-format
+msgid ""
+"<small><b>Input options</b>\n"
+"start with a | to send the input to the standard input\n"
+"%f local filename (available for local files)\n"
+"%i temporary filename for input, equals %f if the document is not modified "
+"and local\n"
+"<b>Other options</b>\n"
+"%a additional arguments that will be asked when this filter is activated\n"
+"%c local directory of file (available for local files)\n"
+"%n filename without path (available for all titled files)\n"
+"%u URL (available for all titled files)\n"
+"%p preview URL if basedir and preview dir are set in project settings, else "
+"identical to %u</small>"
+msgstr ""
+"<small><b>خيارات الادخال</b>\n"
+"ابدأ بـ | لترسل المُدخَل الى الإدخال القياسي\n"
+"%f اسم ملف محلي (متاح للملفات المحلية\n"
+"%i اسم ملف مؤقت للإدخال، يساوي %f إذا لم يكن الملف معدلاً وكان محليًا\n"
+"<b>خيارات أخرى</b>\n"
+"%a مُعامِلات اخرى ستُطلب عند تنشيط هذا المرشح\n"
+"%c المجلد المحلي للملف (متاح للملفات المحلية)\n"
+"%n اسم ملف بلا مسار (متاح لكل الملفات ذات العناوين)\n"
+"%u رابط URL (متاح لكل الملفات ذات العناوين)\n"
+"%p عايِن الرابط URL إذا كان المجلد الاساس ومجلد المعاينة مُعدّان في إعدادات "
+"المشروع، وإلا فهو يساوي %u</small>"
+
+#: src/preferences.c:1406 src/preferences.c:1559 src/preferences.c:1742
+#: src/preferences.c:1930
+msgid "Command"
+msgstr "الأمر"
+
+#: src/preferences.c:1409 src/rcfile.c:906
+msgid "Default browser"
+msgstr "المتصفح المبدئي"
+
+#: src/preferences.c:1445 src/preferences.c:1591 src/preferences.c:1772
+#: src/preferences.c:1954
+msgid "Duplicate entry"
+msgstr ""
+
+#: src/preferences.c:1447 src/preferences.c:1593 src/preferences.c:1774
+#: src/preferences.c:1956
+msgid "Update defaults"
+msgstr "مبدئيات التحديث"
+
+#: src/preferences.c:1449 src/preferences.c:1595 src/preferences.c:1776
+#: src/preferences.c:1958
+msgid "Reset all"
+msgstr "صفّر الكل"
+
+#: src/preferences.c:1530
+msgid ""
+"<small><b>Input options</b>\n"
+"start with a | to send the input to the standard input\n"
+"%f local filename (requires local file, cannot operate on selection)\n"
+"%i temporary filename for input\n"
+"<b>Output options</b>\n"
+"end with a | to read the output from the standard output\n"
+"%o temporary filename\n"
+"%t temporary filename for both input and output (for in-place-editing "
+"filters, cannot operate on selection)\n"
+"<b>Other options</b>\n"
+"%a additional arguments that will be asked when this filter is activated\n"
+"%c local directory of file (requires local file)\n"
+"%n filename without path (available for all titled files)\n"
+"%u URL (available for all titled files)\n"
+"%p preview URL if basedir and preview dir are set in project settings, else "
+"identical to %u</small>"
+msgstr ""
+"<small><b>خيارات الإدخال</b>\n"
+"ابدأ بـ | لترسل المُدخَلات إلى الإدخال القياسي\n"
+"%f اسم الملف المحلي (يستوجب اسم ملف محلي، لا يمكنه الاشتغال على تحديد)\n"
+"%i اسم ملف مؤقت للمُدخَلات\n"
+"<b>خيارات الإخراج</b>\n"
+"أنهِ بـ | لتقرأ المُدخَلات من الإخراج القياسي\n"
+"%o اسم ملف مؤقت\n"
+"%t اسم ملف مؤقت لكل من الإدخال والإخراج (للمرشحات ذات التحرير الموضعي، لا "
+"يمكنه الاشتغال على تحديد)\n"
+"<b>خيارات أخرى</b>\n"
+"%a مُعامِلات إضافية ستُطلَب عند تفعيل هذا المرشح\n"
+"%c المجلد المحلي للملف (يستوجب ملفًا محليًا)\n"
+"%n اسم ملف بلا مسار (متاح لكل الملفات ذات العناوين)\n"
+"%u رابط (متاح لكل الملفات ذات العناوين)\n"
+"%p عايِن الرابط إذا كان المجلد الأساس ومعاينة المجلد معدّان في إعدادات "
+"المشروع، وإلا سيكون مماثلاً لـ %u</small>"
+
+#: src/preferences.c:1704 src/preferences.c:1892
+#, c-format
+msgid ""
+"<small><b>Input options</b>\n"
+"start with a | to send the input to the standard input\n"
+"%f local filename (available for local files)\n"
+"%i temporary filename for input, equals %f if the document is not modified "
+"and local\n"
+"<b>Output options</b>\n"
+"end with a | to read the output from the standard output\n"
+"%o temporary filename\n"
+"<b>Other options</b>\n"
+"%a additional arguments that will be asked when this filter is activated\n"
+"%c local directory of file (available for local files)\n"
+"%n filename without path (available for all titled files)\n"
+"%u URL (available for all titled files)\n"
+"%p preview URL if basedir and preview dir are set in project settings, else "
+"identical to %u</small>"
+msgstr ""
+"<small><b>خيارات الإدخال</b>\n"
+"ابدأ بـ | لترسل المُدخَلات إلى الإدخال القياسي\n"
+"%f اسم الملف المحلي (متاح للملفات المحلية)\n"
+"%i اسم ملف مؤقت للمُدخَلات، يساوي %f إذا لم يكن المستند قد عُدّل وكان محليًا\n"
+"<b>خيارات الإخراج</b>\n"
+"أنهِ بـ | لتقرأ المُدخَلات من الإخراج القياسي\n"
+"%o اسم ملف مؤقت\n"
+"<b>خيارات أخرى</b>\n"
+"%a مُعامِلات إضافية ستُطلَب عند تفعيل هذا المرشح\n"
+"%c المجلد المحلي للملف (يمتاح للملفات المحلية)\n"
+"%n اسم ملف بلا مسار (متاح لكل الملفات ذات العناوين)\n"
+"%u رابط (متاح لكل الملفات ذات العناوين)\n"
+"%p عايِن الرابط إذا كان المجلد الأساس ومعاينة المجلد معدّان في إعدادات "
+"المشروع، وإلا سيكون مماثلاً لـ %u</small>"
+
+#: src/preferences.c:1734 src/preferences.c:1922
+msgid "Pattern"
+msgstr "النمط"
+
+#: src/preferences.c:1736 src/preferences.c:1924
+msgid "File #"
+msgstr ""
+
+#: src/preferences.c:1738 src/preferences.c:1926
+msgid "Line #"
+msgstr "سطر #"
+
+#: src/preferences.c:1740 src/preferences.c:1928
+msgid "Output #"
+msgstr "مُخرَج #"
+
+#: src/preferences.c:1932
+msgid "Color"
+msgstr "اللون"
+
+#: src/preferences.c:2020
+msgid "File"
+msgstr "ملفّ"
+
+#: src/preferences.c:2199
+msgid "A restart is needed to see the effect of these options"
+msgstr "إعادة التشغيل مطلوبة لمشاهدة تأثير هذه الخيارات"
+
+#. 1=text
+#: src/preferences.c:2211
+msgid "Option name"
+msgstr "اسم الخيار"
+
+#. 2=boolean
+#: src/preferences.c:2213
+msgid "value"
+msgstr "القيمة"
+
+#. 1=text
+#: src/preferences.c:2230
+msgid "Highlight name"
+msgstr "أبرِز الاسم"
+
+#: src/preferences.c:2235
+msgid "Textstyle"
+msgstr "طراز النص"
+
+#: src/preferences.c:2428 src/preferences.c:3210
+msgid "Auto"
+msgstr "تلقائي"
+
+#: src/preferences.c:2689
+msgid "Continue and ignore changes"
+msgstr "استمر وأهمل التغييرات"
+
+#: src/preferences.c:2689
+msgid "Cancel"
+msgstr "الغِ"
+
+#: src/preferences.c:2691
+msgid "Importing colors will abort any preferences changes"
+msgstr "استيراد الألوان سيُجهض أية تغييرات في التفضيلات"
+
+#: src/preferences.c:2691
+msgid ""
+"Importing colors will close the preferences dialog and cancel any changes "
+"you made. Do you want to continue?"
+msgstr ""
+"استيراد الألوان سيغلق حوار التفضيلات ويلغي أية تغييرات أجريتها. أتريد "
+"الاستمرار؟"
+
+#: src/preferences.c:2699 src/preferences.c:2979 src/preferences.c:2988
+msgid "Choose file"
+msgstr "اختر ملفًا"
+
+#: src/preferences.c:2713
+msgid "Import done"
+msgstr "أُنجز الاستيراد"
+
+#: src/preferences.c:2715
+#, c-format
+msgid "Import %s failed"
+msgstr "أخفق استيراد %s"
+
+#: src/preferences.c:2738
+msgid "Delayed"
+msgstr "مؤخَّر"
+
+#: src/preferences.c:2738
+msgid "Immediately"
+msgstr "مباشرةً"
+
+#: src/preferences.c:2739
+msgid "Continue save"
+msgstr "استمر بالحفظ"
+
+#: src/preferences.c:2739
+msgid "Abort save"
+msgstr "أجهِض الحفظ"
+
+#: src/preferences.c:2739
+msgid "Ask what to do"
+msgstr "اسأل عما تفعله"
+
+#: src/preferences.c:2740 src/preferences.c:2747 src/preferences.c:2754
+msgid "Never"
+msgstr "مطلقًا"
+
+#: src/preferences.c:2740
+msgid "Periodically and during save"
+msgstr "دوريًا وأثناء الحفظ"
+
+#: src/preferences.c:2740
+msgid "Only during save"
+msgstr "اثناء الحفظ فقط"
+
+#: src/preferences.c:2742
+msgid "Nothing"
+msgstr "لا شيء"
+
+#: src/preferences.c:2742
+msgid "Modified time and file size"
+msgstr "وقت التعديل وحجم الملف"
+
+#: src/preferences.c:2742
+msgid "Modified time"
+msgstr "وقت التعديل"
+
+#: src/preferences.c:2742
+msgid "File size"
+msgstr "حجم الملف"
+
+#: src/preferences.c:2743 src/preferences.c:2744
+msgid "left"
+msgstr "يسار"
+
+#: src/preferences.c:2743 src/preferences.c:2744
+msgid "right"
+msgstr "يمين"
+
+#: src/preferences.c:2743
+msgid "top"
+msgstr "أعلى"
+
+#: src/preferences.c:2743
+msgid "bottom"
+msgstr "أسفل"
+
+#: src/preferences.c:2745
+msgid "Recently opened"
+msgstr "المفتوح مؤخرا"
+
+#: src/preferences.c:2745
+msgid "Recently closed"
+msgstr "المغلق مؤخرا"
+
+#: src/preferences.c:2747
+msgid "Only project files"
+msgstr "ملفات المشروع فقط"
+
+#: src/preferences.c:2751
+msgid "All"
+msgstr "الكل"
+
+#: src/preferences.c:2751
+msgid "All except spaces"
+msgstr "الكل عدا الفراغات"
+
+#: src/preferences.c:2751
+msgid "All trailing"
+msgstr "كل المنهيات"
+
+#: src/preferences.c:2751
+msgid "All except non-trailing spaces"
+msgstr "الكل عدا الفراغات غير المنهية"
+
+#: src/preferences.c:2754
+msgid "Always"
+msgstr "دائمًا"
+
+#: src/preferences.c:2754
+msgid "Smart"
+msgstr "ذكي"
+
+#: src/preferences.c:2765
+msgid "Edit preferences"
+msgstr "عدّل التفضيلات"
+
+#.
+#. *  Initial document settings
+#.
+#: src/preferences.c:2789
+msgid "<b>Default settings (overridden by project settings)</b>"
+msgstr "<b>الإعدادات المبدئية (تتجاوزها إعدادات المشروع)</b>"
+
+#: src/preferences.c:2791
+msgid "Initial document settings"
+msgstr "الإعدادات الأساسية للمستند"
+
+#: src/preferences.c:2803
+msgid "Editor settings"
+msgstr "إعدادات المحرر"
+
+#: src/preferences.c:2806
+msgid "<b>Editor settings</b>"
+msgstr "<b>إعدادات المحرر</b>"
+
+#: src/preferences.c:2811
+msgid "Smart auto indentin_g on brackets"
+msgstr "إ_زاحة تلقائية ذكية على الأقواس"
+
+#: src/preferences.c:2814
+msgid "Smart Home/_End cursor positioning"
+msgstr "وضع مؤشر البداية\\الن_هاية الذكي"
+
+#: src/preferences.c:2818
+msgid "_Tab key indents selection"
+msgstr "تحديد إزاحات مفتاح ال_لسان"
+
+#: src/preferences.c:2822
+msgid "Replace unicode quotes with ascii quotes"
+msgstr "استبدل تنصيصات الترميز الموحد بتنصيصات أسكي"
+
+#: src/preferences.c:2826
+msgid "Insert spaces to cursor position"
+msgstr "أدرِج فراغات في موضع المؤشر"
+
+#: src/preferences.c:2832
+msgid "Automatically insert closing brackets"
+msgstr "تلقائيا أدرِج أقواس إغلاق"
+
+#: src/preferences.c:2839
+msgid "Right _margin/split line end position:"
+msgstr "موضع نهاية ال_هامش الأيمن\\نهاية السطر:"
+
+#: src/preferences.c:2842
+msgid "Wrap lines on right margin indicator"
+msgstr "لف السطور عند مؤشر الهامش الأيمن"
+
+#: src/preferences.c:2848
+msgid "Visible _whitespace mode:"
+msgstr "طور الفراغات البي_ضاء المرئية:"
+
+#: src/preferences.c:2851
+msgid "<b>Undo</b>"
+msgstr "<b>تراجع</b>"
+
+#: src/preferences.c:2856
+msgid "_Number of actions in history:"
+msgstr "_عدد الإجراءات في التاريخ:"
+
+#: src/preferences.c:2859
+msgid "Clear _history on save"
+msgstr "فرّغ ال_تاريخ عند الحفظ"
+
+#: src/preferences.c:2864
+msgid "Auto-completion & Reference"
+msgstr "الإكمال التلقائي والمراجع"
+
+#: src/preferences.c:2870
+msgid "<b>Auto-completion</b>"
+msgstr "<b>الإكمال التلقائي</b>"
+
+#: src/preferences.c:2876
+msgid "Show _pop-up window:"
+msgstr "أظهِر النافذة المنب_ثقة:"
+
+#: src/preferences.c:2880
+msgid "Minimum matching length for auto-completion:"
+msgstr "أقل طول مطابق للإكمال التلقائي:"
+
+#: src/preferences.c:2885
+msgid "Shortcut _key combination:"
+msgstr "تركيبة مفاتيح الا_ختصار:"
+
+#: src/preferences.c:2888
+msgid "<b>Reference Information</b>"
+msgstr "<b>معلومات المرجع</b>"
+
+#: src/preferences.c:2891
+msgid "_Load reference data from language files"
+msgstr "ح_مّل بيانات المرجع من ملفات اللغة"
+
+#: src/preferences.c:2894
+msgid "Show references in auto-completion _pop-up window"
+msgstr "أظهِر المراجع في نافذة الإكمال التلقائي المنب_ثقة"
+
+#: src/preferences.c:2897
+msgid "Show references if mouse is over text editor"
+msgstr "أظهِر المراجع إذا كانت الفأرة فوق محرر النص"
+
+#: src/preferences.c:2906 src/preferences.c:3320
+msgid "Font & Colors"
+msgstr "الخط والالوان"
+
+#: src/preferences.c:2912
+msgid "<b>Font &amp; Cursor</b>"
+msgstr "<b>الخط والمؤشر</b>"
+
+#: src/preferences.c:2916
+msgid "_Editor font:"
+msgstr "خط المح_رر:"
+
+#: src/preferences.c:2924
+msgid "Cursor / font size ratio (%):"
+msgstr "تناسب حجم المؤشر \\ الخط (%):"
+
+#: src/preferences.c:2926 src/preferences.c:3346
+msgid "<b>Colors</b>"
+msgstr "<b>الألوان</b>"
+
+#: src/preferences.c:2930
+msgid "Use system wide color settings"
+msgstr "استخدم إعدادات لون عبر النظام بأكمله"
+
+#: src/preferences.c:2941
+msgid "Cursor color"
+msgstr "لون المؤشر"
+
+#: src/preferences.c:2942
+msgid "C_ursor color:"
+msgstr "لون المؤ_شر:"
+
+#: src/preferences.c:2945
+msgid "Selection background color"
+msgstr "لون خلفية التحديد"
+
+#: src/preferences.c:2946
+msgid "_Selection background color:"
+msgstr "لون _خلفية التحديد:"
+
+#: src/preferences.c:2949
+msgid "Margin foreground color"
+msgstr "لون مقدمة الهامش"
+
+#: src/preferences.c:2950
+msgid "_Margin foreground color:"
+msgstr "لون م_قدمة الهامش:"
+
+#: src/preferences.c:2953
+msgid "Margin background color"
+msgstr "لون خلفية الهامش"
+
+#: src/preferences.c:2954
+msgid "_Margin background color:"
+msgstr "لون _خلفية الهامش:"
+
+#: src/preferences.c:2959
+msgid "Highlight cursor position"
+msgstr "أبرِز موضع المؤشر"
+
+#: src/preferences.c:2961
+msgid "Cursor highlight color"
+msgstr "لون إبراز المؤشر"
+
+#: src/preferences.c:2962
+msgid "_Cursor highlight color:"
+msgstr "لون إ_براز المؤشر:"
+
+#: src/preferences.c:2967
+msgid "Current line color"
+msgstr "لون السطر الحالي"
+
+#: src/preferences.c:2968
+msgid "Cu_rrent line color:"
+msgstr "لون السطر الحا_لي:"
+
+#: src/preferences.c:2971
+msgid "Visible whitespace color"
+msgstr "لون الفراغ المرئي"
+
+#: src/preferences.c:2972
+msgid "_Visible whitespace color:"
+msgstr "لون الفراغ الم_رئي:"
+
+#: src/preferences.c:2974
+msgid "<b>Import / export color profiles</b>"
+msgstr "<b>لاحات استيراد \\ تصدير اللون</b>"
+
+#: src/preferences.c:2975
+msgid ""
+"Color profiles set colors for the editor, user interface and all textstyles."
+msgstr "لاحات اللون تعيّن الألوان للمحرر وواجهة المستخدم وطُرُز النص."
+
+#: src/preferences.c:2978
+msgid "Export"
+msgstr ""
+
+#: src/preferences.c:2985
+msgid "Import"
+msgstr "استيراد"
+
+#: src/preferences.c:2992
+msgid "Apply"
+msgstr "تطبيق"
+
+#: src/preferences.c:3006
+msgid "Text styles"
+msgstr "طُرُز النص"
+
+#: src/preferences.c:3008
+msgid "<b>Text Styles</b>"
+msgstr "<b>طُرُز النص</b>"
+
+#: src/preferences.c:3021
+msgid "Files"
+msgstr "ملفات"
+
+#: src/preferences.c:3024
+msgid "<b>Encoding</b>"
+msgstr "<b>الترميز</b>"
+
+#: src/preferences.c:3040
+msgid "_Default character set for new files:"
+msgstr "طقم المحارف الم_بدئي للملفات الجديدة:"
+
+#: src/preferences.c:3046
+msgid "Auto set <meta> _HTML tag on encoding change"
+msgstr "تلقائياً عيّن _وسم  HTML عند تغير الترميز"
+
+#: src/preferences.c:3050 src/preferences.c:3196
+msgid "<b>Misc</b>"
+msgstr "<b>متفرقة</b>"
+
+#: src/preferences.c:3053
+msgid "Strip trailing spaces on save"
+msgstr "انزع الفراغات النهائية عند الحفظ"
+
+#: src/preferences.c:3059
+msgid "Open co_mmandline files in running bluefish process"
+msgstr "افتح ملفات سطر الأ_وامر في عملية بلوفِش المشتغلة"
+
+#: src/preferences.c:3064
+msgid "Open commandline files in new _window"
+msgstr "افتح ملفات سطر الأوامر في _نافذة جديدة"
+
+#: src/preferences.c:3071
+msgid "Check if file is modified on disk:"
+msgstr "تحقق من تغيّر الملف على القرص:"
+
+#: src/preferences.c:3077
+msgid "File properties to check on dis_k for modifications:"
+msgstr "خواص الملف التي سيتحقق من تغيرها على ال_قرص:"
+
+#: src/preferences.c:3081
+msgid "Show warning for files with very long lines"
+msgstr "أظهِر تحذيرا للملفات ذات السطور الكبيرة جدا"
+
+#: src/preferences.c:3091
+msgid "Backup & Recovery"
+msgstr "الحفظ الاحتياطي والاستعادة"
+
+#: src/preferences.c:3094
+msgid "<b>Backup</b>"
+msgstr "<b>الحفظ الاحتياطي</b>"
+
+#: src/preferences.c:3096
+msgid "Create _backup file during file save"
+msgstr "أنشئ ملف حفظ ا_حتياطي أثناء حفظ الملف"
+
+#: src/preferences.c:3101
+msgid "_Remove backup file on close"
+msgstr "أ_زِل ملف الحفظ الاحتياطي عند الإغلاق"
+
+#: src/preferences.c:3106
+msgid "If back_up fails:"
+msgstr "إذا ف_شل الحفظ الاحتياطي:"
+
+#: src/preferences.c:3113
+msgid "<b>Document Recovery</b>"
+msgstr "<b>استعادة المستندات</b>"
+
+#: src/preferences.c:3115
+msgid "_Enable recovery of modified documents"
+msgstr "ف_عّل استعادة المستندات المعدّلة"
+
+#: src/preferences.c:3119
+msgid "_Frequency to store changes (seconds):"
+msgstr "تك_رارات خزن التغييرات (ثواني):"
+
+#: src/preferences.c:3133 src/preferences.c:3134
+msgid "File Associations"
+msgstr "ارتباطات الملفات"
+
+#: src/preferences.c:3152
+msgid "Templates"
+msgstr "القوالب"
+
+#: src/preferences.c:3155
+msgid "<b>Templates</b>"
+msgstr "<b>القوالب</b>"
+
+#: src/preferences.c:3168
+msgid "User interface"
+msgstr "واجهة المستخدم"
+
+#: src/preferences.c:3171
+msgid "<b>Layout</b>"
+msgstr "<b>المخطط</b>"
+
+#: src/preferences.c:3177
+msgid "Document _tab position:"
+msgstr "موضع تبو_يب المستند:"
+
+#: src/preferences.c:3182
+msgid "Maximum filename length shown in tab (0 is no limit)"
+msgstr "أقصى ما يظهر من طول اسم الملف في التبويب (0 يعني بلا حد)"
+
+#: src/preferences.c:3188
+msgid "_Sidebar position:"
+msgstr "موضع الشريط ال_جانبي:"
+
+#: src/preferences.c:3194
+msgid "Sidebar tab _position:"
+msgstr "موضع _تبويب الشريط الجانبي:"
+
+#: src/preferences.c:3198
+msgid "Restore search scope from session or project"
+msgstr "استعد مدى البحث من الجلسة او المشروع"
+
+#: src/preferences.c:3201
+msgid "Hide toolbars on full-screen"
+msgstr "أخفِ أشرطة الادوات في الشاشة الكاملة"
+
+#: src/preferences.c:3210
+msgid "User interface _language:"
+msgstr "ل_غة واجهة المستخدم:"
+
+#: src/preferences.c:3213
+msgid "<b>Recent Files</b>"
+msgstr "<b>الملفات الأخيرة</b>"
+
+#: src/preferences.c:3218
+msgid "Recent files _shows:"
+msgstr "الملفات الأخيرة تُ_ظهِر:"
+
+#: src/preferences.c:3223
+msgid "_Number of files in 'Open recent' menu:"
+msgstr "_عدد الملفات في قائمة ’افتح الأخير‘:"
+
+#: src/preferences.c:3228
+msgid "_Register recent files with your desktop:"
+msgstr "_سجّل الملفات الأخيرة في سطح مكتبك:"
+
+#: src/preferences.c:3239
+msgid "Shortcut keys"
+msgstr "مفاتيح الاختصار"
+
+#: src/preferences.c:3244
+msgid "<b>Shortcut keys</b>"
+msgstr "<b>مفاتيح الاختصار</b>"
+
+#: src/preferences.c:3248
+msgid "_Switch between tabs with <Alt>+0..9"
+msgstr "_تحوّل بين التبويبات بمفتاح التغيير مع الارقام <Alt>+0..9"
+
+#: src/preferences.c:3251
+msgid "_Switch between tabs with <Command>+0..9"
+msgstr "_تحوّل بين التبويبات بمفتاح الأمرر مع الارقام <Command>+0..9"
+
+#: src/preferences.c:3257
+msgid ""
+"Enable dynamic menu shortcuts - move your mouse over a menu entry and press "
+"the new shortcut key combination"
+msgstr ""
+
+#: src/preferences.c:3260
+msgid "Save menu accelerators on exit"
+msgstr "احفظ مسرّعات القوائم عند الخروج"
+
+#: src/preferences.c:3263
+msgid "Save user customised menu accelerators now"
+msgstr "احفظ مسرّعات القوائم التي خصصها المستخدم الآن"
+
+#: src/preferences.c:3267
+msgid "Reset menu accelerators to application defaults"
+msgstr "صفّر مسرّعات القوائم إلى مبدئيات التطبيق"
+
+#: src/preferences.c:3279
+msgid "Dimensions"
+msgstr "الأبعاد"
+
+#: src/preferences.c:3282
+msgid "<b>Dimensions</b>"
+msgstr "<b>الأبعاد</b>"
+
+#: src/preferences.c:3284
+msgid "_Leave dimensions to window manager"
+msgstr "_اترك الأبعاد لمدير النوافذ"
+
+#: src/preferences.c:3291
+msgid "_Restore last used dimensions"
+msgstr "ا_ستعد الأبعاد المستخدمة آخر مرة"
+
+#: src/preferences.c:3299
+msgid "Initial _sidebar width:"
+msgstr "العُرض الأولي للشريط ال_جانبي:"
+
+#: src/preferences.c:3303
+msgid "Initial window _height:"
+msgstr "الا_رتفاع المبدئي للنافذة:"
+
+#: src/preferences.c:3306
+msgid "Initial window _width:"
+msgstr "ال_عُرض المبدئي للنافذة:"
+
+#: src/preferences.c:3313
+msgid "_Limit window title length"
+msgstr "_قيّد طول عنوان النافذة"
+
+#: src/preferences.c:3326
+msgid "<b>Document tab</b>"
+msgstr "<b>تبويب المستند</b>"
+
+#: src/preferences.c:3331
+msgid "_Use system document tab font"
+msgstr "است_خدم خط تبويب مستند النظام"
+
+#: src/preferences.c:3336
+msgid "_Document tab font:"
+msgstr "خط تبويب ال_مستند:"
+
+#: src/preferences.c:3350
+msgid "Document error tab color"
+msgstr "لون تبويب الخطأ للمستند"
+
+#: src/preferences.c:3352
+msgid "Document tab _error color:"
+msgstr "لون _خطأ تبويب المستند:"
+
+#: src/preferences.c:3356
+msgid "Document loading tab color"
+msgstr "لون تبويب تحميل المستند"
+
+#: src/preferences.c:3358
+msgid "Document tab loadin_g color:"
+msgstr "لون ت_حميل تبويب المستند:"
+
+#: src/preferences.c:3362
+msgid "Document modified tab color"
+msgstr "لون تبويب تعديل المستند"
+
+#: src/preferences.c:3364
+msgid "Document tab _modified color:"
+msgstr "لون ت_عديل تبويب المستند:"
+
+#: src/preferences.c:3368
+msgid "Active document tab color"
+msgstr "لون تبويب المستند النشط"
+
+#: src/preferences.c:3370
+msgid "Document tab _active color:"
+msgstr "لون _نشاط تبويب المستند:"
+
+#. arr = array_from_arglist(_("Java programming"),"1", "java:image:jsp", NULL);
+#. main_v->globses.filefilters = g_list_append(main_v->globses.filefilters, arr);
+#: src/preferences.c:3384 src/rcfile.c:1566
+msgid "Images"
+msgstr "الصور"
+
+#: src/preferences.c:3387
+msgid "<b>Thumbnails</b>"
+msgstr "<b>المصغرات</b>"
+
+#: src/preferences.c:3393
+msgid "Thumbnail _filetype:"
+msgstr "_نوع ملف المصغرة:"
+
+#: src/preferences.c:3397
+msgid "Thumbnail _suffix:"
+msgstr "_لاحقة المصغرة:"
+
+#: src/preferences.c:3410
+msgid "External commands"
+msgstr "أوامر خارجية"
+
+#: src/preferences.c:3412
+msgid "<b>External Commands</b>"
+msgstr "<b>الأوامر الخارجية</b>"
+
+#: src/preferences.c:3425
+msgid "External filters"
+msgstr "مرشحات خارجية"
+
+#: src/preferences.c:3428
+msgid "<b>External Filters</b>"
+msgstr "<b>المرشحات الخارجية</b>"
+
+#: src/preferences.c:3441
+msgid "Output parsers"
+msgstr "مفسرات المخرَجات"
+
+#: src/preferences.c:3443
+msgid "<b>Output Parsers</b>"
+msgstr "<b>مفسرات المخرَجات</b>"
+
+#: src/preferences.c:3455
+msgid "Bookmark commands"
+msgstr ""
+
+#: src/preferences.c:3457
+msgid "<b>Bookmark commands</b>"
+msgstr ""
+
+#: src/preferences.c:3469
+msgid "Plugins"
+msgstr "الملحَقات"
+
+#: src/preferences.c:3471
+msgid "<b>Plugins</b>"
+msgstr "<b>الملحَقات</b>"
+
+#: src/preferences.c:3493
+msgid "Language support"
+msgstr "دعم اللغة"
+
+#: src/project.c:323
+msgid "Enter Bluefish project filename"
+msgstr "أدخِل اسم ملف مشروع بلوفِش"
+
+#: src/project.c:506
+msgid "Select Bluefish project filename"
+msgstr "حدد اسم ملف مشروع بلوفِش"
+
+#: src/project.c:668
+msgid "Create New Project"
+msgstr "أنشئ مشروعا جديدا"
+
+#: src/project.c:671
+msgid "Edit Project"
+msgstr "حرر المشروع"
+
+#: src/project.c:696
+#, c-format
+msgid "This project contains %d file"
+msgid_plural "This project contains %d files"
+msgstr[0] "لا يحوي هذا المشروع أية ملفات %d"
+msgstr[1] "يحوي هذا المشروع %d ملفًا واحداً"
+msgstr[2] "يحوي هذا المشروع %d ملفين"
+msgstr[3] "يحوي هذا المشروع %d ملفات"
+msgstr[4] "يحوي هذا المشروع %d ملفًا"
+msgstr[5] "يحوي هذا المشروع %d ملفٍ"
+
+#: src/project.c:709
+msgid "Project _Name:"
+msgstr "ا_سم المشروع:"
+
+#. pred->entries[template] = entry_with_text(pred->project->template, 255);
+#. bf_mnemonic_label_tad_with_alignment(_("_Template:"), pred->entries[template], 1, 0.5, table, 0, 1, 3, 4);
+#. but = file_but_new(pred->entries[template], 1, NULL);
+#. gtk_table_attach_defaults(GTK_TABLE(table), pred->entries[template], 2, 3, 3, 4);
+#. gtk_table_attach_defaults(GTK_TABLE(table), but, 3, 4, 3, 4);
+#: src/project.c:717
+msgid "<b>Default settings for this project</b>"
+msgstr "<b>الإعدادات المبدئية لهذا المشروع</b>"
+
+#: src/project.c:731
+msgid "Create _Project"
+msgstr "أنشئ الم_شروع"
+
+#: src/project.c:780
+msgid "Create project"
+msgstr "أنشئ المشروع"
+
+#: src/project.c:785
+msgid "Create project with currently opened documents"
+msgstr "أنشئ مشروعا بالملفات المفتوحة حاليا"
+
+#: src/project.c:787
+msgid "Create empty project"
+msgstr "أنشئ مشروعا فارغا"
+
+#: src/rcfile.c:723 src/rcfile.c:751
+msgid "php"
+msgstr "php"
+
+#: src/rcfile.c:729
+msgid "make"
+msgstr "make"
+
+#: src/rcfile.c:733
+msgid "weblint HTML checker"
+msgstr "وبلنت weblint فاحص HTML"
+
+#: src/rcfile.c:738
+msgid "tidy HTML validator"
+msgstr "متحقق ترتيب HTML"
+
+#: src/rcfile.c:742
+msgid "javac"
+msgstr "javac"
+
+#: src/rcfile.c:746
+msgid "xmllint XML checker"
+msgstr "مدقق xmllint XML"
+
+#: src/rcfile.c:755
+msgid "php syntax check"
+msgstr "مدقق قواعد php"
+
+#: src/rcfile.c:759
+msgid "perl syntax check"
+msgstr "مدقق قواعد perl"
+
+#: src/rcfile.c:763
+msgid "php codesniffer"
+msgstr "مكتشف ترميز php"
+
+#: src/rcfile.c:767
+msgid "pylint"
+msgstr "pylint"
+
+#: src/rcfile.c:771
+msgid "ctags"
+msgstr "ctags"
+
+#: src/rcfile.c:782
+msgid "Generate from ctags"
+msgstr "ولّد من ctags"
+
+#: src/rcfile.c:794
+msgid "Sort"
+msgstr "رتّب"
+
+#: src/rcfile.c:797
+msgid "Sort / Uniq"
+msgstr "فرز \\ فريد"
+
+#: src/rcfile.c:800
+msgid "Reverse lines"
+msgstr "اعكس السطور"
+
+#: src/rcfile.c:803
+msgid "Dos2unix"
+msgstr "Dos2unix"
+
+#: src/rcfile.c:805
+msgid "Tidy HTML"
+msgstr "نضّد HTML"
+
+#: src/rcfile.c:807
+msgid "Tidy convert to XHTML"
+msgstr "حوّل منضّداً إلى HTML"
+
+#: src/rcfile.c:810
+msgid "Tidy HTML (perltidy)"
+msgstr "نضّد HTML (تنضيد بيرل perltidy)"
+
+#: src/rcfile.c:813
+msgid "Strip empty lines"
+msgstr "جرّد السطور الفارغة"
+
+#: src/rcfile.c:816
+msgid "Render HTML to text"
+msgstr "صيّر HTML إلى نص"
+
+#: src/rcfile.c:819
+msgid "PHP Beautifier"
+msgstr "مجمّل PHP"
+
+#: src/rcfile.c:822
+msgid "JSON Beautifier"
+msgstr "مجمّل JSON"
+
+#: src/rcfile.c:825
+msgid "js-beautify "
+msgstr "جمّل جافاسكربت "
+
+#: src/rcfile.c:829 src/rcfile.c:839
+msgid "Javascript Minify with jsmin"
+msgstr "تخفيض جافاسكربت بـ jsmin"
+
+#: src/rcfile.c:832 src/rcfile.c:842
+msgid "Decompress CSS"
+msgstr "أزِل ضغط CSS"
+
+#: src/rcfile.c:835 src/rcfile.c:845
+msgid "Compress CSS"
+msgstr "اضغط CSS"
+
+#: src/rcfile.c:849
+msgid "CSS tidy"
+msgstr "رتّب الطُرُز CSS"
+
+#: src/rcfile.c:878
+#, fuzzy
+#| msgid "Firefox"
+msgid "Firefox (x86)"
+msgstr "فيرفكس"
+
+#: src/rcfile.c:879 src/rcfile.c:889 src/rcfile.c:909
+msgid "Firefox"
+msgstr "فيرفكس"
+
+#: src/rcfile.c:880
+#, fuzzy
+#| msgid "Windows 7 Internet Explorer 64-bit"
+msgid "Internet Explorer (x86)"
+msgstr "انترنت اكسبلورر 64-بت لوندوز 7"
+
+#: src/rcfile.c:881
+#, fuzzy
+#| msgid "Windows 7 Internet Explorer 32-bit"
+msgid "Internet Explorer"
+msgstr "انترنت اكسبلورر 32-بت لوندوز 7"
+
+#: src/rcfile.c:882
+msgid "Edge (x86)"
+msgstr ""
+
+#: src/rcfile.c:886
+msgid "Safari"
+msgstr "سفاري"
+
+#: src/rcfile.c:892
+msgid "Google Chrome"
+msgstr "غوغل كروم"
+
+#: src/rcfile.c:895 src/rcfile.c:912
+msgid "Chromium"
+msgstr "كروميوم"
+
+#: src/rcfile.c:898 src/rcfile.c:915
+msgid "Opera"
+msgstr "أوبرا"
+
+#: src/rcfile.c:901 src/rcfile.c:927
+msgid "chmod a+x"
+msgstr "chmod a+x"
+
+#: src/rcfile.c:904 src/rcfile.c:930
+msgid "Insert date"
+msgstr "أدرِج التاريخ"
+
+#: src/rcfile.c:917
+msgid "Konqueror"
+msgstr "كونكورر"
+
+#: src/rcfile.c:920
+msgid "Epiphany"
+msgstr "أبِفاني"
+
+#: src/rcfile.c:921
+msgid "Kazehakase"
+msgstr "كازاهاكازي"
+
+#: src/rcfile.c:924
+msgid "Links2 (graphics)"
+msgstr "Links2 (رسومي)"
+
+#: src/rcfile.c:988
+msgid "C Header"
+msgstr "ترويسة C"
+
+#: src/rcfile.c:991
+msgid "C Header GPL"
+msgstr "GPL لترويسة C"
+
+#: src/rcfile.c:994
+msgid "XHTML 1.0"
+msgstr "XHTML 1.0"
+
+#: src/rcfile.c:997
+msgid "HTML 5"
+msgstr "HTML 5"
+
+#: src/rcfile.c:1000
+msgid "PHP"
+msgstr "PHP"
+
+#: src/rcfile.c:1003
+msgid "LaTex Book"
+msgstr "كتاب LaTex"
+
+#: src/rcfile.c:1006
+msgid "LaTex Presentation"
+msgstr "عَرض LaTex"
+
+#: src/rcfile.c:1451
+msgid "Untitled Project"
+msgstr "مشروع بلا عنوان"
+
+#: src/rcfile.c:1558
+msgid "C programming"
+msgstr "برمجة سي"
+
+#: src/rcfile.c:1562
+msgid "Web files"
+msgstr "ملفات وب"
+
+#: src/rcfile.c:1569
+msgid "Hide objectfiles"
+msgstr "أخفِ ملفات الكائن"
+
+#: src/snr3.c:705
+msgid "<i>Replace started</i>"
+msgstr "<i>بدأ الاستبدال</i>"
+
+#: src/snr3.c:710
+msgid "<i>Search started</i>"
+msgstr "<i>بدأ البحث</i>"
+
+#: src/snr3.c:728
+msgid "<span foreground=\"red\"><b>No selection, aborted search</b></span>"
+msgstr "<span foreground=\"red\"><b>لا تحديد، أجهض البحث</b></span>"
+
+#. display warning that not all documents have yet finished loading
+#: src/snr3.c:737
+msgid ""
+"<span foreground=\"red\" weight=\"bold\">Some documents are still loading</"
+"span>"
+msgstr ""
+"<span foreground=\"red\" weight=\"bold\">ما زالت بعض المستندات تحمّل</span>"
+
+#: src/snr3.c:888
+msgid "<span foreground=\"red\">Empty search string</span>"
+msgstr "<span foreground=\"red\">مقطع بحث فارغ</span>"
+
+#: src/snr3.c:939
+#, c-format
+msgid "<i>Replaced %d entry</i>"
+msgid_plural "<i>Replaced %d entries</i>"
+msgstr[0] "<i>لم تُستبدل أية مُدخَلات</i>"
+msgstr[1] "<i>استُبدل %d مُدخَل واحد</i>"
+msgstr[2] "<i>استُبدل %d مُدخَلان</i>"
+msgstr[3] "<i>استُبدلَت %d مُدخَلات</i>"
+msgstr[4] "<i>استُبدل %d مُدخَلاً</i>"
+msgstr[5] "<i>استُبدل %d مُدخَلٍ</i>"
+
+#: src/snr3.c:941
+#, c-format
+msgid "<i>Found %d entry</i>"
+msgid_plural "<i>Found %d entries</i>"
+msgstr[0] "<i>لم يعثر على مُدخَلات %d</i>"
+msgstr[1] "<i>عُثر على %d مُدخَل واحد</i>"
+msgstr[2] "<i>عُثر على %d مُدخَلين</i>"
+msgstr[3] "<i>عُثر على %d مُدخَلات</i>"
+msgstr[4] "<i>عُثر على %d مُدخَلاً</i>"
+msgstr[5] "<i>عُثر على %d مُدخَلٍ</i>"
+
+#: src/snr3.c:1244
+#, c-format
+msgid "<i>Found %d result in %d of the %d searched documents</i>"
+msgid_plural "<i>Found %d results in %d of the %d searched documents</i>"
+msgstr[0] "<i>لم يعثر على نتيجة %d في %d من %d من المستندات التي بُحث فيها</i>"
+msgstr[1] ""
+"<i>عُثر على %d نتيجة واحدة في %d من %d من المستندات التي بُحث فيها</i>"
+msgstr[2] "<i>عُثر على %d نتيجتين في %d من %d من المستندات التي بُحث فيها</i>"
+msgstr[3] "<i>عُثر على %d نتائج في %d من %d من المستندات التي بُحث فيها</i>"
+msgstr[4] "<i>عُثر على %d نتيجةً في %d من %d من المستندات التي بُحث فيها</i>"
+msgstr[5] "<i>عُثر على %d نتيجةٍ في %d من %d من المستندات التي بُحث فيها</i>"
+
+#: src/snr3.c:1248
+#, c-format
+msgid "<i>Found %d result from character %d to %d</i>"
+msgid_plural "<i>Found %d results from character %d to %d</i>"
+msgstr[0] "<i>لم يعثر على نتيجة %d من المحرف %d إلى %d</i>"
+msgstr[1] "<i>عُثر على %d نتيجة واحدة من المحرف %d إلى %d</i>"
+msgstr[2] "<i>عُثر على %d نتيجتين من المحرف %d إلى %d</i>"
+msgstr[3] "<i>عُثر على %d نتائج من المحرف %d إلى %d</i>"
+msgstr[4] "<i>عُثر على %d نتيجةً من المحرف %d إلى %d</i>"
+msgstr[5] "<i>عُثر على %d نتيجةٍ من المحرف %d إلى %d</i>"
+
+#: src/snr3.c:1251
+#, c-format
+msgid "<i>Found %d result in the active document</i>"
+msgid_plural "<i>Found %d results in the active document</i>"
+msgstr[0] "<i>لم يُعثر على نتائج %d في المستند النشط</i>"
+msgstr[1] "<i>عُثر على %d نتيجة واحدة في المستند النشط</i>"
+msgstr[2] "<i>عُثر على %d نتيجتين في المستند النشط</i>"
+msgstr[3] "<i>عُثر على %d نتائج في المستند النشط</i>"
+msgstr[4] "<i>عُثر على %d نتيجةً في المستند النشط</i>"
+msgstr[5] "<i>عُثر على %d نتيجةٍ في المستند النشط</i>"
+
+#: src/snr3.c:1315
+msgid ""
+"<span foreground=\"red\"><b>There is no 'undo' when replacing in files.</b>\n"
+"Backup files are created as filename~</span>"
+msgstr ""
+"<span foreground=\"red\"><b>لا يوجد تراجع 'undo' عند الاستبدال في الملفات.</"
+"b>\n"
+"تُنشَأ ملفات النسخ الاحتياطي بالاسم filename~</span>"
+
+#: src/snr3.c:1510
+msgid "No (more) results"
+msgstr "لا (مزيد من) نتائج"
+
+#: src/snr3.c:1617
+msgid "Active document"
+msgstr "المستند النشط"
+
+#: src/snr3.c:1618
+msgid "Forward from cursor position"
+msgstr "أعِد التوجيه من موضع المؤشِّر"
+
+#: src/snr3.c:1619
+msgid "Current selection"
+msgstr "التحديد الحالي"
+
+#: src/snr3.c:1620
+msgid "All open documents"
+msgstr "كل المستندات المفتوحة"
+
+#: src/snr3.c:1621
+msgid "Files on disk"
+msgstr "الملفات في القرص"
+
+#: src/snr3.c:1625 src/snr3.c:1630
+msgid "Normal"
+msgstr "اعتيادي"
+
+#: src/snr3.c:1631
+msgid "Uppercase"
+msgstr "حروف كبيرة"
+
+#: src/snr3.c:1632
+msgid "Lowercase"
+msgstr "حروف صغيرة"
+
+#: src/snr3.c:1639
+msgid "Find and Replace"
+msgstr "جِد واستبدل"
+
+#: src/snr3.c:1658
+msgid "<b>_Search for</b>"
+msgstr "<b>ا_بحث عن</b>"
+
+#: src/snr3.c:1681
+msgid "<b>Replace _with</b>"
+msgstr "<b>ا_ستبدل بـ</b>"
+
+#: src/snr3.c:1696
+msgid "Match Patter_n: "
+msgstr "طابق ال_نمط: "
+
+#: src/snr3.c:1708
+msgid "Replace T_ype: "
+msgstr "ن_وع الاستبدال: "
+
+#: src/snr3.c:1721
+msgid "Sco_pe: "
+msgstr "المدى: "
+
+#: src/snr3.c:1731
+msgid "Filename pattern: "
+msgstr "نمط اسم الملف: "
+
+#: src/snr3.c:1737
+msgid "Recursion level: "
+msgstr "مستوى التواتر: "
+
+#: src/snr3.c:1761
+msgid "Basedir: "
+msgstr "المجلد الأساس: "
+
+#: src/snr3.c:1771
+msgid "Show results in Output Pane"
+msgstr "أظهر النتائج في لوح المُخرَجات"
+
+#: src/snr3.c:1773
+msgid "Show all results in the Output Pane on the bottom of the document list"
+msgstr "أظهر كل النتائج في لوح المُخرَجات عند أسفل قائمة المستندات"
+
+#: src/snr3.c:1786
+msgid "Case sensitive _matching"
+msgstr "تطابُق حساس لحالة الحرف"
+
+#: src/snr3.c:1788
+msgid "Only match if case (upper/lower) is identical."
+msgstr "طابِق فقط إذا كانت الحالة (كبير\\صغير) متماثلة."
+
+#: src/snr3.c:1792
+msgid "Pattern contains escape-se_quences"
+msgstr "يحوي النمط تتابع رمز _إفلات"
+
+#: src/snr3.c:1795
+msgid "Pattern contains backslash escaped characters such as \\n \\t etc."
+msgstr "النمط يحوي محارف شَرْطات إفلات مائلة مثل \\ج \\م وما شابه."
+
+#: src/snr3.c:1799
+msgid "Dot character in regex pattern matches newlines"
+msgstr "محرف النقطة في التعبير النظامي يطابق سطورا جديدة"
+
+#: src/snr3.c:1802
+msgid ""
+"The . character will match everything including newlines, use for multiline "
+"matching."
+msgstr "محرف . سيطابق كل شيء ومنها السطور الجديدة، استخدم للتطابق المتعدد."
+
+#: src/snr3.c:1806
+msgid "Ignore backup files"
+msgstr "تجاهل ملفات النسخ الاحتياطي"
+
+#: src/snr3.c:1808 src/snr3.c:1814
+msgid "Ignore backup files *~ created by Bluefish"
+msgstr "أهمل ملفات النسخ الاحتياطي ‎*‎~‎ ‏التي يُنشئها بلوفِش"
+
+#: src/snr3.c:1812
+msgid "Make bookmarks permanent"
+msgstr "اجعل العلامات دائمية"
+
+#: src/snr3.c:1818
+msgid "Replace _All"
+msgstr "استبدل الك_ل"
+
+#: src/snr3.c:1820
+msgid "_Replace"
+msgstr "است_بدِل"
+
+#: src/snr3.c:1824
+msgid "_Find All"
+msgstr "_جِد الكل"
+
+#: src/snr3.c:1826
+msgid "B_ookmark All"
+msgstr "_علّم الكل"
+
+#: src/undo_redo.c:555 src/undo_redo.c:695
+msgid "Undo in _all documents"
+msgstr "تراجع في _كل المستندات"
+
+#: src/undo_redo.c:555 src/undo_redo.c:695
+msgid "Undo only _this document"
+msgstr "تراجع فقط في ه_ذا المستند"
+
+#: src/undo_redo.c:558 src/undo_redo.c:698
+msgid "Undo this change in all documents?"
+msgstr "التراجع عن هذا التغيير في كل المستندات؟"
+
+#: src/undo_redo.c:559 src/undo_redo.c:699
+msgid "This change concerns multiple documents."
+msgstr "هذا التغيير يتعلق بمستندات متعددة."
+
+#: src/xmlstrings.h:2
+msgid "Allow folding of C style comments"
+msgstr "اسمح بتداخل تعليقات طراز C"
+
+#: src/xmlstrings.h:3
+msgid "Allow folding of Curly brackets block"
+msgstr "اسمح بتداخل كتلة الاقواس المجعدة"
+
+#: src/xmlstrings.h:4
+msgid "Allow folding of Javascript Curly brackets block"
+msgstr "اسمح بتداخل كتلة اقواس جافاسكربت المجعدة"
+
+#: src/xmlstrings.h:5
+msgid "Allow folding of Javascript Parentheses block"
+msgstr "اسمح بتداخل كتلة اقواس جافاسكربت"
+
+#: src/xmlstrings.h:6
+msgid "Allow folding of Javascript Square brackets block"
+msgstr "اسمح بتداخل كتلة اقواس جافاسكربت المربعة"
+
+#: src/xmlstrings.h:7
+msgid "Allow folding of Parentheses block"
+msgstr "اسمح بتداخل كتلة الاقواس"
+
+#: src/xmlstrings.h:8
+msgid "Allow folding of PHP blocks"
+msgstr "اسمح بتداخل كتل PHP"
+
+#: src/xmlstrings.h:9
+msgid "Allow folding of Square brackets block"
+msgstr "اسمح بتداخل كتلة الاقواس المربعة"
+
+#: src/xmlstrings.h:10
+msgid "Allow folding of the Parentheses block"
+msgstr "اسمح بتداخل كتلة الاقواس"
+
+#: src/xmlstrings.h:11
+msgid "Allow to fold the the root html tag"
+msgstr "اسمح بطي وسم html الجذر"
+
+#: src/xmlstrings.h:12
+msgid "All php functions"
+msgstr "كل دوالّ php"
+
+#: src/xmlstrings.h:13
+msgid "All wordpress functions"
+msgstr "كل دوالّ ووردبريس"
+
+#: src/xmlstrings.h:14
+msgid "Autocomplete function names with semicolon"
+msgstr "أكمل الدوالّ تلقائيًا بالفارزة المنقوطة"
+
+#: src/xmlstrings.h:15
+msgid "Autocomplete HTML entities"
+msgstr "أكمل كيانات HTML تلقائيًا"
+
+#: src/xmlstrings.h:16
+msgid "Autocomplete Javascript object methods"
+msgstr "أكمل طرق كائن جافاسكربت تلقائيًا"
+
+#: src/xmlstrings.h:17
+msgid "autocomplete javascript variables"
+msgstr "أكمل متغيرات جافاسكربت تلقائيًا"
+
+#: src/xmlstrings.h:18
+msgid "Auto-complete PHP functions"
+msgstr "أكمل دوالّ PHP تلقائيًا"
+
+#: src/xmlstrings.h:19
+msgid "Auto-complete PHP variables"
+msgstr "أكمل متغيرات PHP تلقائيًا"
+
+#: src/xmlstrings.h:20
+msgid "Autocomplete tags"
+msgstr "أكمل الوسوم تلقائيًا"
+
+#: src/xmlstrings.h:21
+msgid "autocomplete with newlines"
+msgstr "أكمل تلقائيًا بالسطور الجديدة"
+
+#: src/xmlstrings.h:22
+msgid "CSS properties"
+msgstr "خصائص طُرُز CSS"
+
+#: src/xmlstrings.h:23
+msgid "Enable the PHP short open tag"
+msgstr "اسمح بوسم PHP المفتوح القصير"
+
+#: src/xmlstrings.h:24
+msgid "GNU Coreutils functions"
+msgstr "وظائف Coreutils من GNU"
+
+#: src/xmlstrings.h:25
+msgid "HTML entities"
+msgstr "كيانات HTML"
+
+#: src/xmlstrings.h:26
+msgid "include JQuery syntax"
+msgstr "ضمّن قواعد JQuery"
+
+#: src/xmlstrings.h:27
+msgid "Javascript CSS properties"
+msgstr "خصائص طُرُز جافاسكربت"
+
+#: src/xmlstrings.h:28
+msgid "Load all php functions"
+msgstr "حمّل كل دوالّ php"
+
+#: src/xmlstrings.h:29
+msgid "Load auto-completion information"
+msgstr "حمّل معلومات الإكمال التلقائي"
+
+#: src/xmlstrings.h:30
+msgid "Load completion data"
+msgstr "حمّل بيانات الإكمال"
+
+#: src/xmlstrings.h:31
+msgid "Load glib types and functions"
+msgstr "حمّل أنواع ودوالّ glib"
+
+#: src/xmlstrings.h:32
+msgid "Load GObject functions"
+msgstr "حمّل دوالّ GObject"
+
+#: src/xmlstrings.h:33
+msgid "Load GTK+ functions"
+msgstr "حمّل دوالّ GTK‎+‎"
+
+#: src/xmlstrings.h:34
+msgid "Load reference data"
+msgstr "حمّل البيانات المشارة reference"
+
+#: src/xmlstrings.h:35
+msgid "Load reference information"
+msgstr "حمّل المعلومات المشارة reference"
+
+#: src/xmlstrings.h:36
+msgid "Load standard C library functions "
+msgstr "حمّل دوالّ مكتبي سي القياسية "
+
+#: src/xmlstrings.h:37
+msgid "Load XSLT 2.0 support."
+msgstr "حمّل دعم XSLT 2.0."
+
+#: src/xmlstrings.h:38
+msgid "Methods in javadoc but not in references"
+msgstr "الطرق في javadoc لكن ليس في المشار اليها references"
+
+#: src/xmlstrings.h:39
+msgid "scan for sql in php strings"
+msgstr "امسح بحثًا عن sql في سلاسل محارف php"
+
+#: src/xmlstrings.h:40
+msgid "Scan for sql in strings"
+msgstr "امسح بحثًا عن sql في سلاسل المحارف"
+
+#: src/xmlstrings.h:41
+msgid "Self-close tags such as br, hr, and img with /&gt;"
+msgstr "اغلق الوسوم ذاتيًا مثل br و hr و img بـ ‎/‎&gt‎;‎"
+
+#: src/xmlstrings.h:42
+msgid "Show a string as a block"
+msgstr "أظهِر سلسلة المحارف ككتلة"
+
+#: src/xmlstrings.h:43
+msgid "Show tag attributes as block"
+msgstr "أظهِر سمات الوسوم ككتلة"
+
+#: src/xmlstrings.h:44
+msgid "Show this language in the menu"
+msgstr "أظهِر هذه اللغة في القائمة"
+
+#: src/xmlstrings.h:45
+msgid "Tag block-start includes all attributes"
+msgstr "الوسم block-start يتضمن كل السمات"
+
+#~ msgid "Web Development Editor"
+#~ msgstr "محرر تطوير وب"
+
+#~ msgid "Windows 7 Firefox 32-bit"
+#~ msgstr "فيرفكس 32-بت لوندوز 7"
+
+#~ msgid "Windows 7 Firefox"
+#~ msgstr "فيرفكس لوندوز 7"

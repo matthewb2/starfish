@@ -1,0 +1,133 @@
+# translation of bluefish-unstable_plugin_about.pot to Dutch
+# Olav Sliekers <idunno@mysun.com>, 2001.
+# elve <elve@savage-elve.net>, 2007.
+# Dutch translation of Bluefish
+# Copyright (C) 2001, 2007 Free Software Foundation, Inc.
+# Olivier <olivier@bluefish.openoffice.nl>, 2002, 2011, 2014.
+# Olivier Sessink <olivier@bluefish.openoffice.nl>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Bluefish 2.2.2\n"
+"Report-Msgid-Bugs-To: olivier@bluefish.openoffice.nl\n"
+"POT-Creation-Date: 2025-10-30 11:19+0100\n"
+"PO-Revision-Date: 2024-09-13 22:05+0200\n"
+"Last-Translator: Olivier Sessink <olivier@bluefish.openoffice.nl>\n"
+"Language-Team: Dutch <>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Gtranslator 41.0\n"
+
+#: src/plugin_about/about.c:131
+msgid ""
+"This version of Bluefish was built with:\n"
+"\n"
+msgstr ""
+"Deze versie van Bluefish is gecompileerd met:\n"
+"\n"
+
+#: src/plugin_about/about.c:224
+msgid ""
+"\n"
+"Developers of previous releases:"
+msgstr ""
+"\n"
+"Ontwikkelaars van voorgaande versies:"
+
+#: src/plugin_about/about.c:254
+msgid ""
+"\n"
+"If you know of anyone missing from this list,\n"
+"please let us know at:"
+msgstr ""
+"\n"
+"Als u hier iemand mist,\n"
+"laat het ons svp weten via:"
+
+#: src/plugin_about/about.c:255
+msgid "bluefish@bluefish.openoffice.nl <bluefish@bluefish.openoffice.nl>"
+msgstr "bluefish@bluefish.openoffice.nl <bluefish@bluefish.openoffice.nl>"
+
+#: src/plugin_about/about.c:256
+msgid ""
+"\n"
+"Thanks to all who helped make this software available.\n"
+msgstr ""
+"\n"
+"Dank aan allen die deze software mogelijk maakten.\n"
+
+#: src/plugin_about/about.c:292
+msgid ""
+"An open-source editor for experienced web designers and programmers, "
+"supporting many programming and markup languages, but focusing on creating "
+"dynamic and interactive websites."
+msgstr ""
+"Een opensource-editor voor ervaren webdesigners en -programmeurs, "
+"ondersteunt vele programmeer- en opmaaktalen, maar is gefocust op het "
+"creëren van dynamische en interactieve websites."
+
+#. Translators: This is a special message that shouldn't be translated
+#. * literally. It is used in the about box to give credits to
+#. * the translators.
+#. * Thus, you should translate it to your name and email address and
+#. * the name and email address of all translator who have contributed
+#. * to this translation (in general: this special locale). Please
+#. * use a separate line for every translator ending with a newlines (\n).
+#.
+#: src/plugin_about/about.c:302
+msgid "translator-credits"
+msgstr ""
+"Olav Sliekers <idunno@mysun.com>\n"
+"\"elve\" <elve@savage-elve.net>\n"
+"Olivier Sessink <olivier@bluefish.openoffice.nl>\n"
+"Gertjan Laan <gj@gertjanlaan.nl>"
+
+#: src/plugin_about/about.c:400
+msgid "_Help"
+msgstr "_Help"
+
+#: src/plugin_about/about.c:401
+msgid "Bluefish _Homepage"
+msgstr "Bluefish-Website"
+
+#: src/plugin_about/about.c:401
+msgid "Bluefish homepage"
+msgstr "Bluefish-website"
+
+#: src/plugin_about/about.c:403
+msgid "Report a _Bug"
+msgstr "Rapporteer een Bug"
+
+#: src/plugin_about/about.c:403
+msgid "Report a bug"
+msgstr "Rapporteer een Bug"
+
+#: src/plugin_about/about.c:404
+msgid "_About"
+msgstr "I_nfo"
+
+#: src/plugin_about/about.c:404
+msgid "About Bluefish"
+msgstr "Over Bluefish"
+
+#: src/plugin_about/about.c:406
+msgid "Build _Info"
+msgstr "Compileer _Informatie..."
+
+#: src/plugin_about/about.c:406
+msgid "Build info"
+msgstr "Compileer informatie..."
+
+#: src/plugin_about/about.c:465
+msgid "About Dialog"
+msgstr ""
+
+#~ msgid ""
+#~ "\n"
+#~ "Package maintainers:"
+#~ msgstr ""
+#~ "\n"
+#~ "Onderhoud van het pakket:"

@@ -1,0 +1,131 @@
+# Spanish translation for Bluefish
+# Copyright (C) 2000 Pablo De Napoli
+# <pdenapo@dm.uba.ar> .
+# Copyright (C) 2002 Walter Echarri
+# <wecharri@yahoo.com>
+# Daniel Mustieles <daniel.mustieles@gmail.com>, 2009-2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Bluefish 2.2.2\n"
+"Report-Msgid-Bugs-To: olivier@bluefish.openoffice.nl\n"
+"POT-Creation-Date: 2025-10-30 11:19+0100\n"
+"PO-Revision-Date: 2020-01-09 08:34+0100\n"
+"Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
+"Language-Team: Spanish - Spain <gnome-es-list@gnome.org>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Gtranslator 3.34.0\n"
+
+#: src/plugin_about/about.c:131
+msgid ""
+"This version of Bluefish was built with:\n"
+"\n"
+msgstr ""
+"Esta versión de Bluefish se construyó con:\n"
+"\n"
+
+#: src/plugin_about/about.c:224
+msgid ""
+"\n"
+"Developers of previous releases:"
+msgstr ""
+"\n"
+"Desarrolladores de versiones anteriores:"
+
+#: src/plugin_about/about.c:254
+msgid ""
+"\n"
+"If you know of anyone missing from this list,\n"
+"please let us know at:"
+msgstr ""
+"\n"
+"Si conoce a alguien que falta en esta lista,\n"
+"háganoslo saber a través de:"
+
+#: src/plugin_about/about.c:255
+msgid "bluefish@bluefish.openoffice.nl <bluefish@bluefish.openoffice.nl>"
+msgstr "bluefish@bluefish.openoffice.nl <bluefish@bluefish.openoffice.nl>"
+
+#: src/plugin_about/about.c:256
+msgid ""
+"\n"
+"Thanks to all who helped make this software available.\n"
+msgstr ""
+"\n"
+"Gracias a todos aquellos que han hecho que este software esté disponible.\n"
+
+#: src/plugin_about/about.c:292
+msgid ""
+"An open-source editor for experienced web designers and programmers, "
+"supporting many programming and markup languages, but focusing on creating "
+"dynamic and interactive websites."
+msgstr ""
+"Un editor de código abierto para diseñadores web experimentados y "
+"programadores, que soporta varios lenguajes de programación y de marcado, "
+"pero se centra en crear sitios web dinámicos e interactivos."
+
+#. Translators: This is a special message that shouldn't be translated
+#. * literally. It is used in the about box to give credits to
+#. * the translators.
+#. * Thus, you should translate it to your name and email address and
+#. * the name and email address of all translator who have contributed
+#. * to this translation (in general: this special locale). Please
+#. * use a separate line for every translator ending with a newlines (\n).
+#.
+#: src/plugin_about/about.c:302
+msgid "translator-credits"
+msgstr ""
+"Pablo De Napoli <pdenapo@dm.uba.ar>\n"
+"Walter Echarri <wecharri@yahoo.com>\n"
+"Daniel Mustieles <daniel.mustieles@gmail.com>"
+
+#: src/plugin_about/about.c:400
+msgid "_Help"
+msgstr "Ay_uda"
+
+#: src/plugin_about/about.c:401
+msgid "Bluefish _Homepage"
+msgstr "_Página principal de Bluefish"
+
+#: src/plugin_about/about.c:401
+msgid "Bluefish homepage"
+msgstr "Página principal de Bluefish"
+
+#: src/plugin_about/about.c:403
+msgid "Report a _Bug"
+msgstr "Informar de un _error"
+
+#: src/plugin_about/about.c:403
+msgid "Report a bug"
+msgstr "Informar de un error"
+
+#: src/plugin_about/about.c:404
+msgid "_About"
+msgstr "_Acerca de"
+
+#: src/plugin_about/about.c:404
+msgid "About Bluefish"
+msgstr "Sobre Bluefish"
+
+#: src/plugin_about/about.c:406
+msgid "Build _Info"
+msgstr "_Información de construcción"
+
+#: src/plugin_about/about.c:406
+msgid "Build info"
+msgstr "Información de la versión"
+
+#: src/plugin_about/about.c:465
+msgid "About Dialog"
+msgstr ""
+
+#~ msgid ""
+#~ "\n"
+#~ "Package maintainers:"
+#~ msgstr ""
+#~ "\n"
+#~ "Mantenedores del paquete:"

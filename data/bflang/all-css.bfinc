@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+	Bluefish HTML Editor
+	all-css.bfinc $Revision:  $
+
+	Copyright (C) 2008-2025 Olivier Sessink
+
+	This program is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+
+	This program is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with this program. If not, see <http://www.gnu.org/licenses/>.
+
+*********************************************************************************************
+*********************************************************************************************
+**                                                                                         **
+**                                      OPTIMISATION TIP                                   **
+**                                                                                         **
+** every pattern and context in this file is loaded multiple times (within <style></style> ** 
+** tags and in every style="" attribute). Therefore, re-use is important. Make sure every  **
+** context has id="" AND idref="" so the second time it is re-used.                        **
+** elements can also be re-used, but the impact of that is much smaller (saves a few bytes **
+** of memory) so this is far less important                                                ** 
+**                                                                                         **
+*********************************************************************************************
+*********************************************************************************************
+-->
+<bfinc>
+<element id="e.css.lcomment" idref="e.css.lcomment" pattern="/*" starts_block="1" highlight="css-comment">
+			<context symbols="*/&#9;&#10;&#13;@ " highlight="css-comment">
+				<element pattern="*/" ends_block="1" blockstartelement="e.css.lcomment" highlight="css-comment" ends_context="1" />
+			</context>
+</element>
+
+&css-selectors;
+
+<element idref="e.css.lbrace" id="e.css.lbrace" pattern="{" starts_block="1" highlight="css-brackets" >
+<context symbols=" &#9;&#10;&#13;{}.:&quot;';*/&amp;," id="c.css.rules" detect_indent="1">
+	
+	<!-- *********************************************************************************
+	this is a context that ends two contexts on it's ending brace,
+	this is used for nesting css with the & operator and for keyframes
+	-->
+	<context id="c.css.nest.start" symbols=" &#9;&#10;&#13;{}./*&lt;&gt;:+~[]()#," detect_indent="0">
+		&css-selectors;
+		<element idref="e.css.lcomment" />
+		<element id="e.css.nest.lbrace" pattern="{" starts_block="1" highlight="css-brackets">
+			<context symbols=" &#9;&#10;&#13;{}./*&lt;&gt;:+~[]()#," id="c.css.nest.rules" detect_indent="1">
+				&css-rules;
+				<element pattern="&amp;" highlight="css-operator">
+					<context idref="c.css.nest.start" />
+				</element>
+				<element idref="e.css.lcomment" />
+				<element id="e.css.nest.rbrace" pattern="}" ends_block="1" blockstartelement="e.css.nest.lbrace" highlight="css-brackets" ends_context="2" />
+			</context>
+		</element>
+	</context>
+	<!-- ************************************************************************************* -->
+	
+		&css-rules;
+		<element idref="e.css.lcomment" />
+		<element id="e.css.rbrace" pattern="}" ends_block="1" blockstartelement="e.css.lbrace" highlight="css-brackets" ends_context="1" />
+		<!-- this starts a new nesting -->
+		<element pattern="&amp;" highlight="css-operator">
+			<context idref="c.css.nest.start" />
+		</element>
+	</context>
+</element>
+
+
+<element pattern="@media" highlight="css-at-rule">
+<reference>
+@media not|only mediatype and (mediafeature and|or|not mediafeature) {
+  CSS-Code;
+}
+<b>Media types</b>
+print 	Used for printers
+screen 	Used for computer screens, tablets, smart-phones etc.
+<b>Media Features</b>
+any-hover 	Does any available input mechanism allow the user to hover over elements?
+any-pointer 	Is any available input mechanism a pointing device, and if so, how accurate is it?
+aspect-ratio 	The ratio between the width and the height of the viewport
+color 	The number of bits per color component for the output device
+color-gamut 	The approximate range of colors that are supported by the user agent and output device
+color-index 	The number of colors the device can display
+device-posture 	Detects the device's current posture, that is, whether the viewport is in a flat or folded state
+display-mode 	The mode in which an application is being displayed: for example, fullscreen or picture-in-picture mode
+dynamic-range 	Combination of brightness, contrast ratio, and color depth that are supported by the user agent and the output device
+forced-colors 	Detect whether user agent restricts color palette
+grid 	Whether the device is a grid or bitmap
+height 	The viewport height
+hover 	Does the primary input mechanism allow the user to hover over elements?
+inverted-colors 	Is the browser or underlying OS inverting colors?
+monochrome 	The number of bits per "color" on a monochrome (greyscale) device
+orientation 	The orientation of the viewport (landscape or portrait mode)
+overflow-block 	How does the output device handle content that overflows the viewport along the block axis
+overflow-inline 	Can content that overflows the viewport along the inline axis be scrolled
+pointer 	Is the primary input mechanism a pointing device, and if so, how accurate is it?
+prefers-color-scheme 	Does the user prefer a light color scheme or a dark color scheme?
+prefers-contrast 	Does the user prefer a high contrast display?
+prefers-reduced-data 	Does the user prefer reduced data usage?
+prefers-reduced-motion 	Does the user prefer reduced motion?
+prefers-reduced-transparency 	Does the user prefer reduced transparency?
+resolution 	The resolution of the output device, using dpi or dpcm
+scan 	The scanning process of the output device
+scripting 	Is scripting (e.g. JavaScript) available?
+shape 	Is the viewport in a circular or a rectangular shape?
+update 	How quickly can the output device modify the appearance of the content
+video-dynamic-range 	Combination of brightness, contrast ratio, and color depth that are supported by the video plane of user agent and the output device
+width 	The viewport width
+</reference>
+	<context symbols=" &#9;&#10;&#13;{}.;,()" id="c.css.media">
+		<group highlight="brackets">
+			<element pattern="(" starts_block="1" id="c.css.lroundbracket" idref="c.css.lroundbracket" />
+			<element pattern=")" ends_block="1" blockstartelement="c.css.lroundbracket" id="c.css.rroundbracket" idref="c.css.rroundbracket" />
+		</group>
+		<group highlight="css-operator">
+			<element pattern="not" />
+			<element pattern="only" />
+			<element pattern="and" />
+		</group>
+		<group highlight="css-html-media" >
+			<autocomplete enable="1" />
+			<element pattern="all" />
+			<element pattern="aural" />
+			<element pattern="braille" />
+			<element pattern="embossed" />
+			<element pattern="handheld" />
+			<element pattern="print" />
+			<element pattern="projection" />
+			<element pattern="screen" />
+			<element pattern="tty" />
+			<element pattern="tv" />
+		</group>
+		<element pattern="{" starts_block="1" highlight="css-brackets" id="e.css.media.lbrace">
+			<context idref="c.css.main" />
+		</element>
+	</context>
+</element>
+<element pattern="}" id="e.css.media.rbrace" ends_block="1" highlight="css-brackets" blockstartelement="e.css.media.lbrace" ends_context="2"  /> <!-- condition_contextref="c.css.main" condition_mode="1" condition_relation="2" -->
+
+<element pattern="@supports" highlight="css-at-rule">
+<reference>The CSS @supports rule allows to test whether a browser supports a CSS feature, and to define fallback styles if the feature is not supported.
+Example:
+@supports (display: grid) {
+	.container {
+		display: grid;
+	}
+}
+</reference>
+	<autocomplete append=" () {&#10;&#9;&#10;}" backup_cursor="7" />
+	<context symbols=" &#9;&#10;&#13;{}.;,()" id="c.css.supports">
+		<group highlight="brackets">
+			<element pattern="(" starts_block="1" id="c.css.lroundbracket" idref="c.css.lroundbracket" />
+			<element pattern=")" ends_block="1" blockstartelement="c.css.lroundbracket" id="c.css.rroundbracket" idref="c.css.rroundbracket" />
+		</group>
+		<element idref="e.css.media.lbrace" />
+	</context>
+</element>
+
+
+<element pattern="@container" highlight="css-at-rule">
+<reference>
+@container containername (containerquery) {
+  css declarations
+}
+The following descriptors can be used within <b>containerquery</b>:
+aspect-ratio
+block-size
+height
+inline-size
+orientation
+width
+</reference>
+<context symbols=" &#9;&#10;&#13;{}.;,()" id="c.css.container">
+		<group highlight="brackets">
+			<element pattern="(" starts_block="1" id="c.css.lroundbracket" idref="c.css.lroundbracket" />
+			<element pattern=")" ends_block="1" blockstartelement="c.css.lroundbracket" id="c.css.rroundbracket" idref="c.css.rroundbracket" />
+		</group>
+		<group highlight="css-html-media" >
+			<autocomplete enable="1" />
+			<element pattern="aspect-ratio" />
+			<element pattern="block-size" />
+			<element pattern="height" />
+			<element pattern="inline-size" />
+			<element pattern="orientation" />
+			<element pattern="width" />
+		</group>
+		<element idref="e.css.media.lbrace"/>
+		</context>
+</element>
+
+<element pattern="@keyframes" highlight="css-at-rule">
+	<reference>Controls the steps in an animation by defining styles for points along the animation sequence.
+@keyframes name {
+  keyframes-selector {css-styles;}
+  keyframes-selector {css-styles;}
+}
+Example:
+@keyframes mymove {
+  0%   {top: 0px;}
+  25%  {top: 200px;}
+  50%  {top: 100px;}
+  75%  {top: 200px;}
+  100% {top: 0px;}
+}
+</reference>
+	<autocomplete append="  {&#10;&#9;from {  }&#10;&#9;to {  }&#10;}" backup_cursor="24" />
+	<context symbols=" &#9;&#10;&#13;{}.:&quot;';*/">
+		<element pattern="{" starts_block="1" highlight="css-brackets" id="e.css.keyframes.lbrace">
+			<context symbols=" &#9;&#10;&#13;{}.:&quot;';*/" detect_indent="1">
+				<element pattern="from" highlight="css-html-tag" />
+				<element pattern="to" highlight="css-html-tag" />
+				<element idref="e.css.lbrace" />
+				<element idref="e.css.lcomment" />
+				<element pattern="}" ends_context="2" ends_block="1" highlight="css-brackets" blockstartelement="e.css.keyframes.lbrace" />
+			</context>
+		</element>
+	</context>
+</element>
+<group highlight="css-at-rule">
+<element pattern="@import" />
+<element pattern="@charset"  />
+<element pattern="@counter-style"  /><!-- this at-rule can be further improved -->
+<element pattern="@font-face"  /><!-- this at-rule can be further improved -->
+<element pattern="@font-palette-values"  /><!-- this at-rule can be further improved -->
+<element pattern="@layer"  /><!-- this at-rule can be further improved -->
+<element pattern="@namespace"  /><!-- this at-rule can be further improved -->
+<element pattern="@page"  /><!-- this at-rule can be further improved -->
+<element pattern="@property"  /><!-- this at-rule can be further improved -->
+<element pattern="@scope"  /><!-- this at-rule can be further improved -->
+
+
+</group>
+</bfinc>
