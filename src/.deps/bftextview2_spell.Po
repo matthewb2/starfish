@@ -989,7 +989,10 @@ bftextview2_spell.o: bftextview2_spell.c bluefish.h config.h \
  D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtk-autocleanups.h \
  compatibility.h \
  D:/msys64_250221/mingw64/include/gtk-3.0/gdk/gdkkeysyms-compat.h \
- bftextview2.h
+ bftextview2.h D:/msys64_250221/mingw64/include/enchant-2/enchant.h \
+ bftextview2_private.h bf_lib.h bftextview2_scanner.h \
+ bftextview2_langmgr.h bftextview2_spell.h bftextview2_markregion.h \
+ document.h xml_entity.h
 bluefish.h:
 config.h:
 D:/msys64_250221/mingw64/include/windows.h:
@@ -1983,3 +1986,12 @@ D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtk-autocleanups.h:
 compatibility.h:
 D:/msys64_250221/mingw64/include/gtk-3.0/gdk/gdkkeysyms-compat.h:
 bftextview2.h:
+D:/msys64_250221/mingw64/include/enchant-2/enchant.h:
+bftextview2_private.h:
+bf_lib.h:
+bftextview2_scanner.h:
+bftextview2_langmgr.h:
+bftextview2_spell.h:
+bftextview2_markregion.h:
+document.h:
+xml_entity.h:

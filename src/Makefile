@@ -90,7 +90,7 @@ build_triplet = x86_64-w64-mingw32
 host_triplet = x86_64-w64-mingw32
 #AM_LDFLAGS = -Wl,--export-dynamic
 am__append_1 = -DEXE_EXPORT_SYMBOLS
-bin_PROGRAMS = bluefish$(EXEEXT)
+bin_PROGRAMS = starfish$(EXEEXT)
 subdir = src
 ACLOCAL_M4 = $(top_srcdir)/aclocal.m4
 am__aclocal_m4_deps = $(top_srcdir)/m4/gettext.m4 \
@@ -111,7 +111,7 @@ CONFIG_CLEAN_FILES = bluefish_rc.rc.in
 CONFIG_CLEAN_VPATH_FILES =
 am__installdirs = "$(DESTDIR)$(bindir)"
 PROGRAMS = $(bin_PROGRAMS)
-am_bluefish_OBJECTS = async_queue.$(OBJEXT) bf_lib.$(OBJEXT) \
+am_starfish_OBJECTS = async_queue.$(OBJEXT) bf_lib.$(OBJEXT) \
 	blocksync.$(OBJEXT) bluefish.$(OBJEXT) bftextview2.$(OBJEXT) \
 	bftextview2_langmgr.$(OBJEXT) bftextview2_autocomp.$(OBJEXT) \
 	bftextview2_identifier.$(OBJEXT) \
@@ -132,9 +132,9 @@ am_bluefish_OBJECTS = async_queue.$(OBJEXT) bf_lib.$(OBJEXT) \
 	project.$(OBJEXT) rcfile.$(OBJEXT) snr3.$(OBJEXT) \
 	snr3_files.$(OBJEXT) stringlist.$(OBJEXT) undo_redo.$(OBJEXT) \
 	xml_entity.$(OBJEXT)
-bluefish_OBJECTS = $(am_bluefish_OBJECTS)
-bluefish_LDADD = $(LDADD)
-bluefish_DEPENDENCIES = bluefish_rc.o win32utils.o
+starfish_OBJECTS = $(am_starfish_OBJECTS)
+starfish_LDADD = $(LDADD)
+starfish_DEPENDENCIES = bluefish_rc.o win32utils.o
 AM_V_lt = $(am__v_lt_$(V))
 am__v_lt_ = $(am__v_lt_$(AM_DEFAULT_VERBOSITY))
 am__v_lt_0 = --silent
@@ -199,8 +199,8 @@ AM_V_CCLD = $(am__v_CCLD_$(V))
 am__v_CCLD_ = $(am__v_CCLD_$(AM_DEFAULT_VERBOSITY))
 am__v_CCLD_0 = @echo "  CCLD    " $@;
 am__v_CCLD_1 = 
-SOURCES = $(bluefish_SOURCES)
-DIST_SOURCES = $(bluefish_SOURCES)
+SOURCES = $(starfish_SOURCES)
+DIST_SOURCES = $(starfish_SOURCES)
 RECURSIVE_TARGETS = all-recursive check-recursive cscopelist-recursive \
 	ctags-recursive dvi-recursive html-recursive info-recursive \
 	install-data-recursive install-dvi-recursive \
@@ -281,11 +281,11 @@ AUTOMAKE = ${SHELL} '/home/user/bluefish-2.2.18/missing' automake-1.16
 AWK = gawk
 BLUEFISH_GTKMAC_CFLAGS = 
 BLUEFISH_GTKMAC_LIBS = 
-BLUEFISH_REQUIRED_CFLAGS = -ID:/msys64_250221/mingw64/include/gtk-3.0 -ID:/msys64_250221/mingw64/include/atk-1.0 -ID:/msys64_250221/mingw64/include/pango-1.0 -ID:/msys64_250221/mingw64/include/harfbuzz -ID:/msys64_250221/mingw64/include/cairo -ID:/msys64_250221/mingw64/include/fribidi -ID:/msys64_250221/mingw64/include/freetype2 -ID:/msys64_250221/mingw64/include/pixman-1 -ID:/msys64_250221/mingw64/include/gdk-pixbuf-2.0 -ID:/msys64_250221/mingw64/include/libpng16 -ID:/msys64_250221/mingw64/include/webp -DLIBDEFLATE_DLL -ID:/msys64_250221/mingw64/include/glib-2.0 -ID:/msys64_250221/mingw64/lib/glib-2.0/include -ID:/msys64_250221/mingw64/include/libxml2
-BLUEFISH_REQUIRED_LIBS = -lgtk-3 -latk-1.0 -lgdk-3 -lz -lgdi32 -limm32 -lshell32 -lole32 -luuid -lwinmm -ldwmapi -lsetupapi -lcfgmgr32 -lhid -lwinspool -lcomctl32 -lcomdlg32 -lpangocairo-1.0 -lpangowin32-1.0 -lcairo-gobject -lpango-1.0 -lcairo -lharfbuzz -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lgmodule-2.0 -lgthread-2.0 -lglib-2.0 -lintl -lxml2
+BLUEFISH_REQUIRED_CFLAGS = -ID:/msys64_250221/mingw64/include/gtk-3.0 -ID:/msys64_250221/mingw64/include/atk-1.0 -ID:/msys64_250221/mingw64/include/pango-1.0 -ID:/msys64_250221/mingw64/include/harfbuzz -ID:/msys64_250221/mingw64/include/cairo -ID:/msys64_250221/mingw64/include/fribidi -ID:/msys64_250221/mingw64/include/freetype2 -ID:/msys64_250221/mingw64/include/pixman-1 -ID:/msys64_250221/mingw64/include/gdk-pixbuf-2.0 -ID:/msys64_250221/mingw64/include/libpng16 -ID:/msys64_250221/mingw64/include/webp -DLIBDEFLATE_DLL -ID:/msys64_250221/mingw64/include/libxml2 -ID:/msys64_250221/mingw64/include/enchant-2 -ID:/msys64_250221/mingw64/include/glib-2.0 -ID:/msys64_250221/mingw64/lib/glib-2.0/include
+BLUEFISH_REQUIRED_LIBS = -lgtk-3 -latk-1.0 -lgdk-3 -lz -lgdi32 -limm32 -lshell32 -lole32 -luuid -lwinmm -ldwmapi -lsetupapi -lcfgmgr32 -lhid -lwinspool -lcomctl32 -lcomdlg32 -lpangocairo-1.0 -lpangowin32-1.0 -lcairo-gobject -lpango-1.0 -lcairo -lharfbuzz -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lgthread-2.0 -lxml2 -lenchant-2 -lgmodule-2.0 -lglib-2.0 -lintl
 CC = gcc
 CCDEPMODE = depmode=gcc3
-CFLAGS = -g -O2 -Wall -pipe -Wno-deprecated-declarations -ID:/msys64_250221/mingw64/include/python3.12 -ID:/msys64_250221/mingw64/include/python3.12 -ID:/msys64_250221/mingw64/include/gtk-3.0 -ID:/msys64_250221/mingw64/include/atk-1.0 -ID:/msys64_250221/mingw64/include/pango-1.0 -ID:/msys64_250221/mingw64/include/harfbuzz -ID:/msys64_250221/mingw64/include/cairo -ID:/msys64_250221/mingw64/include/fribidi -ID:/msys64_250221/mingw64/include/freetype2 -ID:/msys64_250221/mingw64/include/pixman-1 -ID:/msys64_250221/mingw64/include/gdk-pixbuf-2.0 -ID:/msys64_250221/mingw64/include/libpng16 -ID:/msys64_250221/mingw64/include/webp -DLIBDEFLATE_DLL -ID:/msys64_250221/mingw64/include/glib-2.0 -ID:/msys64_250221/mingw64/lib/glib-2.0/include -ID:/msys64_250221/mingw64/include/libxml2 
+CFLAGS = -g -O2 -Wall -pipe -Wno-deprecated-declarations -ID:/msys64_250221/mingw64/include/python3.12 -ID:/msys64_250221/mingw64/include/python3.12 -ID:/msys64_250221/mingw64/include/gtk-3.0 -ID:/msys64_250221/mingw64/include/atk-1.0 -ID:/msys64_250221/mingw64/include/pango-1.0 -ID:/msys64_250221/mingw64/include/harfbuzz -ID:/msys64_250221/mingw64/include/cairo -ID:/msys64_250221/mingw64/include/fribidi -ID:/msys64_250221/mingw64/include/freetype2 -ID:/msys64_250221/mingw64/include/pixman-1 -ID:/msys64_250221/mingw64/include/gdk-pixbuf-2.0 -ID:/msys64_250221/mingw64/include/libpng16 -ID:/msys64_250221/mingw64/include/webp -DLIBDEFLATE_DLL -ID:/msys64_250221/mingw64/include/libxml2 -ID:/msys64_250221/mingw64/include/enchant-2 -ID:/msys64_250221/mingw64/include/glib-2.0 -ID:/msys64_250221/mingw64/lib/glib-2.0/include 
 CHARMAP_PLUGIN_CFLAGS = 
 CHARMAP_PLUGIN_LIBS = 
 CPPFLAGS = -I/mingw64/include
@@ -325,11 +325,11 @@ INTL_MACOSX_LIBS =
 JING = 
 JING_FLAGS = 
 LD = D:/msys64_250221/mingw64/x86_64-w64-mingw32/bin/ld.exe
-LDFLAGS =   -LD:/msys64_250221/mingw64/lib -lpython3.12  -lversion -lshlwapi -lpathcch -lbcrypt -lm  
+LDFLAGS = -mwindows  -LD:/msys64_250221/mingw64/lib -lpython3.12  -lversion -lshlwapi -lpathcch -lbcrypt -lm  
 LIBICONV = /mingw64/lib/libiconv.dll.a -L/mingw64/lib
 LIBINTL = /mingw64/lib/libintl.dll.a -L/mingw64/lib
 LIBOBJS = 
-LIBS = -lws2_32  -lintl.dll -lgtk-3 -latk-1.0 -lgdk-3 -lz -lgdi32 -limm32 -lshell32 -lole32 -luuid -lwinmm -ldwmapi -lsetupapi -lcfgmgr32 -lhid -lwinspool -lcomctl32 -lcomdlg32 -lpangocairo-1.0 -lpangowin32-1.0 -lcairo-gobject -lpango-1.0 -lcairo -lharfbuzz -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lgmodule-2.0 -lgthread-2.0 -lglib-2.0 -lintl -lxml2 
+LIBS = -lws2_32  -lintl.dll -lgtk-3 -latk-1.0 -lgdk-3 -lz -lgdi32 -limm32 -lshell32 -lole32 -luuid -lwinmm -ldwmapi -lsetupapi -lcfgmgr32 -lhid -lwinspool -lcomctl32 -lcomdlg32 -lpangocairo-1.0 -lpangowin32-1.0 -lcairo-gobject -lpango-1.0 -lcairo -lharfbuzz -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lgthread-2.0 -lxml2 -lenchant-2 -lgmodule-2.0 -lglib-2.0 -lintl 
 LIBTOOL = $(SHELL) $(top_builddir)/libtool
 LIPO = 
 LN_S = cp -pR
@@ -472,7 +472,7 @@ MAINTAINERCLEANFILES = Makefile.in config.h.in
 #AM_LDFLAGS = -export-all-symbols
 AM_LDFLAGS = -Wl,--export-all-symbols -mwindows 
 LDADD = -lws2_32 bluefish_rc.o win32utils.o
-bluefish_SOURCES = \
+starfish_SOURCES = \
 	async_queue.c \
 	async_queue.h \
 	bf_lib.c \
@@ -687,9 +687,9 @@ installcheck-binPROGRAMS: $(bin_PROGRAMS)
 	  done; \
 	done; rm -f c$${pid}_.???; exit $$bad
 
-bluefish$(EXEEXT): $(bluefish_OBJECTS) $(bluefish_DEPENDENCIES) $(EXTRA_bluefish_DEPENDENCIES) 
-	@rm -f bluefish$(EXEEXT)
-	$(AM_V_CCLD)$(LINK) $(bluefish_OBJECTS) $(bluefish_LDADD) $(LIBS)
+starfish$(EXEEXT): $(starfish_OBJECTS) $(starfish_DEPENDENCIES) $(EXTRA_starfish_DEPENDENCIES) 
+	@rm -f starfish$(EXEEXT)
+	$(AM_V_CCLD)$(LINK) $(starfish_OBJECTS) $(starfish_LDADD) $(LIBS)
 
 mostlyclean-compile:
 	-rm -f *.$(OBJEXT)

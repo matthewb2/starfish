@@ -990,7 +990,7 @@ bftextview2.o: bftextview2.c D:/msys64_250221/mingw64/include/string.h \
  D:/msys64_250221/mingw64/include/gtk-3.0/gdk/gdkkeysyms-compat.h \
  bookmark.h document.h undo_redo.h doc_text_tools.h bfwin.h \
  bftextview2_scanner.h bftextview2_patcompile.h bftextview2_autocomp.h \
- bftextview2_langmgr.h bftextview2_markregion.h
+ bftextview2_langmgr.h bftextview2_spell.h bftextview2_markregion.h
 D:/msys64_250221/mingw64/include/string.h:
 D:/msys64_250221/mingw64/include/crtdefs.h:
 D:/msys64_250221/mingw64/include/corecrt.h:
@@ -1995,4 +1995,5 @@ bftextview2_scanner.h:
 bftextview2_patcompile.h:
 bftextview2_autocomp.h:
 bftextview2_langmgr.h:
+bftextview2_spell.h:
 bftextview2_markregion.h:

@@ -990,7 +990,7 @@ document.o: document.c D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtk.h \
  bftextview2.h bf_lib.h bftextview2_langmgr.h bftextview2_identifier.h \
  bfwin.h bfwin_uimanager.h bookmark.h dialog_utils.h document.h file.h \
  filebrowser2.h file_treemodel.h file_dialogs.h gtk_easy.h pixmap.h \
- stringlist.h undo_redo.h file_autosave.h
+ stringlist.h undo_redo.h file_autosave.h bftextview2_spell.h
 D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtk.h:
 D:/msys64_250221/mingw64/include/gtk-3.0/gdk/gdk.h:
 D:/msys64_250221/mingw64/include/gtk-3.0/gdk/gdkconfig.h:
@@ -2001,3 +2001,4 @@ pixmap.h:
 stringlist.h:
 undo_redo.h:
 file_autosave.h:
+bftextview2_spell.h:

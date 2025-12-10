@@ -33,10 +33,10 @@ else
 AM_LDFLAGS = -export-dynamic
 endif
 
-bin_PROGRAMS = bluefish
+bin_PROGRAMS = starfish
 
 
-bluefish_SOURCES = \
+starfish_SOURCES = \
 	async_queue.c \
 	async_queue.h \
 	bf_lib.c \

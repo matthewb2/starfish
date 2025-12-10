@@ -991,7 +991,7 @@ bfwin.o: bfwin.c D:/msys64_250221/mingw64/include/string.h \
  bftextview2.h bf_lib.h bfwin_uimanager.h bookmark.h dialog_utils.h \
  document.h filebrowser2.h file_treemodel.h file_dialogs.h gtk_easy.h \
  outputbox.h pixmap.h plugins.h project.h rcfile.h snr3.h async_queue.h \
- bftextview2_identifier.h
+ bftextview2_identifier.h bftextview2_spell.h
 D:/msys64_250221/mingw64/include/string.h:
 D:/msys64_250221/mingw64/include/crtdefs.h:
 D:/msys64_250221/mingw64/include/corecrt.h:
@@ -2003,3 +2003,4 @@ rcfile.h:
 snr3.h:
 async_queue.h:
 bftextview2_identifier.h:
+bftextview2_spell.h:

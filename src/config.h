@@ -89,13 +89,13 @@
 #define HAVE_INTTYPES_H 1
 
 /* Define to 1 if you have the 'enchant-2' library. */
-/* #undef HAVE_LIBENCHANT */
+#define HAVE_LIBENCHANT 1
 
 /* Define to 1 if you have the 'enchant' library (-lenchant) >= 1.4. */
 /* #undef HAVE_LIBENCHANT_1_4 */
 
 /* Define to 1 if you have the 'enchant-2' library. */
-/* #undef HAVE_LIBENCHANT_2 */
+#define HAVE_LIBENCHANT_2 1
 
 /* Define to 1 if you have the 'gucharmap' library (-lgucharmap). */
 /* #undef HAVE_LIBGUCHARMAP */

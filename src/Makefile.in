@@ -90,7 +90,7 @@ build_triplet = @build@
 host_triplet = @host@
 #AM_LDFLAGS = -Wl,--export-dynamic
 @OS_WIN32_TRUE@am__append_1 = -DEXE_EXPORT_SYMBOLS
-bin_PROGRAMS = bluefish$(EXEEXT)
+bin_PROGRAMS = starfish$(EXEEXT)
 subdir = src
 ACLOCAL_M4 = $(top_srcdir)/aclocal.m4
 am__aclocal_m4_deps = $(top_srcdir)/m4/gettext.m4 \
@@ -111,7 +111,7 @@ CONFIG_CLEAN_FILES = bluefish_rc.rc.in
 CONFIG_CLEAN_VPATH_FILES =
 am__installdirs = "$(DESTDIR)$(bindir)"
 PROGRAMS = $(bin_PROGRAMS)
-am_bluefish_OBJECTS = async_queue.$(OBJEXT) bf_lib.$(OBJEXT) \
+am_starfish_OBJECTS = async_queue.$(OBJEXT) bf_lib.$(OBJEXT) \
 	blocksync.$(OBJEXT) bluefish.$(OBJEXT) bftextview2.$(OBJEXT) \
 	bftextview2_langmgr.$(OBJEXT) bftextview2_autocomp.$(OBJEXT) \
 	bftextview2_identifier.$(OBJEXT) \
@@ -132,9 +132,9 @@ am_bluefish_OBJECTS = async_queue.$(OBJEXT) bf_lib.$(OBJEXT) \
 	project.$(OBJEXT) rcfile.$(OBJEXT) snr3.$(OBJEXT) \
 	snr3_files.$(OBJEXT) stringlist.$(OBJEXT) undo_redo.$(OBJEXT) \
 	xml_entity.$(OBJEXT)
-bluefish_OBJECTS = $(am_bluefish_OBJECTS)
-bluefish_LDADD = $(LDADD)
-@OS_WIN32_TRUE@bluefish_DEPENDENCIES = bluefish_rc.o win32utils.o
+starfish_OBJECTS = $(am_starfish_OBJECTS)
+starfish_LDADD = $(LDADD)
+@OS_WIN32_TRUE@starfish_DEPENDENCIES = bluefish_rc.o win32utils.o
 AM_V_lt = $(am__v_lt_@AM_V@)
 am__v_lt_ = $(am__v_lt_@AM_DEFAULT_V@)
 am__v_lt_0 = --silent
@@ -199,8 +199,8 @@ AM_V_CCLD = $(am__v_CCLD_@AM_V@)
 am__v_CCLD_ = $(am__v_CCLD_@AM_DEFAULT_V@)
 am__v_CCLD_0 = @echo "  CCLD    " $@;
 am__v_CCLD_1 = 
-SOURCES = $(bluefish_SOURCES)
-DIST_SOURCES = $(bluefish_SOURCES)
+SOURCES = $(starfish_SOURCES)
+DIST_SOURCES = $(starfish_SOURCES)
 RECURSIVE_TARGETS = all-recursive check-recursive cscopelist-recursive \
 	ctags-recursive dvi-recursive html-recursive info-recursive \
 	install-data-recursive install-dvi-recursive \
@@ -472,7 +472,7 @@ MAINTAINERCLEANFILES = Makefile.in config.h.in
 #AM_LDFLAGS = -export-all-symbols
 @OS_WIN32_TRUE@AM_LDFLAGS = -Wl,--export-all-symbols -mwindows 
 @OS_WIN32_TRUE@LDADD = -lws2_32 bluefish_rc.o win32utils.o
-bluefish_SOURCES = \
+starfish_SOURCES = \
 	async_queue.c \
 	async_queue.h \
 	bf_lib.c \
@@ -687,9 +687,9 @@ installcheck-binPROGRAMS: $(bin_PROGRAMS)
 	  done; \
 	done; rm -f c$${pid}_.???; exit $$bad
 
-bluefish$(EXEEXT): $(bluefish_OBJECTS) $(bluefish_DEPENDENCIES) $(EXTRA_bluefish_DEPENDENCIES) 
-	@rm -f bluefish$(EXEEXT)
-	$(AM_V_CCLD)$(LINK) $(bluefish_OBJECTS) $(bluefish_LDADD) $(LIBS)
+starfish$(EXEEXT): $(starfish_OBJECTS) $(starfish_DEPENDENCIES) $(EXTRA_starfish_DEPENDENCIES) 
+	@rm -f starfish$(EXEEXT)
+	$(AM_V_CCLD)$(LINK) $(starfish_OBJECTS) $(starfish_LDADD) $(LIBS)
 
 mostlyclean-compile:
 	-rm -f *.$(OBJEXT)

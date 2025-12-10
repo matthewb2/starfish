@@ -1005,10 +1005,10 @@ bluefish.o: bluefish.c D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtk.h \
  D:/msys64_250221/mingw64/include/libxml2/libxml/xmlIO.h \
  D:/msys64_250221/mingw64/include/libxml2/libxml/SAX2.h \
  D:/msys64_250221/mingw64/include/libxml2/libxml/threads.h \
- bftextview2_langmgr.h pixmap.h bf_lib.h bfwin.h bookmark.h \
- dialog_utils.h document.h filebrowser2.h file_treemodel.h file_dialogs.h \
- gtk_easy.h ipc_bf2bf.h plugins.h project.h rcfile.h stringlist.h \
- filefilter.h file.h file_autosave.h languages.h
+ bftextview2_langmgr.h bftextview2_spell.h pixmap.h bf_lib.h bfwin.h \
+ bookmark.h dialog_utils.h document.h filebrowser2.h file_treemodel.h \
+ file_dialogs.h gtk_easy.h ipc_bf2bf.h plugins.h project.h rcfile.h \
+ stringlist.h filefilter.h file.h file_autosave.h languages.h
 D:/msys64_250221/mingw64/include/gtk-3.0/gtk/gtk.h:
 D:/msys64_250221/mingw64/include/gtk-3.0/gdk/gdk.h:
 D:/msys64_250221/mingw64/include/gtk-3.0/gdk/gdkconfig.h:
@@ -2021,6 +2021,7 @@ D:/msys64_250221/mingw64/include/libxml2/libxml/xmlIO.h:
 D:/msys64_250221/mingw64/include/libxml2/libxml/SAX2.h:
 D:/msys64_250221/mingw64/include/libxml2/libxml/threads.h:
 bftextview2_langmgr.h:
+bftextview2_spell.h:
 pixmap.h:
 bf_lib.h:
 bfwin.h:
